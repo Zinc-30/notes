@@ -151,8 +151,8 @@
   "P values are commonly used to test (and dismiss) a ‘null hypothesis’, which generally states that there is no difference between two groups, or that there is no correlation between a pair of characteristics. The smaller the P value, the less likely an observed set of values would occur by chance — assuming that the null hypothesis is true. A P value of 0.05 or less is generally taken to mean that a finding is statistically significant and warrants publication."
 
 
-  http://allendowney.blogspot.ru/2011/05/there-is-only-one-test.html
-  http://allendowney.blogspot.ru/2011/06/more-hypotheses-less-trivia.html
+  http://allendowney.blogspot.ru/2011/05/there-is-only-one-test.html  
+  http://allendowney.blogspot.ru/2011/06/more-hypotheses-less-trivia.html  
 
 
   "The ASA's statement on p-values: context, process, and purpose" [http://dx.doi.org/10.1080/00031305.2016.1154108]:
@@ -193,16 +193,16 @@
   "
 
 
-  "Null Hypothesis Significance Testing Never Worked" - http://www.fharrell.com/2017/01/null-hypothesis-significance-testing.html
-  http://quillette.com/2015/11/13/the-great-statistical-schism/
+  "Null Hypothesis Significance Testing Never Worked" - http://fharrell.com/2017/01/null-hypothesis-significance-testing.html  
+  http://quillette.com/2015/11/13/the-great-statistical-schism/  
 
 
 
 ---
 ### bayesian statistics
 
-  http://blog.efpsa.org/2014/11/17/bayesian-statistics-what-is-it-and-why-do-we-need-it-2/
-  http://blog.efpsa.org/2015/08/03/bayesian-statistics-why-and-how/
+  http://blog.efpsa.org/2014/11/17/bayesian-statistics-what-is-it-and-why-do-we-need-it-2/  
+  http://blog.efpsa.org/2015/08/03/bayesian-statistics-why-and-how/  
 
   Kruschke - "Doing Bayesian Data Analysis" - http://www.users.csbsju.edu/~mgass/robert.pdf
 
