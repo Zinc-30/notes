@@ -1,70 +1,38 @@
-[recommender systems]
+[study]
 
-"Recommender Systems: The Textbook" by Charu Aggarwal - http://charuaggarwal.net/Recommender-Systems.htm
-"Recommender Systems Handbook" by Ricci, Rokach, Shapira, Kantor - http://www.cs.ubbcluj.ro/~gabis/DocDiplome/SistemeDeRecomandare/Recommender_systems_handbook.pdf
-
-
+  "Recommender Systems: The Textbook" by Charu Aggarwal - http://charuaggarwal.net/Recommender-Systems.htm [https://yadi.sk/i/eMDtp31h3P8AxL]
+  "Recommender Systems Handbook" by Ricci, Rokach, Shapira, Kantor - http://www.cs.ubbcluj.ro/~gabis/DocDiplome/SistemeDeRecomandare/Recommender_systems_handbook.pdf
 
 
-"The Recommender Problem Revisited" by Xavier Amatriain
-	http://videolectures.net/kdd2014_amatriain_mobasher_recommender_problem/
-	http://slideshare.net/xamat/kdd-2014-tutorial-the-recommender-problem-revisited
+  tutorial by Xavier Amatriain - http://technocalifornia.blogspot.ru/2014/08/introduction-to-recommender-systems-4.html
 
-	http://quora.com/Recommendation-Systems/What-developments-have-occurred-in-recommender-systems-after-the-Netflix-Prize
+  overview by Alex Smola - https://youtube.com/watch?v=gCaOa3W9kM0
+  overview by Alex Smola - https://youtube.com/watch?v=xMr7I-OypVY
 
-	"- Implicit feedback from usage has proven to be a better and more reliable way to capture user preference.
-	 - Rating prediction is not the best formalization of the "recommender problem". Other approaches, and in particular personalized Learning to Rank, are much more aligned with the idea of recommending the best item for a user.
-	 - It is important to find ways to balance the trade-off between exploration and exploitation. Approaches such as Multi-Armed Bandit algorithms offer an informed way to address this issue.
-	 - Issues such as diversity and novelty can be as important as relevance.
-	 - It is important to address the presentation bias caused by users only being able to give feedback to those items previously decided where good for them.
-	 - The recommendation problem is not only a two dimensional problem of users and items but rather a multi-dimensional problem that includes many contextual dimensions such as time of the day or day of the week. Algorithms such as Tensor Factorization or Factorization Machines come in very handy for this.
-	 - Users decide to select items not only based on how good they think they are, but also based on the possible impact on their social network. Therefore, social connections can be a good source of data to add to the recommendation system.
-	 - It is not good enough to design algorithms that select the best items for users, these items need to be presented with the right form of explanations for users to be attracted to them."
+  "Lessons Learned from Building Real-life Recommender Systems" by Xavier Amatriain and Deepak Agarwal - https://youtube.com/watch?v=VJOtr47V0eo
+  "The Recommender Problem Revisited" by Xavier Amatriain - http://videolectures.net/kdd2014_amatriain_mobasher_recommender_problem/
 
 
-"Lessons Learned from Building Real-life Recommender Systems" by Xavier Amatriain and Deepak Agarwal - https://youtube.com/watch?v=VJOtr47V0eo
+  overview by Michael Rozner (in russian) - https://youtube.com/watch?v=Us4KJkJiYrM
+  overview by Sergey Nikolenko (in russian) - https://youtube.com/watch?v=mr8u54jsveA + https://youtube.com/watch?v=cD47Ssp_Flk + https://youtube.com/watch?v=OFyb8ukrRDo
+  overview by Konstantin Vorontsov (in russian) - https://youtube.com/watch?v=kfhqzkcfMqI
+  overview by Victor Kantor (in russian) - https://youtube.com/watch?v=Te_6TqEhyTI
+  overview by Vladimir Gulin (in russian) - https://youtube.com/watch?v=5ir_fCgzfLM
+  overview by Alexey Dral (in russian) - https://youtube.com/watch?v=MLljnzsz9Dk
 
 
+  overview of Yandex Recommender System by Michael Rozner - https://youtube.com/watch?v=VgioTyMyJus
+  overview of Yandex.Disco by Michael Rozner (in russian) - https://youtube.com/watch?v=JKTneRi2vn8
+  overview of Yandex.Zen by Igor Lifar and Dmitry Ushanov (in russian) - https://youtube.com/watch?v=iGAMPnv-0VY
 
 
-introduction by Alex Smola - http://youtube.com/watch?v=gCaOa3W9kM0
-"Scalable Machine Learning: Recommender Systems" by Alex Smola - https://youtube.com/watch?v=xMr7I-OypVY
+  "Deep Learning for Recommender Systems" by Alexandros Karatzoglou - https://youtube.com/watch?v=KZ7bcfYGuxw
+  "Deep Learning for Recommender Systems" tutorial by Alexandros Karatzoglou and Balazs Hidasi - https://slideshare.net/kerveros99/deep-learning-for-recommender-systems-recsys2017-tutorial
 
-introduction by Victor Kantor (in russian) - https://youtube.com/watch?v=Te_6TqEhyTI
-introduction by Vladimir Gulin (in russian) - https://youtube.com/watch?v=5ir_fCgzfLM
-introduction by Alexey Dral (in russian) - https://youtube.com/watch?v=MLljnzsz9Dk
-
-"Recommender Systems and Factorization Models" by Michael Rozner (in russian) - https://youtube.com/watch?v=Us4KJkJiYrM
-"Collaborative Filtering" by Konstantin Vorontsov (in russian) - https://youtube.com/watch?v=kfhqzkcfMqI
+  "Deep Learning for Personalized Search and Recommender Systems" from LinkedIn and Airbnb - https://youtube.com/watch?v=0DYQzZp68ok
 
 
-ACM RecSys conference - https://youtube.com/channel/UC2nEn-yNA1BtdDNWziphPGA
-
-
-recommender systems introduction course from Netflix - http://technocalifornia.blogspot.ru/2014/08/introduction-to-recommender-systems-4.html
-	“Traditional” Methods
-	- Collaborative Filtering
-	- Content-based Recommendations
-	"Novel" Methods
-	- Learning to Rank
-	- Context-aware Recommendations
-	    * Tensor Factorization
-	    * Factorization Machines
-	- Deep Learning
-	- Similarity
-	- Social Recommendations
-
-
-"Personalization for Google Now" by Shashi Thakur - https://youtube.com/watch?v=X9Fsn1j1CE8 + http://dl.acm.org/citation.cfm?id=2959192
-
-overview of Yandex Recommender System by Michael Rozner - https://youtube.com/watch?v=VgioTyMyJus
-overview of Yandex.Disco by Michael Rozner (in russian) - https://youtube.com/watch?v=JKTneRi2vn8
-overview of Yandex.Zen by Igor Lifar and Dmitry Ushanov (in russian) - https://youtube.com/watch?v=iGAMPnv-0VY
-
-
-
-
-"Deep Learning for Recommender Systems" RecSys2017 tutorial by Alexandros Karatzoglou and Balazs Hidasi - https://slideshare.net/kerveros99/deep-learning-for-recommender-systems-recsys2017-tutorial
+  ACM RecSys conference - https://youtube.com/channel/UC2nEn-yNA1BtdDNWziphPGA
 
 
 
@@ -78,9 +46,80 @@ overview of Yandex.Zen by Igor Lifar and Dmitry Ushanov (in russian) - https://y
   - predicting future vs influencing user
 
 
+  [http://quora.com/Recommendation-Systems/What-developments-have-occurred-in-recommender-systems-after-the-Netflix-Prize]:
+  - Implicit feedback from usage has proven to be a better and more reliable way to capture user preference.
+  - Rating prediction is not the best formalization of the "recommender problem". Other approaches, and in particular personalized Learning to Rank, are much more aligned with the idea of recommending the best item for a user.  
+  - It is important to find ways to balance the trade-off between exploration and exploitation. Approaches such as Multi-Armed Bandit algorithms offer an informed way to address this issue.
+  - Issues such as diversity and novelty can be as important as relevance.
+  - It is important to address the presentation bias caused by users only being able to give feedback to those items previously decided where good for them.
+  - The recommendation problem is not only a two dimensional problem of users and items but rather a multi-dimensional problem that includes many contextual dimensions such as time of the day or day of the week. Algorithms such as Tensor Factorization or Factorization Machines come in very handy for this.
+  - Users decide to select items not only based on how good they think they are, but also based on the possible impact on their social network. Therefore, social connections can be a good source of data to add to the recommendation system.
+  - It is not good enough to design algorithms that select the best items for users, these items need to be presented with the right form of explanations for users to be attracted to them.
 
 
-selected papers - https://dropbox.com/sh/zcevnml9crr7gxx/AACP88pEd8HoqK8vjMyfrMYpa
+
+
+[applications]
+
+  item-to-item similarity:
+
+  * "Two Decades of Recommender Systems at Amazon.com" (Amazon) [https://www.computer.org/csdl/mags/ic/2017/03/mic2017030012.html]
+	- learning item-to-item similarity on offline data (e.g. item2 often bought with item1)
+
+  * exponential family embeddings [https://youtu.be/zwcjJQoK8_Q?t=15m14s] [https://arxiv.org/abs/1608.00778] [https://github.com/mariru/exponential_family_embeddings] [https://github.com/franrruiz/p-emb]
+	- identifying substitutes and co-purchases in high-scale consumer data (basket analysis)
+
+  * prod2vec (Yahoo) [https://youtube.com/watch?v=W56fZewflRw] [https://arxiv.org/abs/1606.07154]
+
+
+  user preferences modeling:
+
+  * Latent LSTM Allocation (Amazon) [https://youtube.com/watch?v=ofaPq5aRKZ0] [https://vimeo.com/240608072] [http://proceedings.mlr.press/v70/zaheer17a/zaheer17a.pdf] [https://arxiv.org/abs/1711.11179]
+
+  * "Content-based recommendations with Poisson factorization" [http://www.fields.utoronto.ca/video-archive/2017/03/2267-16706  (26:36)] [http://www.cs.toronto.edu/~lcharlin/papers/GopalanCharlinBlei_nips14.pdf]
+	collaborative topic models:
+	- blends factorization-based and content-based recommendation
+	- describes user preferences with interpretable topics
+
+	possible application:
+	- topic proportions vector for document with service description
+	- topic proportions vector for document of organization -> topic proportions vector for organization
+	- purchase of service by organization is modeled as product of topic proportions vector for organization and topic proportions vector for service description
+
+  * "Scalable Recommendation with Hierarchical Poisson Factorization" [https://youtu.be/zwcjJQoK8_Q?t=41m49s] [http://auai.org/uai2015/proceedings/papers/208.pdf] [https://github.com/premgopalan/hgaprec]
+	- computationally efficient method for discovering correlated preferences (devising new utility models and other factors such as time of day, date, in stock, customer demographic information)
+
+  * BigARTM [https://youtube.com/watch?v=eJzNAhsbQNI] [https://youtube.com/watch?v=Y7lGYjJ7TR8] [https://youtube.com/watch?v=00qF2yMuRkQ] [http://www.machinelearning.ru/wiki/images/d/d5/Voron17survey-artm.pdf] [https://github.com/bigartm/bigartm]
+
+
+  item/user feature learning:
+
+  * "Wide & Deep Learning" (Google) [https://youtube.com/watch?v=NV1tkZ9Lq48] [https://research.googleblog.com/2016/06/wide-deep-learning-better-together-with.html] [https://arxiv.org/abs/1606.07792] [https://www.tensorflow.org/tutorials/wide_and_deep]
+
+  * LightFM [https://youtube.com/watch?v=EgE0DUrYmo8] [https://arxiv.org/abs/1507.08439] [https://github.com/lyst/lightfm/]
+	- learning item-to-user similarity on offline or online data with cold start for metadata of new user (representing user or content as linear combination of semantic features determined from tags assigned to user or content)
+
+  * Spotlight [https://youtube.com/watch?v=ZkBQ6YA9E40] [https://maciejkula.github.io/spotlight/]
+
+  * user2vec (Yahoo) [https://youtube.com/watch?v=W56fZewflRw] [https://arxiv.org/abs/1606.07154]
+
+
+  active learning:
+
+  * Azure Custom Decision Service [https://youtube.com/watch?v=7ic_d5TeIUk] [https://vimeo.com/240429210] [http://arxiv.org/abs/1606.03966]
+	A/B testing -> multi-world testing (optimizing outcomes of multiple experiments for numerous contexts/users in parallel)
+
+	https://ds.microsoft.com (video)
+	https://azure.microsoft.com/en-us/services/cognitive-services/custom-decision-service/
+	https://docs.microsoft.com/en-us/azure/cognitive-services/custom-decision-service/custom-decision-service-overview
+	https://blogs.microsoft.com/next/2016/12/01/machine-learning-breakthroughs-abound-researchers-look-democratize-benefits/
+
+  * conversational recommendations [https://youtube.com/watch?v=udrkPBIb8D4] [https://youtube.com/watch?v=nLUfAJqXFUI] [https://chara.cs.illinois.edu/sites/fa16-cs591txt/pdf/Christakopoulou-2016-KDD.pdf]
+
+
+
+
+selected papers - https://yadi.sk/d/RtAsSjLG3PhrT2
 
 
 
@@ -92,7 +131,7 @@ Weston, Weiss, Yee - "Nonlinear Latent Factorization by Embedding Multiple User 
 
 Gao, Pantel, Gamon, He, Deng - "Modeling Interestingness with Deep Neural Networks" [http://research.microsoft.com/apps/pubs/default.aspx?id=226584]
 	"This paper presents a deep semantic similarity model, a special type of deep neural networks designed for text analysis, for recommending target documents to be of interest to a user based on a source document that she is reading. We observe, identify, and detect naturally occurring signals of interestingness in click transitions on the Web between source and target documents, which we collect from commercial Web browser logs. The DSSM is trained on millions of Web transitions, and maps source-target document pairs to feature vectors in a latent space in such a way that the distance between source documents and their corresponding interesting targets in that space is minimized. The effectiveness of the DSSM is demonstrated using two interestingness tasks: automatic highlighting and contextual entity search. The results on large-scale, real-world datasets show that the semantics of documents are important for modeling interestingness and that the DSSM leads to significant quality improvement on both tasks, outperforming not only the classic document models that do not use semantics but also state-of-the-art topic models."
-	-- https://youtube.com/watch?v=YXi66Zgd0D0
+	-- https://youtube.com/watch?v=YXi66Zgd0D0 (Yih)
 
 Elkahky, Song, He - "A Multi-View Deep Learning Approach for Cross Domain User Modeling in Recommendation Systems" [http://research.microsoft.com/apps/pubs/default.aspx?id=238334]
 	"Recent online services rely heavily on automatic personalization to recommend relevant content to a large number of users. This requires systems to scale promptly to accommodate the stream of new users visiting the online services for the first time. In this work, we propose a content-based recommendation system to address both the recommendation quality and the system scalability. We propose to use a rich feature set to represent users, according to their web browsing history and search queries. We use a Deep Learning approach to map users and items to a latent space where the similarity between users and their preferred items is maximized. We extend the model to jointly learn from features of items from different domains and user features by introducing a multi-view Deep Learning model. We show how to make this rich-feature based user representation scalable by reducing the dimension of the inputs and the amount of training data. The rich user feature representation allows the model to learn relevant user behavior patterns and give useful recommendations for users who do not have any interaction with the service, given that they have adequate search and browsing history. The combination of different domains into a single model for learning helps improve the recommendation quality across all the domains, as well as having a more compact and a semantically richer user latent feature vector. We experiment with our approach on three real-world recommendation systems acquired from different sources of Microsoft products: Windows Apps recommendation, News recommendation, and Movie/TV recommendation. Results indicate that our approach is significantly better than the state-of-the-art algorithms (up to 49% enhancement on existing users and 115% enhancement on new users). In addition, experiments on a publicly open data set also indicate the superiority of our method in comparison with transitional generative topic models, for modeling cross-domain recommender systems. Scalability analysis show that our multi-view DNN model can easily scale to encompass millions of users and billions of item entries. Experimental results also confirm that combining features from all domains produces much better performance than building separate models for each domain."
