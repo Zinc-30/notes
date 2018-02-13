@@ -244,6 +244,7 @@ interesting older papers:
   `stochastic gradient descent` `approximate inference`
 >	"With constant learning rates, SGD is a stochastic process that, after an initial phase of convergence, generates samples from a stationary distribution. We show that SGD with constant rates can be effectively used as an approximate posterior inference algorithm for probabilistic modeling. Specifically, we show how to adjust the tuning parameters of SGD such as to match the resulting stationary distribution to the posterior."  
 >	"This analysis rests on interpreting SGD as a continuous-time stochastic process and then minimizing the Kullback-Leibler divergence between its stationary distribution and the target posterior. We model SGD as a multivariate Ornstein-Uhlenbeck process and then use properties of this process to derive the optimal parameters."  
+  - `video` <http://techtalks.tv/talks/a-variational-analysis-of-stochastic-gradient-algorithms/62505/> (Mandt)
 
 ----
 #### ["What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?"](https://arxiv.org/abs/1703.04977) Kendall, Gal
@@ -369,6 +370,7 @@ interesting older papers:
 >
 >	"In the old days we were happy with mean field approximation. Currently we don't. As the model goes more complicated, Bayesian inference needs more accurate yet fast approximations to the exact posterior, and apparently mean-field is not a very good choice. To enhance the power of variational approximations people start to use invertible transformations that warp simple distributions (e.g. factorised Gaussian) to complicated ones that are still differentiable. However it introduces an extra cost: you need to be able to compute the determinant of the Jacobian of that transform in a fast way. Solutions of this include constructing the transform with a sequence of "simple" functions -- simple in the sense that the Jacobian is low-rank or triangular. Authors provide another solution which doesn't need to compute the Jacobian at all."  
 >	"Exploits the fact that KL(q||p) = -E[tr{Af(x)}] where Af(x) = f(x)(d log p(x)/dx) + d f(x)/dx for a smooth function f(x) and any continuous density p(x). This is the derivative needed for variational inference, and therefore we can draw samples from an initial distribution q0 and evolve them according to x_t+1 = x_t + A k(x,.) for a kernel k() and after some iterations they'll capture the posterior distribution. It's a similar idea to Normalizing Flows but does not require significant parametric constraints or any inversions."  
+  - `video` <https://youtu.be/quIuMYSLaYM?t=8m42s> (Liu)
   - `post` <http://www.cs.dartmouth.edu/~dartml/project.html?p=vgd>
   - `post` <http://yingzhenli.net/home/blog/?p=536>
   - `code` <https://github.com/DartML/Stein-Variational-Gradient-Descent>
@@ -400,6 +402,7 @@ interesting older papers:
 >	"Our approach can also be used to train hybrid directed/undirected models using a unified variational framework. Such hybrid models are similar in spirit to deep belief networks. From a statistical point of view, a latent variable prior makes the model more flexible and allows it to better fit the data distribution. Such models may also learn structured feature representations: previous work has shown that undirected modules may learn classes of digits, while lower, directed layers may learn to represent finer variation. Finally, undirected models like the ones we study are loosely inspired by the brain and have been studied from that perspective. In particular, the undirected prior has been previously interpreted as an associative memory module."  
 >	"Our work proposes an alternative to sampling-based learning methods; most variational methods for undirected models center on inference. Our approach scales to small and medium-sized datasets, and is most useful within hybrid directed-undirected generative models. It approaches the speed of the Persistent Contrastive Divergence method and offers additional benefits, such as partition function tracking and accelerated sampling. Most importantly, our algorithms are black-box, and do not require knowing the structure of the model to derive gradient or partition function estimators. We anticipate that our methods will be most useful in automated inference systems such as Edward."  
 >	"Our approach offers a number of advantages over previous methods. First, it enables training undirected models in a black-box manner, i.e. we do not need to know the structure of the model to compute gradient estimators (e.g., as in Gibbs sampling); rather, our estimators only require evaluating a model’s unnormalized probability. When optimized jointly over q and p, our bound also offers a way to track the partition function during learning. At inference-time, the learned approximating distribution q may be used to speed-up sampling from the undirected model my initializing an MCMC chain (or it may itself provide samples)."  
+  - `video` <https://youtu.be/quIuMYSLaYM?t=2m36s> (Kuleshov)
 
 #### ["Auxiliary Deep Generative Models"](http://arxiv.org/abs/1602.05473) Maaløe, Sønderby, Sønderby, Winther
   `variational inference` `posterior approximation` `auxiliary variables`
@@ -411,6 +414,7 @@ interesting older papers:
 #### ["Hierarchical Variational Models"](https://arxiv.org/abs/1511.02386) Ranganath, Tran, Blei
   `variational inference` `posterior approximation` `auxiliary variables`
 >	"Several families of q have been proposed to ensure that the approximating distribution is sufficiently flexible to fit p. This work makes use of a class of distributions q(x,a) = q(x|a)q(a) that contain auxiliary variables a; these are latent variables that make the marginal q(x) multimodal, which in turn enables it to approximate more closely a multimodal target distribution p(x)."  
+  - `video` <http://techtalks.tv/talks/hierarchical-variational-models/62504/> (Ranganath)
   - `video` <https://channel9.msdn.com/Events/Neural-Information-Processing-Systems-Conference/Neural-Information-Processing-Systems-Conference-NIPS-2016/Variational-Inference-Foundations-and-Modern-Methods> (1:23:13) (Mohamed)
 
 #### ["Variational Inference for Monte Carlo Objectives"](http://arxiv.org/abs/1602.06725) Mnih, Rezende
@@ -477,6 +481,7 @@ interesting older papers:
 #### ["Reparameterization Gradients through Acceptance-Rejection Sampling Algorithms"](http://arxiv.org/abs/1610.05683) Naesseth, Ruiz, Linderman, Blei
   `variables with complex distributions`
 >	"For many distributions of interest (such as the gamma or Dirichlet), simulation of random variables relies on acceptance-rejection sampling. The discontinuity introduced by the accept-reject step means that standard reparameterization tricks are not applicable. We propose a new method that lets us leverage reparameterization gradients even when variables are outputs of a acceptance-rejection sampling algorithm. Our approach enables reparameterization on a larger class of variational distributions."  
+  - `video` <https://youtu.be/quIuMYSLaYM?t=17m21s> (Ruiz)
   - `post` <https://casmls.github.io/general/2017/04/25/rsvi.html>
   - `post` <http://artem.sobolev.name/posts/2017-09-10-stochastic-computation-graphs-continuous-case.html>
 
@@ -536,6 +541,7 @@ interesting older papers:
   `bayesian model`
   - `video` <https://youtube.com/watch?v=btr1poCYIzw>
   - `video` <http://videolectures.net/deeplearning2017_johnson_graphical_models/> (Johnson)
+  - `video` <https://youtube.com/watch?v=KcbfuUJ_a0A> (Johnson)
   - `video` <https://youtube.com/watch?v=vnO3w8OgTE8> (Duvenaud)
   - `audio` <https://youtube.com/watch?v=P7zucOImw04> (Duvenaud)
   - `slides` <http://www.cs.toronto.edu/~duvenaud/courses/csc2541/slides/svae-slides.pdf>
@@ -887,6 +893,7 @@ interesting older papers:
 >	"Encoding network reads the training set and generate the parameters of a model, which is trained to perform well on the testing set."  
   - `video` <https://facebook.com/iclr.cc/videos/1713144705381255/> (1:26:48) (Ravi)
   - `video` <http://videolectures.net/deeplearning2017_de_freitas_learning_to_learn/> (1:08:08) (de Freitas)
+  - `video` <https://youtu.be/QIcpGa-_bvA?t=34m> (Vinyals)
   - `code` <https://github.com/twitter/meta-learning-lstm>
 
 ----
@@ -978,10 +985,12 @@ interesting older papers:
 
 #### ["Prototypical Networks for Few-shot Learning"](https://arxiv.org/abs/1703.05175) Snell, Swersky, Zemel
 >	"Extension to Matching Networks which uses euclidean distance instead of cosine and builds a prototype representation of each class for the few-shot learning scenario."  
+  - `code` <https://github.com/orobix/Prototypical-Networks-for-Few-shot-Learning-PyTorch>
 
 #### ["Matching Networks for One Shot Learning"](http://arxiv.org/abs/1606.04080) Vinyals, Blundell, Lillicrap, Kavukcuoglu, Wierstra
 >	"Given just a few, or even a single, examples of an unseen class, it is possible to attain high classification accuracy on ImageNet using Matching Networks. Matching Networks are trained in the same way as they are tested: by presenting a series of instantaneous one shot learning training tasks, where each instance of the training set is fed into the network in parallel. Matching Networks are then trained to classify correctly over many different input training sets. The effect is to train a network that can classify on a novel data set without the need for a single step of gradient descent."  
 >	"End-to-end trainable K-nearest neighbors which accepts support sets of images as input and maps them to desired labels. Attention LSTM takes into account all samples of subset when computing the pair-wise cosine distance between samples."  
+  - `video` <https://youtu.be/QIcpGa-_bvA?t=31m41s> (Vinyals)
   - `poster` <https://pbs.twimg.com/media/Cy7Eyh5WgAAZIw2.jpg:large>
   - `notes` <https://theneuralperspective.com/2017/01/03/matching-networks-for-one-shot-learning/>
   - `notes` <https://blog.acolyer.org/2017/01/03/matching-networks-for-one-shot-learning/>
@@ -1010,6 +1019,7 @@ interesting older papers:
 
 #### ["Towards a Neural Statistician"](http://arxiv.org/abs/1606.02185) Edwards, Storkey
   - `video` <http://techtalks.tv/talks/neural-statistician/63048/> (Edwards)
+  - `video` <https://youtube.com/watch?v=29t1qc7IWro> (Edwards)
   - `video` <https://youtu.be/XpIDCzwNe78?t=51m53s> (Bartunov)
   - `notes` <http://www.shortscience.org/paper?bibtexKey=journals/corr/1606.02185>
 
@@ -1484,6 +1494,7 @@ interesting older papers:
 ----
 #### ["Learning to Discover Cross-Domain Relations with Generative Adversarial Networks"](https://arxiv.org/abs/1703.05192) Kim et al.
   `GAN applications` `domain translation`
+  - `code` <https://github.com/carpedm20/DiscoGAN-pytorch>
   - `code` <https://github.com/SKTBrain/DiscoGAN>
 
 #### ["DualGAN: Unsupervised Dual Learning for Image-to-Image Translation"](https://arxiv.org/abs/1704.02510) Yi et al.
@@ -2145,7 +2156,7 @@ interesting older papers:
 >	"We present a neural network architecture that includes the same processing stages as a typical MCTS, but inside the neural network itself, as a dynamic computational graph. The key idea is to represent the internal state of the search, at each node, by a memory vector. The computation of the network proceeds forwards from the root state, just like a simulation of MCTS, using a simulation policy based on the memory vector to select the trajectory to traverse. The leaf state is then processed by an embedding network to initialize the memory vector at the leaf. The network proceeds backwards up the trajectory, updating the memory at each visited state according to a backup network that propagates from child to parent. Finally, the root memory vector is used to compute an overall prediction of value or action."  
 >	"The major benefit of our planning architecture, compared to more traditional planning algorithms, is that it can be exposed to gradient-based optimisation. This allows us to replace every component of MCTS with a richer, learnable equivalent - while maintaining the desirable structural properties of MCTS such as the use of a model, iterative local computations, and structured memory. We jointly train the parameters of the evaluation network, backup network and simulation policy so as to optimise the overall predictions of the MCTS network. The majority of the network is fully differentiable, allowing for efficient training by gradient descent. Still, internal action sequences directing the control flow of the network cannot be differentiated, and learning this internal policy presents a challenging credit assignment problem. To address this, we propose a novel, generally applicable approximate scheme for credit assignment that leverages the anytime property of our computational graph, allowing us to also effectively learn this part of the search network from data."  
 
-#### ["Learning Dynamic State Abstractions for Model-based Reinforcement Learning"](https://openreview.net/forum?id=HJw8fAgA-) Buesing, Weber, Racaniere, Eslami, Rezende, Reichert, Viola, Besse, Gregor, Hassabis, Wierstra
+#### ["Learning and Querying Fast Generative Models for Reinforcement Learning"](https://arxiv.org/abs/1802.03006) Buesing, Weber, Racaniere, Eslami, Rezende, Reichert, Viola, Besse, Gregor, Hassabis, Wierstra
   `learning to plan` `using available environment model` `I2A`
 >	"We have shown that state-space models directly learned from raw pixel observations are good candidates for model-based RL: 1) they are powerful enough to capture complex environment dynamics, exhibiting similar accuracy to frame-auto-regressive models; 2) they allow for computationally efficient Monte-Carlo rollouts; 3) their learned dynamic state-representations are excellent features for evaluating and anticipating future outcomes compared to raw pixels. This enabled Imagination Augemented Agents to outperform strong model-free baselines on MS PACMAN."  
 >	"On a conceptual level, we present (to the best of our knowledge) the first results on what we termed learning-to-query. We show learning a rollout policy by backpropagating policy gradients leads to consistent (if modest) improvements."  
@@ -2301,6 +2312,7 @@ interesting older papers:
 >	"The optimal policy can be significantly affected by the noise present in the state transitions. This is illustrated by the drunken spider story, in which a spider has two possible paths to go home: either by crossing the bridge or by walking around the lake. In the absence of noise, the bridge option is prefered since it is shorter. However, after heavily drinking alcohol, the spider’s movements may randomly deviate left or right. Since the bridge is narrow, and spiders do not like swimming, the prefered trajectory is now to walk around the lake. The previous example shows how noise can significantly affect optimal control. For example, the optimal policy may change depending on whether the level of noise is high or low. Therefore, we expect to obtain significant improvements in model-based reinforcement learning by capturing with high accuracy any noise patterns present in the state transition data."  
   - `post` <https://medium.com/towards-data-science/bayesian-neural-networks-with-random-inputs-for-model-based-reinforcement-learning-36606a9399b4> (Hernandez-Lobato)
   - `video` <https://youtube.com/watch?v=0H3EkUPENSY> (Hernandez-Lobato)
+  - `video` <https://youtube.com/watch?v=J4KLWjZ1QVM> (Hernandez-Lobato)
   - `slides` <https://yadi.sk/i/NCrM4cEb3NhQux>
   - `code` <https://github.com/siemens/policy_search_bb-alpha>
 
@@ -2379,7 +2391,8 @@ interesting older papers:
 #### ["Deep Exploration via Randomized Value Functions"](https://arxiv.org/abs/1703.07608) Osband, Russo, Wen, Roy
   `approximate bayesian exploration` `approximate posterior sampling`
 >	"A very recent thread of work builds on count-based (or upper-confidence-bound-based) exploration schemes that operate with value function learning. These methods maintain a density over the state-action space of pseudo-counts, which represent the quantity of data gathered that is relevant to each state-action pair. Such algorithms may offer a viable approach to deep exploration with generalization. There are, however, some potential drawbacks. One is that a separate representation is required to generalize counts, and it's not clear how to design an effective approach to this. As opposed to the optimal value function, which is fixed by the environment, counts are generated by the agent’s choices, so there is no single target function to learn. Second, the count model generates reward bonuses that distort data used to fit the value function, so the value function representation needs to be designed to not only capture properties of the true optimal value function but also such distorted versions. Finally, these approaches treat uncertainties as uncoupled across state-action pairs, and this can incur a substantial negative impact on statistical efficiency."  
-  - `video` <http://youtube.com/watch?v=ck4GixLs4ZQ> (Osband) + [slides](https://docs.google.com/presentation/d/1lis0yBGT-uIXnAsi0vlP3SuWD2svMErJWy_LYtfzMOA/)
+  - `video` <http://techtalks.tv/talks/generalization-and-exploration-via-randomized-value-functions/62467/> (Osband)
+  - `video` <https://youtu.be/ck4GixLs4ZQ?t=33m7s> (Osband)
 
 #### ["UCB and InfoGain Exploration via Q-Ensembles"](https://arxiv.org/abs/1706.01502) Chen, Sidor, Abbeel, Schulman
   `approximate bayesian exploration` `information gain`
@@ -2508,6 +2521,7 @@ hieves."
   - <https://sites.google.com/site/hindsightexperiencereplay/> (demo)
   - `video` <https://facebook.com/nipsfoundation/videos/1554594181298482/> (38:00) (Abbeel)
   - `video` <https://youtu.be/BCzFs9Xb9_o?t=21m2s> (Sutskever)
+  - `video `<https://youtu.be/RvEwFvl-TrY?t=19m18s> (Sutskever)
   - `video` <https://youtu.be/TERCdog1ddE?t=50m45s> (Abbeel)
   - `paper` ["Universal Value Function Approximators"](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#schaul-horgan-gregor-silver---universal-value-function-approximators) by Schaul et al. `summary`
 
@@ -3013,6 +3027,7 @@ hieves."
   - `slides` <http://aitp-conference.org/2017/slides/Tim_aitp.pdf> (Rocktaschel)
   - `slides` <http://on-demand.gputechconf.com/gtc-eu/2017/presentation/23372-tim-rocktäschel-gpu-accelerated-deep-neural-networks-for-end-to-end-differentiable-planning-and-reasoning.pdf> (Rocktaschel)
   - `audio` <https://soundcloud.com/nlp-highlights/19a> (Rocktaschel)
+  - `code` <https://github.com/uclmr/ntp>
   - `paper` ["Learning Knowledge Base Inference with Neural Theorem Provers"](http://akbc.ws/2016/papers/14_Paper.pdf) by Rocktaschel and Riedel
 
 #### ["Differentiable Learning of Logical Rules for Knowledge Base Completion"](https://arxiv.org/abs/1702.08367) Yang, Yang, Cohen
