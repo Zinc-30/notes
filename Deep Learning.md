@@ -1382,6 +1382,7 @@ Yoshua Bengio:
 
 >	"Conventional ABC algorithms such as the above suffer from three drawbacks. First, they only represent the parameter posterior as a set of (possibly weighted or correlated) samples. A sample-based representation easily gives estimates and error bars of individual parameters, and model predictions. However these computations are noisy, and it is not obvious how to perform some other computations using samples, such as combining posteriors from two separate analyses. Second, the parameter samples do not come from the correct Bayesian posterior, but from an approximation based on assuming a pseudo-observation that the data is within an Epsilon-ball centred on the data actually observed. Third, as the Epsilon-tolerance is reduced, it can become impractical to simulate the model enough times to match the observed data even once. When simulations are expensive to perform, good quality inference becomes impractical. In this paper, we propose an alternative approach to likelihood-free inference, which unlike conventional ABC does not suffer from the above three issues. Instead of returning a set of parameter samples from an approximate posterior, our approach learns a parametric approximation to the exact posterior, which can be made as accurate as required. Furthermore, we present a strategy for learning our parametric approximation by making efficient use of simulations from the model. We show experimentally that our approach is capable of closely approximating the exact posterior, while making efficient use of simulations compared to conventional ABC. Our approach is based on conditional density estimation using Bayesian neural networks, and draws upon advances in density estimation, stochastic variational inference, and recognition networks. To the best of our knowledge, this is the first work that applies such techniques to the field of likelihood-free inference."
 
+  - `video` <https://youtube.com/watch?v=926yqLgoedU> (Murray)
   - `post` <http://dennisprangle.github.io/research/2016/06/07/bayesian-inference-by-neural-networks> + <http://dennisprangle.github.io/research/2016/06/07/bayesian-inference-by-neural-networks2>
   - `code` <https://github.com/gpapamak/epsilon_free_inference>
 
@@ -1652,6 +1653,7 @@ Yoshua Bengio:
   - `post` <https://blog.paperspace.com/adversarial-autoencoders-with-pytorch/>
   - `notes` <http://www.shortscience.org/paper?bibtexKey=journals/corr/MakhzaniSJG15>
   - `code` <https://github.com/wiseodd/generative-models/tree/master/VAE/adversarial_autoencoder>
+  - `paper` ["From Optimal Transport to Generative Modeling: the VEGAN Cookbook"](https://arxiv.org/abs/1705.07642) by Bousquet et al.
 
 
 #### ["InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets"](https://arxiv.org/abs/1606.03657) Chen, Duan, Houthooft, Schulman, Sutskever, Abbeel

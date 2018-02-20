@@ -137,6 +137,11 @@ interesting older papers:
   - `notes` <https://reddit.com/r/MachineLearning/comments/60fhyb/r_opening_the_black_box_of_deep_neural_networks/df8jsbm/>
   - `press` <https://quantamagazine.org/new-theory-cracks-open-the-black-box-of-deep-learning-20170921>
 
+#### ["Deep Variational Information Bottleneck"](https://arxiv.org/abs/1612.00410) Alemi, Fischer, Dillon, Murphy
+  `generalization`
+>	"The IB principle is appealing, since it defines what we mean by a good representation, in terms of the fundamental tradeoff between having a concise representation and one with good predictive power. The main drawback of the IB principle is that computing mutual information is, in general, computationally challenging. We propose to use variational inference to construct a lower bound on the IB objective. By using the reparameterization trick, we can use Monte Carlo sampling to get an unbiased estimate of the gradient, and hence we can optimize the objective using stochastic gradient descent. This allows us to use deep neural networks to parameterize our distributions, and thus to handle high-dimensional, continuous data, such as images, avoiding the previous restrictions to the discrete or Gaussian cases."  
+>	"Stochastic neural networks, fit using our VIB method, are robust to overfitting, since VIB finds a representation Z which ignores as many details of the input X as possible. In addition, they are more robust to adversarial inputs than deterministic models which are fit using (penalized) maximum likelihood estimation. Intuitively this is because each input image gets mapped to a distribution rather than a unique Z, so it is more difficult to pass small, idiosyncratic perturbations through the latent bottleneck."  
+
 #### ["On the Emergence of Invariance and Disentangling in Deep Representations"](https://arxiv.org/abs/1706.01350) Achille, Soatto
   `generalization`
 >	"We have presented bounds, some of which tight, that connect the amount of information in the weights, the amount of information in the activations, the invariance property of the network, and the geometry of the residual loss."  
@@ -268,6 +273,11 @@ interesting older papers:
 >	"We have studied a decomposition of predictive uncertainty into its epistemic and aleatoric components when working with Bayesian neural networks with latent variables. This decomposition naturally arises when applying information-theoretic active learning setting, and it also enabled us to derive a novel risk objective for reliable reinforcement learning by decomposing risk into a model bias and noise. In both of these settings, our approch allows us to efficiently learn in the face of sophisticated stochastic functions."  
 >	"We investigate safe RL using a risk-sensitive criterion which focuses only on risk related to model bias, that is, the risk of the policy performing at test time significantly different from at training time. The proposed criterion quantifies the amount of epistemic uncertainty (model bias risk) in the model’s predictive distribution and ignores any risk stemming from the aleatoric uncertainty."  
 >	"We can identify two distinct forms of uncertainties in the class of models given by BNNs with latent variables. Aleatoric uncertainty captures noise inherent in the observations. On the other hand, epistemic uncertainty accounts for uncertainty in the model. In particular, epistemic uncertainty arises from our lack of knowledge of the values of the synaptic weights in the network, whereas aleatoric uncertainty originates from our lack of knowledge of the value of the latent variables. In the domain of model-based RL the epistemic uncertainty is the source of model bias. When there is high discrepancy between model and real-world dynamics, policy behavior may deteriorate. In analogy to the principle that ”a chain is only as strong as its weakest link” a drastic error in estimating the ground truth MDP at a single transition stepcan render the complete policy useless."  
+
+#### ["Deep Bayesian Active Learning with Image Data"](https://arxiv.org/abs/1703.02910) Gal, Islam, Ghahramani
+  `uncertainty estimation`
+  - `video` <https://vimeo.com/240606680> (Hernandez-Lobato)
+  - `code` <https://github.com/Riashat/Deep-Bayesian-Active-Learning>
 
 #### ["A Scalable Laplace Approximation for Neural Networks"](https://openreview.net/forum?id=Skdvd2xAZ) Ritter, Botev, Barber
   `uncertainty estimation`
@@ -421,6 +431,7 @@ interesting older papers:
   `variational inference` `posterior approximation` `discrete latent variables`
   - `video` <http://techtalks.tv/talks/variational-inference-for-monte-carlo-objectives/62507/>
   - `video` <https://youtu.be/_XRBlhzb31U?t=27m16s> (Figurnov) `in russian`
+  - `notes` <http://artem.sobolev.name/posts/2016-07-14-neural-variational-importance-weighted-autoencoders.html>
   - `notes` <http://www.shortscience.org/paper?bibtexKey=journals/corr/MnihR16>
 
 #### ["Importance Weighted Autoencoders"](http://arxiv.org/abs/1509.00519) Burda, Grosse, Salakhutdinov
@@ -429,6 +440,7 @@ interesting older papers:
   - `video` <https://facebook.com/nipsfoundation/videos/1555493854541848/> (29:31) (Teh)
   - `post` <http://dustintran.com/blog/importance-weighted-autoencoders/>
   - `post` <https://casmls.github.io/general/2017/04/24/iwae-aae.html>
+  - `notes` <http://artem.sobolev.name/posts/2016-07-14-neural-variational-importance-weighted-autoencoders.html>
   - `notes` <http://www.shortscience.org/paper?bibtexKey=journals/corr/BurdaGS15>
   - `code` <https://github.com/yburda/iwae>
   - `code` <https://github.com/arahuja/generative-tf>
@@ -462,16 +474,22 @@ interesting older papers:
 >	"Doesn't close the performance gap of VAEs with continuous latent variables where one can use the Gaussian reparameterisation trick which benefits from much lower variance in the gradients."  
   - `video` <http://youtube.com/watch?v=JFgXEbgcT7g> (Jang)
   - `video` <https://facebook.com/nipsfoundation/videos/1555493854541848/> (25:13) (Teh)
+  - `video` <https://youtu.be/_JTu50iDhkA?t=55m53s> (Sobolev)
   - `video` <https://youtu.be/_XRBlhzb31U?t=28m33s> (Figurnov) `in russian`
-  - `post` <http://artem.sobolev.name/posts/2017-10-28-stochastic-computation-graphs-discrete-relaxations.html>
   - `post` <https://laurent-dinh.github.io/2016/11/21/gumbel-max.html>
   - `post` <https://casmls.github.io/general/2017/02/01/GumbelSoftmax.html>
   - `post` <http://timvieira.github.io/blog/post/2014/07/31/gumbel-max-trick/>
   - `post` <https://cmaddis.github.io/gumbel-machinery>
   - `post` <https://hips.seas.harvard.edu/blog/2013/04/06/the-gumbel-max-trick-for-discrete-distributions/>
+  - `post` <https://blog.evjang.com/2016/11/tutorial-categorical-variational.html>
+  - `post` <http://artem.sobolev.name/posts/2017-10-28-stochastic-computation-graphs-discrete-relaxations.html>
   - `code` <https://github.com/ericjang/gumbel-softmax/blob/master/gumbel_softmax_vae_v2.ipynb>
   - `code` <https://gist.github.com/gngdb/ef1999ce3a8e0c5cc2ed35f488e19748>
   - `code` <https://github.com/EderSantana/gumbel>
+
+#### ["Learning Latent Permutations with Gumbel-Sinkhorn Networks"](https://openreview.net/forum?id=Byt3oJ-0W) Mena, Belanger, Linderman, Snoek
+  `variables with complex discrete distributions`
+>	"A new method for gradient-descent inference of permutations."  
 
 #### ["Reparameterizing the Birkhoff Polytope for Variational Permutation Inference"](https://arxiv.org/abs/1710.09508) Linderman, Mena, Cooper, Paninski, Cunningham
   `variables with complex discrete distributions`
@@ -488,11 +506,14 @@ interesting older papers:
 #### ["The Generalized Reparameterization Gradient"](http://arxiv.org/abs/1610.02287) Ruiz, Titsias, Blei
   `variables with complex distributions`
 >	"The reparameterization gradient does not easily apply to commonly used distributions such as beta or gamma without further approximations, and most practical applications of the reparameterization gradient fit Gaussian distributions. We introduce the generalized reparameterization gradient, a method that extends the reparameterization gradient to a wider class of variational distributions. Generalized reparameterizations use invertible transformations of the latent variables which lead to transformed distributions that weakly depend on the variational parameters. This results in new Monte Carlo gradients that combine reparameterization gradients and score function gradients."  
+>	"Reparametrization removes dependence on parameters completely. What if we remove it just partially?"  
+  - `video` <https://youtu.be/_JTu50iDhkA?t=29m20s> (Sobolev)
   - `video` <https://youtu.be/mrj_hyH974o?t=1h23m40s> (Vetrov) `in russian`
   - `post` <http://artem.sobolev.name/posts/2017-09-10-stochastic-computation-graphs-continuous-case.html>
 
 #### ["Stochastic Backpropagation through Mixture Density Distributions"](http://arxiv.org/abs/1607.05690) Graves
   `variables with mixture distributions`
+  - `video` <https://youtu.be/_JTu50iDhkA?t=21m54s> (Sobolev)
   - `notes` <http://www.shortscience.org/paper?bibtexKey=journals/corr/1607.05690>
 
 #### ["Stick-Breaking Variational Autoencoders"](http://arxiv.org/abs/1605.06197) Nalisnick, Smyth
@@ -660,6 +681,7 @@ interesting older papers:
 >	"Memory was given a 2D structure in order to resemble a spatial map to address specific problems such as 2D or 3D navigation."  
 >	"Size and computational cost doesn't grow with time horizon of environment."  
   - `video` <https://youtu.be/x_kK4Pc4qow?t=18m3s> (Salakhutdinov)
+  - `video` <https://youtu.be/bTWlFiF4Kns?t=6m55s> (Salakhutdinov)
   - `video` <https://yadi.sk/i/pMdw-_uI3Gke7Z> (Shvechikov) `in russian`
   - `slides` <http://www.cs.cmu.edu/~rsalakhu/NIPS2017_StructureMemoryForDeepRL.pdf>
 
@@ -837,7 +859,7 @@ interesting older papers:
 
 ----
 #### ["SMASH: One-Shot Model Architecture Search through HyperNetworks"](https://arxiv.org/abs/1708.05344) Brock, Lim, Ritchie, Weston
-  `architecture search`
+  `architecture search` `SMASH`
 >	"The architecture: at each training step, generate the schematics of a random NN architecture; feed the skeleton into the hypernetwork, which will directly spit out numbers for each neuron (as a convolutional hypernetwork it can handle big and small NNs the same way); with the fleshed out NN, train 1 minibatch on the image classification task as usual, and update its parameters; use that update as the error for the hypernetwork to train it to spit out weights for that skeleton which are slightly closer to what it was after 1 minibatch. After training the hypernetwork many times on many random NN architectures, its generated weights will be close to what training each random NN architecture from scratch would have been. Now you can simply generate lots of random NN architectures, fill them in, run them on a small validation set, and see their final performance without ever actually training them fully (which would be like 10,000x more expensive). So this runs on 1 GPU in a day or two versus papers like Zoph which used 800 GPUs for a few weeks. It’s amazing this works, and like synthetic gradients it troubles me a little because it implies that even complex highly sophisticated NNs are in some sense simple & predictable as their weights/error-gradients can be predicted by other NNs which are as small as linear layers or don’t even see the data, and thus are incredibly wasteful in both training & parameter size, implying a large hardware overhang."  
   - `video` <https://youtube.com/watch?v=79tmPL9AL48>
   - `code` <https://github.com/ajbrock/SMASH>
@@ -860,8 +882,10 @@ interesting older papers:
 
 ----
 #### ["Some Considerations on Learning to Explore via Meta-Reinforcement Learning"](https://openreview.net/forum?id=Skk3Jm96W) Stadie, Yang, Houthooft, Chen, Duan, Wu, Abbeel, Sutskever
+  `E-MAML` `E-RL^2`
 >	"We introduce two new algorithms: E-MAML and E-RL2, which are derived by reformulating the underlying meta-learning objective to account for the impact of initial sampling on future (post-meta-updated) returns."  
 >	"Meta RL agent must not learn how to master the environments it is given, but rather it must learn how to learn so that it can quickly train at test time."  
+  - `video` <https://youtu.be/16UUb4HF0fo?t=54m56s> (Golikov) `in russian`
 
 ----
 #### ["Continuous Adaptation via Meta-Learning in Nonstationary and Competitive Environments"](https://arxiv.org/abs/1710.03641) Al-Shedivat, Bansal, Burda, Sutskever, Mordatch, Abbeel
@@ -872,8 +896,8 @@ interesting older papers:
 
 #### ["Meta-Learning and Universality: Deep Representations and Gradient Descent can Approximate any Learning Algorithm"](https://arxiv.org/abs/1710.11622) Finn, Levine
   `MAML`
-  - `video` <https://facebook.com/nipsfoundation/videos/1554594181298482/> (20:04) (Abbeel)
 >	"It is particularly important to develop meta-learning algorithms that can generalize well from a manageable number of training tasks, in the sense that it can perform well on new tasks sampled from the same distribution. One idea is to restrict the set of algorithms expressible by the parameterized model. At one extreme we have methods such as RL^2, TCML and one-shot imitation learning, which use generic recurrent architectures and are, in theory, capable of approximating any algorithm that can run on a Turing machine. At the other extreme, we have methods that merely tune hyperparameters over a set of training tasks. There are many possibilities between these two extremes. MAML restricts the underlying algorithm to be policy gradient and only meta-learn an initial set of parameters."  
+  - `video` <https://facebook.com/nipsfoundation/videos/1554594181298482/> (20:04) (Abbeel)
 
 #### ["Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks"](https://arxiv.org/abs/1703.03400) Finn, Abbeel, Levine
   `MAML`
@@ -885,6 +909,7 @@ interesting older papers:
   - `video` <https://youtu.be/lYU5nq0dAQQ?t=44m57s> (Levine)
   - `video` <https://facebook.com/nipsfoundation/videos/1554594181298482/> (18:05) (Abbeel)
   - `video` <https://youtube.com/watch?v=ID150Tl-MMw&t=1h1m22s> + <https://youtube.com/watch?v=ID150Tl-MMw&t=1h9m10s> (Abbeel)
+  - `video` <https://youtu.be/16UUb4HF0fo?t=7m34s> (Golikov) `in russian`
   - `post` <http://bair.berkeley.edu/blog/2017/07/18/learning-to-learn/> (Finn)
   - `code` <https://github.com/cbfinn/maml>
 
@@ -1200,6 +1225,14 @@ interesting older papers:
   - `video` <http://videolectures.net/iclr2016_theis_generative_models/> (Theis)
 
 ----
+#### ["From Optimal Transport to Generative Modeling: the VEGAN Cookbook"](https://arxiv.org/abs/1705.07642) Bousquet, Gelly, Tolstikhin, Simon-Gabriel, Scholkopf
+  `unifying GANs and VAEs`
+>	"The Optimal Transport cost is a way to measure a distance between probability distributions and provides a much weaker topology than many others, including f-divergences associated with the original GAN algorithms. This is particularly important in applications, where data is usually supported on low dimensional manifolds in the input space X. As a result, stronger notions of distances (such as f-divergences, which capture the density ratio between distributions) often max out, providing no useful gradients for training. In contrast, the Optimal Transport behave nicer and may lead to a more stable training."  
+>	"We show that the Optimal Transport problem can be equivalently written in terms of probabilistic encoders, which are constrained to match the posterior and prior distributions over the latent space. When relaxed, this constrained optimization problem leads to a penalized optimal transport (POT) objective, which can be efficiently minimized using stochastic gradient descent by sampling from Px and Pg."  
+>	"We show that POT for the 2-Wasserstein distance coincides with the objective heuristically employed in adversarial auto-encoders, which provides the first theoretical justification for AAEs known to the authors."  
+>	"We also compare POT to other popular techniques like variational auto-encoders. Our theoretical results include (a) a better understanding of the commonly observed blurriness of images generated by VAEs, and (b) establishing duality between Wasserstein GAN and POT for the 1-Wasserstein distance."  
+  - `paper` ["GAN and VAE from an Optimal Transport Point of View"](https://arxiv.org/abs/1706.01807) by Genevay, Peyre, Cuturi
+
 #### ["Variational Approaches for Auto-Encoding Generative Adversarial Networks"](https://arxiv.org/abs/1706.04987) Rosca, Lakshminarayanan, Warde-Farley, Mohamed
   `unifying GANs and VAEs` `α-GAN`
 >	"Use more general likelihoods than in VAE. Fight intractability using discriminators."  
@@ -1346,6 +1379,12 @@ interesting older papers:
   `GAN theory`
 
 ----
+#### ["A Geometric View of Optimal Transportation and Generative Model"](https://arxiv.org/abs/1710.05488) Lei, Su, Cui, Yau, Gu
+  `GAN objective`
+>	"We show the intrinsic relations between optimal transportation and convex geometry, especially the variational approach to solve Alexandrov problem: constructing a convex polytope with prescribed face normals and volumes."  
+>	"By using the optimal transportation view of GAN model, we show that the discriminator computes the Kantorovich potential, the generator calculates the transportation map. For a large class of transportation costs, the Kantorovich potential can give the optimal transportation map by a close-form formula. Therefore, it is sufficient to solely optimize the discriminator. This shows the adversarial competition can be avoided, and the computational architecture can be simplified."  
+>	"Preliminary experimental results show the geometric method outperforms WGAN for approximating probability measures with multiple clusters in low dimensional space."  
+
 #### ["Optimizing the Latent Space of Generative Networks"](https://arxiv.org/abs/1707.05776) Bojanowski, Joulin, Lopez-Paz, Szlam
   `GAN objective`
 >	"Are GANs successful because of adversarial training or the use of ConvNets? We show that a ConvNet generator trained with a simple reconstruction loss and learnable noise vectors leads many of the desirable properties of a GAN."  
@@ -2079,7 +2118,7 @@ interesting older papers:
   - <https://sites.google.com/site/learn2plannips/> (demo)
 
 #### ["Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm"](https://arxiv.org/abs/1712.01815) Silver et al.
-  `learning to guide planning` `using available environment model` `search-based policy iteration`
+  `learning to guide planning` `using available environment model` `search-based policy iteration` `expert iteration`
 >	"The game of chess is the most widely-studied domain in the history of artificial intelligence. The strongest programs are based on a combination of sophisticated search techniques, domain-specific adaptations, and handcrafted evaluation functions that have been refined by human experts over several decades. In contrast, the AlphaGo Zero program recently achieved superhuman performance in the game of Go, by tabula rasa reinforcement learning from games of self-play. In this paper, we generalise this approach into a single AlphaZero algorithm that can achieve, tabula rasa, superhuman performance in many challenging domains. Starting from random play, and given no domain knowledge except the game rules, AlphaZero achieved within 24 hours a superhuman level of play in the games of chess and shogi (Japanese chess) as well as Go, and convincingly defeated a world-champion program in each case."  
 >	"no opening book, no endgame database, no heuristics, no anything"  
 >	"One reason why MCTS is so effective compared to Alpha-Beta when you start to use function approximators is that neural network will inevitably have approximation errors. Alpha-Beta search is kind of minimax search and is like glorified big max operator alternating with mins, which will pick out biggest errors in function approximation and propagate it to the root of search tree. Whilst MCTS is averaging over evaluations which tends to cancel out errors in search and can be more effective because of that."  
@@ -2089,9 +2128,10 @@ interesting older papers:
   - `video` <https://youtu.be/DXNqYSNvnjA?t=21m24s> (Hassabis)
   - `video` <https://youtu.be/WM4HC720Cms?t=1h34m49s> (Nikolenko) `in russian`
   - `notes` <https://blog.acolyer.org/2018/01/10/mastering-chess-and-shogi-by-self-play-with-a-general-reinforcement-learning-algorithm/>
+  - `code` <https://github.com/glinscott/leela-chess>
 
 #### ["Mastering the Game of Go without Human Knowledge"](https://deepmind.com/documents/119/agz_unformatted_nature.pdf) Silver et al.
-  `learning to guide planning` `using available environment model` `search-based policy iteration`
+  `learning to guide planning` `using available environment model` `search-based policy iteration` `expert iteration`
 >	"AlphaGo Zero learns two functions (which take as input the current board):  
 >	- A prior over moves p is trained to predict what AlphaGo will eventually decide to do  
 >	- A value function v is trained to predict which player will win (if AlphaGo plays both sides)  
@@ -2130,7 +2170,7 @@ interesting older papers:
   - `paper` ["Approximate Modified Policy Iteration and its Application to the Game of Tetris"](http://jmlr.org/papers/v16/scherrer15a.html) by Scherrer et al.
 
 #### ["Thinking Fast and Slow with Deep Learning and Tree Search"](https://arxiv.org/abs/1705.08439) Anthony, Tian, Barber
-  `learning to guide planning` `using available environment model` `search-based policy iteration` `Expert Iteration`
+  `learning to guide planning` `using available environment model` `search-based policy iteration` `expert iteration`
 >	"Planning new policies is performed by tree search, while a deep neural network generalises those plans."  
 >	"Expert Iteration (ExIt) can be viewed as an extension of Imitation Learning methods to domains where the best known experts are unable to achieve satisfactory performance. In standard IL an apprentice is trained to imitate the behaviour of an expert. In ExIt, we extend this to an iterative learning process. Between each iteration, we perform an Expert Improvement step, where we bootstrap the (fast) apprentice policy to increase the performance of the (comparatively slow) expert."  
 >	"Imitation Learning is generally appreciated to be easier than Reinforcement Learning, and this partly explains why ExIt is more successful than model-free methods like REINFORCE. Furthermore, for MCTS to recommend a move, it must be unable to find any weakness with its search. Effectively, therefore, a move played by MCTS is good against a large selection of possible opponents. In contrast, in regular self play (in which the opponent move is made by the network playing as the opposite colour), moves are recommended if they beat only this single opponent under consideration. This is, we believe, a key insight into why ExIt works well (when using MCTS as the expert) - the apprentice effectively learns to play well against many opponents."  
@@ -2149,7 +2189,7 @@ interesting older papers:
   - `code` <https://github.com/lifrordi/DeepStack-Leduc>
 
 ----
-#### ["Learning to Search with MCTSnets"](https://openreview.net/forum?id=r1TA9ZbA-) Guez, Weber, Antonoglou, Simonyan, Vinyals, Wierstra, Munos, Silver
+#### ["Learning to Search with MCTSnets"](https://arxiv.org/abs/1802.04697) Guez, Weber, Antonoglou, Simonyan, Vinyals, Wierstra, Munos, Silver
   `learning to plan` `using available environment model`
 >	"Planning problems are most typically solved by tree search algorithms that simulate ahead into the future, evaluate future states, and back-up those evaluations to the root of a search tree. Among these algorithms, Monte-Carlo tree search is one of the most general, powerful and widely used. A typical implementation of MCTS uses cleverly designed rules, optimised to the particular characteristics of the domain. These rules control where the simulation traverses, what to evaluate in the states that are reached, and how to back-up those evaluations. In this paper we instead learn where, what and how to search. Our architecture, which we call an MCTSnet, incorporates simulation-based search inside a neural network, by expanding, evaluating and backing-up a vector embedding. The parameters of the network are trained end-to-end using gradient-based optimisation. When applied to small searches in the well-known planning problem Sokoban, the learned search algorithm significantly outperformed MCTS baselines."  
 >	"Although we have focused on a supervised learning setup, our approach could easily be extended to a reinforcement learning setup by leveraging policy iteration with MCTS. We have focused on small searches, more similar in scale to the plans that are processed by the human brain, than to the massive-scale searches in high-performance games or planning applications. In fact, our learned search performed better than a standard MCTS with more than an order-of-magnitude more computation, suggesting that neural approaches to search may ultimately replace their handcrafted counterparts."  
@@ -2374,6 +2414,9 @@ interesting older papers:
 >	"Variational approaches to estimate uncertainty in neural networks are an active area of research, however, there is no study that systematically benchmarks variational approaches in decision-making scenarios. We find that Bayes by Backprop underperforms even with a linear model. We demonstrate that because the method is simultaneously learning the representation and the uncertainty level. When faced with a limited optimization budget (for online learning), slow convergence becomes a serious concern. In particular, when the fitted model is linear, we evaluate the performance of a mean field model which we can solve in closed form for the variational objective. We find that as we increase number of training iterations for BBB, it slowly converges to the performance of this exact method. This is not a problem in the supervised learning setting, where we can train until convergence. Unfortunately, in the online learning setting, this is problematic, as we cannot train for an unreasonable number of iterations at each step, so poor uncertainty estimates lead to bad decisions. Additionally, tricks to speed up convergence of BBB, such as initializing the variance parameters to a small value, distort uncertainty estimates and thus are not applicable in the online decision making setting. We believe that these insights into the problems with variational approaches are of value to the community, and highlight the need for new ways to estimate uncertainty for online scenarios (i.e., without requiring great computational power)."  
 >	"An interesting observation is that in many cases the stochasticity induced by stochastic gradient descent is enough to perform an implicit Thompson sampling. The greedy approach sometimes suffices (or conversely is equally bad as approximate inference). However, we also proposed the wheel problem, where the need for exploration is smoothly parameterized. In this case, we see that all greedy approaches fail."  
 
+#### ["Efficient Exploration through Bayesian Deep Q-Networks"](https://arxiv.org/abs/1802.04412) Azizzadenesheli, Brunskill, Anandkumar
+  `approximate bayesian exploration` `approximate posterior sampling`
+
 #### ["Noisy Networks for Exploration"](https://arxiv.org/abs/1706.10295) Fortunato, Azar, Piot, Menick, Osband, Graves, Mnih, Munos, Hassabis, Pietquin, Blundell, Legg
   `approximate bayesian exploration` `approximate posterior sampling`
 >	"scale of perturbation to parameters is learned along with original objective function"  
@@ -2393,6 +2436,9 @@ interesting older papers:
 >	"A very recent thread of work builds on count-based (or upper-confidence-bound-based) exploration schemes that operate with value function learning. These methods maintain a density over the state-action space of pseudo-counts, which represent the quantity of data gathered that is relevant to each state-action pair. Such algorithms may offer a viable approach to deep exploration with generalization. There are, however, some potential drawbacks. One is that a separate representation is required to generalize counts, and it's not clear how to design an effective approach to this. As opposed to the optimal value function, which is fixed by the environment, counts are generated by the agent’s choices, so there is no single target function to learn. Second, the count model generates reward bonuses that distort data used to fit the value function, so the value function representation needs to be designed to not only capture properties of the true optimal value function but also such distorted versions. Finally, these approaches treat uncertainties as uncoupled across state-action pairs, and this can incur a substantial negative impact on statistical efficiency."  
   - `video` <http://techtalks.tv/talks/generalization-and-exploration-via-randomized-value-functions/62467/> (Osband)
   - `video` <https://youtu.be/ck4GixLs4ZQ?t=33m7s> (Osband)
+
+#### ["BBQ-Networks: Efficient Exploration in Deep Reinforcement Learning for Task-Oriented Dialogue Systems"](https://arxiv.org/abs/1608.05081) Lipton, Li, Gao, Li, Ahmed, Deng
+  `approximate bayesian exploration` `approximate posterior sampling`
 
 #### ["UCB and InfoGain Exploration via Q-Ensembles"](https://arxiv.org/abs/1706.01502) Chen, Sidor, Abbeel, Schulman
   `approximate bayesian exploration` `information gain`
@@ -2681,6 +2727,10 @@ hieves."
   - `video` <https://youtube.com/watch?v=sZqrWFl0wQ4> (demo)
   - `video` <https://vimeo.com/237274156> (Higgins)
 
+#### ["Robust and Efficient Transfer Learning with Hidden Parameter Markov Decision Processes"](https://arxiv.org/abs/1706.06544) Killian, Daulton, Konidaris, Doshi-Velez
+  `semantic representation`
+>	"A new framework for modeling families of related tasks using low-dimensional latent embeddings, which correctly models the joint uncertainty in the latent parameters and the state space."  
+
 #### ["Towards Deep Symbolic Reinforcement Learning"](http://arxiv.org/abs/1609.05518) Garnelo, Arulkumaran, Shanahan
   `semantic representation`
 >	"Contemporary DRL systems require very large datasets to work effectively, entailing that they are slow to learn even when such datasets are available. Moreover, they lack the ability to reason on an abstract level, which makes it difficult to implement high-level cognitive functions such as transfer learning, analogical reasoning, and hypothesis-based reasoning. Finally, their operation is largely opaque to humans, rendering them unsuitable for domains in which verifiability is important. We propose an end-to-end RL architecture comprising a neural back end and a symbolic front end with the potential to overcome each of these shortcomings."  
@@ -2958,6 +3008,7 @@ hieves."
 >	"We demonstrate it is possible for systems to combine intuitive perceptual with conceptual interpretable reasoning. The system we describe, ∂ILP, is robust to noise, data-efficient, and produces interpretable rules."  
 >	"∂ILP differs from standard neural nets because it is able to generalise symbolically, and it differs from standard symbolic programs because it is able to generalise visually. It learns explicit programs from examples that are readable, interpretable, and verifiable. ∂ILP is given a partial set of examples (the desired results) and produces a program that satisfies them. It searches through the space of programs using gradient descent. If the outputs of the program conflict with the desired outputs from the reference data, the system revises the program to better match the data."  
   - `post` <https://deepmind.com/blog/learning-explanatory-rules-noisy-data/>
+  - `video` <https://youtube.com/watch?v=_wuFBF_Cgm0> (Evans)
 
 #### ["Learning Neural Programs To Parse Programs"](https://arxiv.org/abs/1706.01284) Chen, Liu, Song
 >	"We explore a new direction to learn domain-specific programs significantly more complex than previously considered in the literature of learning programs from input-output examples only. In particular, we consider an exemplary problem to learn a program to parse an input satisfying a context-free grammar into its abstract syntax tree. This problem is challenging when the underlying grammar is unknown, and only input-output examples are provided. The program to be synthesized in this problem, i.e., a parser, is more complex than programs consisting of string operations as in many previous work, and thus serves as a good next step challenge to tackle in the domain of learning programs from input-output examples."  
@@ -3021,6 +3072,7 @@ hieves."
 >	"Limitations:  
 >	- knowledge bases with <10k facts  
 >	- small proof depth"  
+  - `video` <https://youtube.com/watch?v=2ovZnvVPiQ8> (Rocktaschel)
   - `video` <https://facebook.com/nipsfoundation/videos/1554402331317667> (28:51)
   - `poster` <https://rockt.github.io/pdf/rocktaschel2017end-poster.pdf>
   - `slides` <https://rockt.github.io/pdf/rocktaschel2017end-slides.pdf> (Rocktaschel)
@@ -3048,6 +3100,11 @@ hieves."
   - `code` <https://github.com/mast-group/eqnet>
 
 ----
+#### ["ReinforceWalk: Learning to Walk in Graph with Monte Carlo Tree Search"](https://arxiv.org/abs/1802.04394) Shen, Chen, Huang, Guo, Gao
+  `knowledge graph completion` `expert iteration`
+>	"MINERVA uses policy gradient method to explore paths in knowledge graphs during training and test. Our proposed model further exploits state transition information by integrating with the MCTS algorithm. Empirically, our proposed algorithm outperforms both MINERVA in the knowledge base completion benchmark."  
+>	"This work shares a similar spirit with AlphaZero in that it also uses MCTS and policy network to iteratively improve each other. However, the method in AlphaZero improves the policy network from the MCTS probabilities of move, while this method improves the policy from the trajectories generated by MCTS. Note that the MCTS probabilities of move in AlphaZero is constructed from the visit counts of all the edges connected to the MCTS root node, meaning that it only uses information near the root node to improve the policy network. While this work improves the policy network by learning from the trajectories generated by MCTS. Therefore, the information over the entire MCTS search tree is used."  
+
 #### ["Go for a Walk and Arrive at the Answer: Reasoning Over Paths in Knowledge Bases using Reinforcement Learning"](https://arxiv.org/abs/1711.05851) Das, Dhuliawala, Zaheer, Vilnis, Durugkar, Krishnamurthy, Smola, McCallum
   `question answering over knowledge bases` `MINERVA`
 >	"RL agent which answers queries in a knowledge graph of entities and relations. Starting from an entity node, MINERVA learns to navigate the graph conditioned on the input query till it reaches the answer entity."  
@@ -3219,6 +3276,7 @@ hieves."
 
 #### ["Gated-Attention Architectures for Task-Oriented Language Grounding"](https://arxiv.org/abs/1706.07230) Chaplot, Sathyendra, Pasumarthi, Rajagopal, Salakhutdinov
   `goal-driven language learning`
+  - `slides` <http://www.cs.cmu.edu/~dchaplot/talks/AAAI18-Grounding.pdf>
   - `code` <https://github.com/devendrachaplot/DeepRL-Grounding>
 
 #### ["A Deep Compositional Framework for Human-like Language Acquisition in Virtual Environment"](https://arxiv.org/abs/1703.09831) Yu, Zhang, Xu

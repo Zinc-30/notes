@@ -237,6 +237,8 @@
   [overview](http://on-demand.gputechconf.com/gtc/2016/video/S6812.html) by Pieter Abbeel `video`  
   [overview](https://youtu.be/xe-z4i3l-iQ?t=30m35s) by Pieter Abbeel `video`  
 
+  ["Is (Deep) Reinforcement Learning Barking Up The Wrong Tree?"](https://youtube.com/watch?v=2GW7ozcUCFE) by Chris Atkeson `video`
+
   [interesting recent papers - imitation learning](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---imitation)
 
 
@@ -569,8 +571,10 @@
   ["A Tutorial on Thompson Sampling"](https://arxiv.org/abs/1707.02038) by Russo et al. `paper`  
   ["Nonparametric General Reinforcement Learning"](#nonparametric-general-reinforcement-learning-leike) by Leike `paper` `summary`  *(estimating reward by sampling environment model from posterior distribution and running episode using it)*  
   ["Weight Uncertainty in Neural Networks"](#weight-uncertainty-in-neural-networks-blundell-cornebise-kavukcuoglu-wierstra) by Blundell et al. `paper` `summary`  *(training bayesian neural network to predict reward, sampling particular network weights from posterior and choosing action with highest predicted reward)*  
+  ["BBQ-Networks: Efficient Exploration in Deep Reinforcement Learning for Task-Oriented Dialogue Systems"](https://arxiv.org/abs/1608.05081) by Lipton et al. `paper`  
   ["Deep Exploration via Bootstrapped DQN"](#deep-exploration-via-bootstrapped-dqn-osband-blundell-pritzel-van-roy) by Osband et al. `paper` `summary`  *(training multiple value function networks with shared bottom layers using bootstrapping, sampling value function network and running episode using it)*  
   ["Deep Exploration via Randomized Value Functions"](#deep-exploration-via-randomized-value-functions-osband-russo-wen-van-roy) by Osband et al. `paper` `summary`  
+  ["Efficient Exploration through Bayesian Deep Q-Networks"](https://arxiv.org/abs/1802.04412) by Azizzadenesheli et al. `paper`  
   ["Noisy Networks for Exploration"](#noisy-networks-for-exploration-fortunato-et-al) by Fortunato et al. `paper` `summary`  
   ["Approximate Bayes Optimal Policy Search using Neural Networks"](#approximate-bayes-optimal-policy-search-using-neural-networks-castronovo-francois-lavet-fonteneau-ernst-couetoux) by Castronovo et al. `paper` `summary`  
   ["RL^2: Fast Reinforcement Learning via Slow Reinforcement Learning"](#rl2-fast-reinforcement-learning-via-slow-reinforcement-learning-duan-schulman-chen-bartlett-sutskever-abbeel) by Duan et al. `paper` `summary`  
@@ -1652,6 +1656,7 @@ interesting recent papers:
   - `video` <https://youtu.be/DXNqYSNvnjA?t=21m24s> (Hassabis)
   - `video` <https://youtu.be/WM4HC720Cms?t=1h34m49s> (Nikolenko) `in russian`
   - `notes` <https://blog.acolyer.org/2018/01/10/mastering-chess-and-shogi-by-self-play-with-a-general-reinforcement-learning-algorithm/>
+  - `code` <https://github.com/glinscott/leela-chess>
 
 
 #### ["Giraffe: Using Deep Reinforcement Learning to Play Chess"](http://arxiv.org/abs/1509.01549) Lai
@@ -2701,6 +2706,7 @@ interesting recent papers:
   - `video` <https://youtube.com/watch?v=gb5Q2XL5c8A> (Schulman)
   - `video` <https://yadi.sk/i/1oyihBnm3HiKHm> + <https://yadi.sk/i/b0ol2gUV3HiKKJ> (Fritsler and Ratnikov) `in russian` ([slides](https://yadi.sk/i/9j6S4WVp3HgEdn) `in english`)
   - `post` <http://kvfrans.com/what-is-the-natural-gradient-and-where-does-it-appear-in-trust-region-policy-optimization/>
+  - `notes` <http://www.shortscience.org/paper?bibtexKey=journals/corr/SchulmanLMJA15>
   - `notes` <https://towardsdatascience.com/introduction-to-various-reinforcement-learning-algorithms-part-ii-trpo-ppo-87f2c5919bb9>
   - `code` <https://github.com/openai/baselines/tree/master/baselines/trpo_mpi>
   - `code` <https://github.com/reinforceio/tensorforce/blob/master/tensorforce/models/trpo_model.py>
