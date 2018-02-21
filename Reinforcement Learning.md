@@ -347,12 +347,12 @@
 ---
 ### problems
 
-  **components of reinforcement learning algorithms**  ([overview](https://youtube.com/watch?v=_UVYhuATS9E&t=2m44s) by Sergey Levine `video`):   
+  components of reinforcement learning algorithms  ([overview](https://youtube.com/watch?v=_UVYhuATS9E&t=2m44s) by Sergey Levine `video`):   
   - generate samples / run the policy  
   - fit a model / estimate the return  
   - improve the policy  
 
-  **classifications of reinforcement learning methods**  ([overview](http://incompleteideas.net/sutton/book/ebook/node105.html) by Sutton and Barto):  
+  classifications of reinforcement learning methods  ([overview](http://incompleteideas.net/sutton/book/ebook/node105.html) by Sutton and Barto):  
   - prediction vs control  
   - MDPs vs bandits  
   - model-based vs value-based vs policy-based  
