@@ -141,13 +141,17 @@
 
 ----
 
+  ["Lessons from Optics, The Other Deep Learning"](http://argmin.net/2018/01/25/optics/) by Ali Rahimi  *(theory)*  
+  ["The Linearization Principle"](http://argmin.net/2018/02/05/linearization/) by Benjamin Recht  *(theory)*  
+  ["A Statistical View of Deep Learning: Retrospective"](http://blog.shakirm.com/2015/07/a-statistical-view-of-deep-learning-retrospective/) by Shakir Mohamed  *(theory)*  
+
   ["The Holy Grail of Deep Learning: Modelling Invariances"](http://inference.vc/the-holy-gr/) by Ferenc Huszar  *(priors)*  
   ["Representation Learning and the Information Bottleneck Approach"](http://inference.vc/representation-learning-and-compression-with-the-information-bottleneck/) by Ferenc Huszar  *(priors)*  
   ["Regularization for Deep Learning: A Taxonomy"](https://arxiv.org/abs/1710.10686) by Kukacka et al.  *(priors)*  
 
   ["Modern Theory of Deep Learning: Why Does It Work so Well"](https://medium.com/mlreview/modern-theory-of-deep-learning-why-does-it-works-so-well-9ee1f7fb2808) by Dmytrii S.  *(generalization)*  
   ["Everything that Works Works Because it's Bayesian: Why Deep Nets Generalize?"](http://inference.vc/everything-that-works-works-because-its-bayesian-2/)  *(generalization)*  
-  ["Bottoming Out"](http://argmin.net/2016/04/18/bottoming-out/) by Ben Recht  *(generalization)*  
+  ["Bottoming Out"](http://argmin.net/2016/04/18/bottoming-out/) by Benjamin Recht  *(generalization)*  
 
   ["Back-propagation, An Introduction"](http://www.offconvex.org/2016/12/20/backprop/) by Sanjeev Arora and Tengyu Ma  *(gradient of loss function)*  
   ["Calculus on Computational Graphs: Backpropagation"](http://colah.github.io/posts/2015-08-Backprop/) by Chris Olah  *(gradient of loss function)*  
@@ -161,9 +165,6 @@
 
   ["Transfer Learning - Machine Learning's Next Frontier"](http://ruder.io/transfer-learning/) by Sebastian Ruder  *(representation learning)*  
   ["An Overview of Multi-Task Learning in Deep Neural Networks"](http://sebastianruder.com/multi-task/) by Sebastian Ruder  *(representation learning)*  
-
-  ["A Statistical View of Deep Learning: Retrospective"](http://blog.shakirm.com/2015/07/a-statistical-view-of-deep-learning-retrospective/) by Shakir Mohamed  
-  ["Deep Learning is Easy - Learn Something Harder"](http://inference.vc/deep-learning-is-easy/) by Ferenc Huszar  
 
 ----
 

@@ -347,12 +347,42 @@
 ---
 ### problems
 
-  components of reinforcement learning algorithms  ([overview](https://youtube.com/watch?v=_UVYhuATS9E&t=2m44s) by Sergey Levine `video`):   
+  characteristics:  
+  - can learn any function  
+  - inherently handles uncertainty  
+    * uncertainty in actions
+    * uncertainty in observations
+  - directly maximizes criteria we care about  
+  - copes with delayed feedback  
+    * temporal credit assignment problem  
+
+  challenges:  
+  - stability (non-stationary and online data)  
+  - credit assigment (delayed rewards and consequences)  
+  - exploration vs exploitation (need for trial and error)  
+  - using learned model of environment  
+
+  problems:  
+  - adaptive methods for large number of conditions  
+  - exploration problem in large MDPs  
+  - learning and acting under partial information  
+  - hierarchical learning over multiple time scales  
+  - sample efficiency  
+  - algorithms for large or continuous action spaces  
+  - transfer learning  
+  - lifelong learning  
+  - efficient sample-based planning  
+  - multiagent or distributed learning  
+  - learning from demonstrations  
+
+----
+
+  components of algorithms  ([overview](https://youtube.com/watch?v=_UVYhuATS9E&t=2m44s) by Sergey Levine `video`):   
   - generate samples / run the policy  
   - fit a model / estimate the return  
   - improve the policy  
 
-  classifications of reinforcement learning methods  ([overview](http://incompleteideas.net/sutton/book/ebook/node105.html) by Sutton and Barto):  
+  classifications of methods  ([overview](http://incompleteideas.net/sutton/book/ebook/node105.html) by Sutton and Barto):  
   - prediction vs control  
   - MDPs vs bandits  
   - model-based vs value-based vs policy-based  
