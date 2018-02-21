@@ -429,14 +429,6 @@
 
 
 ----
-#### off-policy learning
-
-  Updates to a statistic of a dynamical process are said to be off-policy if their distribution does not match the dynamics of the process, particularly if the mismatch is due to the way actions are chosen. The prototypical example is learning of value function for one policy, the target policy, using data obtained while following another policy, the behavior policy.
-
-  [overview](http://videolectures.net/deeplearning2017_thomas_safe_rl/) (30:21) by Philip Thomas `video`
-
-
-----
 #### imitation learning / behavioral cloning
 
   - learn agent's behavior in environment with unknown cost function via imitation of another agent's behavior
@@ -493,6 +485,14 @@
 	["Advances in Option Construction: The Option-Critic Architecture"](https://youtube.com/watch?v=8r_EoYnPjGk) by Pierre-Luc Bacon `video`  
 
   [interesting papers](#interesting-papers---hierarchical-reinforcement-learning)
+
+
+----
+#### off-policy learning
+
+  Updates to a statistic of a dynamical process are said to be off-policy if their distribution does not match the dynamics of the process, particularly if the mismatch is due to the way actions are chosen. The prototypical example is learning of value function for one policy, the target policy, using data obtained while following another policy, the behavior policy.
+
+  [overview](http://videolectures.net/deeplearning2017_thomas_safe_rl/) (30:21) by Philip Thomas `video`
 
 
 
