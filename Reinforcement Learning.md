@@ -347,12 +347,21 @@
 ---
 ### problems
 
-  ["Expressivity, Trainability, and Generalization in Machine Learning"](http://blog.evjang.com/2017/11/exp-train-gen.html) by Eric Jang  
-  ["An Outsider's Tour of Reinforcement Learning"](http://argmin.net/2018/02/20/outsider-rl/) by Benjamin Recht  
+  **components of reinforcement learning algorithms**  ([overview](https://youtube.com/watch?v=_UVYhuATS9E&t=2m44s) by Sergey Levine `video`):   
+  - generate samples / run the policy  
+  - fit a model / estimate the return  
+  - improve the policy  
+
+  **classifications of reinforcement learning methods**  ([overview](http://incompleteideas.net/sutton/book/ebook/node105.html) by Sutton and Barto):  
+  - prediction vs control  
+  - MDPs vs bandits  
+  - model-based vs value-based vs policy-based  
+  - on-policy vs off-policy  
+  - bootstrapping vs Monte Carlo  
+
 
 ----
-
-  **reinforcement learning vs supervised learning**
+#### reinforcement learning vs supervised learning
 
   [differences](https://youtube.com/watch?v=2pWv7GOvuf0&t=9m37s) `video` (*David Silver*):  
   - there is no supervisor, only a reward signal  
@@ -368,23 +377,12 @@
 
 ----
 
-  **components of reinforcement learning algorithms**  ([overview](https://youtube.com/watch?v=_UVYhuATS9E&t=2m44s) by Sergey Levine `video`):   
-  - generate samples / run the policy  
-  - fit a model / estimate the return  
-  - improve the policy  
+  ["Expressivity, Trainability, and Generalization in Machine Learning"](http://blog.evjang.com/2017/11/exp-train-gen.html) by Eric Jang  
+  ["An Outsider's Tour of Reinforcement Learning"](http://argmin.net/2018/02/20/outsider-rl/) by Benjamin Recht  
+
 
 ----
-
-  **classifications of reinforcement learning methods**  ([overview](http://incompleteideas.net/sutton/book/ebook/node105.html) by Sutton and Barto):  
-  - prediction vs control  
-  - MDPs vs bandits  
-  - model-based vs value-based vs policy-based  
-  - on-policy vs off-policy  
-  - bootstrapping vs Monte Carlo  
-
-----
-
-  **model-based vs value-based vs policy-based methods**
+#### model-based vs value-based vs policy-based methods
 
   [**model-based methods**](#model-based-methods):  
   - build prediction model for next state and reward after action  
@@ -408,12 +406,13 @@
   - suboptimal values does not necessarily give suboptimal actions in every state (but optimal values do)  
   - easier generalization to continuous action spaces  
 
-  [overview](http://argmin.net/2018/02/01/control-tour/) by Benjamin Recht  
   [overview](http://youtube.com/watch?v=P_agNaSrVhc) by Michael Littman `video`  
+  [overview](http://argmin.net/2018/02/01/control-tour/) by Benjamin Recht  
+
 
 ----
+#### forms of supervision
 
-  **forms of supervision**  ([overview](https://youtu.be/hKeSPnvNNJ8?t=4m2s) by Sergey Levine `video`):  
   - scalar rewards  
   - demonstrated behavior (imitation, inferring reward)  
   - self-supervision, prediction (model-based control)  
@@ -423,12 +422,22 @@
     * task-relevant properties of environment  
     * exploration and intrinsic motivation  
 
+  [overview](https://youtu.be/hKeSPnvNNJ8?t=4m2s) by Sergey Levine `video`
+
   ["Utilities"](https://youtube.com/watch?v=yA6wXERug70) by Pieter Abbeel `video`  
   ["Rethinking State Action and Reward in Reinforcement Learning"](https://youtube.com/watch?v=MhIP1SOqlS8) by Satinder Singh `video`  
 
-----
 
-  **imitation learning** / **behavioral cloning**
+----
+#### off-policy learning
+
+  Updates to a statistic of a dynamical process are said to be off-policy if their distribution does not match the dynamics of the process, particularly if the mismatch is due to the way actions are chosen. The prototypical example is learning of value function for one policy, the target policy, using data obtained while following another policy, the behavior policy.
+
+  [overview](http://videolectures.net/deeplearning2017_thomas_safe_rl/) (30:21) by Philip Thomas `video`
+
+
+----
+#### imitation learning / behavioral cloning
 
   - learn agent's behavior in environment with unknown cost function via imitation of another agent's behavior
 
@@ -444,9 +453,9 @@
 
   [interesting papers](#interesting-papers---behavioral-cloning)
 
-----
 
-  **inverse reinforcement learning**
+----
+#### inverse reinforcement learning
 
   - infer underlying reward structure guiding agent’s behavior based on observations and model of environment  
   - learn reward structure for modelling purposes or for imitation of another agent's behavior (apprenticeship)  
@@ -460,15 +469,13 @@
 
   [interesting papers](#interesting-papers---inverse-reinforcement-learning)
 
-----
 
+----
   [**exploration and intrinsic motivation**](#exploration-and-intrinsic-motivation)
 
-  [interesting papers](#interesting-papers---exploration-and-intrinsic-motivation)
 
 ----
-
-  **hierarchical reinforcement learning**
+#### hierarchical reinforcement learning
  
   - simplify dimensionality of the action spaces over which we need to reason  
   - enable quick planning and execution of low-level actions (such as robot movements)  
@@ -481,19 +488,11 @@
   ["Towards Representations for Efficient Reinforcement Learning"](https://youtube.com/watch?v=Pk3E5zqhl9k) by Emma Brunskill `video`  
 
   Options framework:  
-	[introduction](http://videolectures.net/deeplearning2016_precup_advanced_lr/) by Doina Precup `video`  
+	[overview](http://videolectures.net/deeplearning2016_precup_advanced_lr/) by Doina Precup `video`  
 	["Temporal Abstraction in Reinforcement Learning"](https://youtube.com/watch?v=GntIVgNKkCI) by Doina Precup `video`  
 	["Advances in Option Construction: The Option-Critic Architecture"](https://youtube.com/watch?v=8r_EoYnPjGk) by Pierre-Luc Bacon `video`  
 
   [interesting papers](#interesting-papers---hierarchical-reinforcement-learning)
-
-
-----
-#### off-policy learning
-
-  Updates to a statistic of a dynamical process are said to be off-policy if their distribution does not match the dynamics of the process, particularly if the mismatch is due to the way actions are chosen. The prototypical example is learning of value function for one policy, the target policy, using data obtained while following another policy, the behavior policy.
-
-  [overview](http://videolectures.net/deeplearning2017_thomas_safe_rl/) (30:21) by Philip Thomas `video`
 
 
 
