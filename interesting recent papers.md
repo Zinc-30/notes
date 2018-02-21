@@ -881,26 +881,34 @@ interesting older papers:
 ### meta-learning
 
 ----
-#### ["Some Considerations on Learning to Explore via Meta-Reinforcement Learning"](https://openreview.net/forum?id=Skk3Jm96W) Stadie, Yang, Houthooft, Chen, Duan, Wu, Abbeel, Sutskever
-  `E-MAML` `E-RL^2`
->	"We introduce two new algorithms: E-MAML and E-RL2, which are derived by reformulating the underlying meta-learning objective to account for the impact of initial sampling on future (post-meta-updated) returns."  
->	"Meta RL agent must not learn how to master the environments it is given, but rather it must learn how to learn so that it can quickly train at test time."  
-  - `video` <https://youtu.be/16UUb4HF0fo?t=54m56s> (Golikov) `in russian`
+#### ["Evolved Policy Gradients"](https://arxiv.org/abs/1802.04821) Houthooft, Chen, Isola, Stadie, Wolski, Ho, Abbeel
+  `learning loss function`
+>	"Method evolves a differentiable loss function, such that an agent, which optimizes its policy to minimize this loss, will achieve high rewards. The loss is parametrized via temporal convolutions over the agent’s experience. Because this loss is highly flexible in its ability to take into account the agent’s history, it enables fast task learning and eliminates the need for reward shaping at test time. At test time, the learner optimizes only its learned loss function, and requires no explicit reward signal."  
+>	"Method is capable of learning a loss function over thousands of sequential environmental actions. Crucially, this learned loss is both highly adaptive (allowing for quicker learning of new tasks) and highly instructive (sometimes eliminating the need for environmental rewards at test time)."  
+>	"Our loss’ instructive nature – which allows it to operate at test time without environmental rewards – is interesting and desirable. This instructive nature can be understood as the loss function’s internalization of the reward structures it has previously encountered under the training task distribution. We see this internalization as a step toward learning intrinsic motivation. A good intrinsically motivated agent would successfully infer useful actions in new situations by using heuristics it developed over its entire lifetime. This ability is likely required to achieve truly intelligent agents."  
+>	"In addition to internalizing environment rewards, learned loss could, in principle, have several other positive effects. For example, by examining the agent’s history, the loss could incentivize desirable extended behaviors, such as exploration. Further, the loss could perform a form of system identification, inferring environment parameters and adapting how it guides the agent as a function of these parameters (e.g., by adjusting the effective learning rate of the agent)."  
 
 ----
 #### ["Continuous Adaptation via Meta-Learning in Nonstationary and Competitive Environments"](https://arxiv.org/abs/1710.03641) Al-Shedivat, Bansal, Burda, Sutskever, Mordatch, Abbeel
-  `continual learning`
->	"extending Model-Agnostic Meta-Learning to the case of dynamically changing tasks"
+  `continual learning` `learning initialization algorithm`
+>	"extending Model-Agnostic Meta-Learning to the case of dynamically changing tasks"  
   - <https://sites.google.com/view/adaptation-via-metalearning> (demo)
   - `video` <https://facebook.com/nipsfoundation/videos/1554594181298482/> (30:38) (Abbeel)
 
+#### ["Some Considerations on Learning to Explore via Meta-Reinforcement Learning"](https://openreview.net/forum?id=Skk3Jm96W) Stadie, Yang, Houthooft, Chen, Duan, Wu, Abbeel, Sutskever
+  `E-MAML` `E-RL^2` `learning initialization algorithm`
+>	"We introduce two new algorithms: E-MAML and E-RL2, which are derived by reformulating the underlying meta-learning objective to account for the impact of initial sampling on future (post-meta-updated) returns."  
+>	"Meta RL agent must not learn how to master the environments it is given, but rather it must learn how to learn so that it can quickly train at test time."  
+>	"Due to RL^2’s policy-gradient-based optimization procedure, it does not directly optimize the final policy performance nor exhibit exploration. In E-RL^2 the rewards for episodes sampled early in the learning process are deliberately set to zero to drive exploratory behavior."  
+  - `video` <https://youtu.be/16UUb4HF0fo?t=54m56s> (Golikov) `in russian`
+
 #### ["Meta-Learning and Universality: Deep Representations and Gradient Descent can Approximate any Learning Algorithm"](https://arxiv.org/abs/1710.11622) Finn, Levine
-  `MAML`
+  `MAML` `learning initialization algorithm`
 >	"It is particularly important to develop meta-learning algorithms that can generalize well from a manageable number of training tasks, in the sense that it can perform well on new tasks sampled from the same distribution. One idea is to restrict the set of algorithms expressible by the parameterized model. At one extreme we have methods such as RL^2, TCML and one-shot imitation learning, which use generic recurrent architectures and are, in theory, capable of approximating any algorithm that can run on a Turing machine. At the other extreme, we have methods that merely tune hyperparameters over a set of training tasks. There are many possibilities between these two extremes. MAML restricts the underlying algorithm to be policy gradient and only meta-learn an initial set of parameters."  
   - `video` <https://facebook.com/nipsfoundation/videos/1554594181298482/> (20:04) (Abbeel)
 
 #### ["Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks"](https://arxiv.org/abs/1703.03400) Finn, Abbeel, Levine
-  `MAML`
+  `MAML` `learning initialization algorithm`
 >	"Tasks are sampled and a policy gradient update is computed for each task with respect to a fixed initial set of parameters. Subsequently, a meta update is performed where a gradient step is taken that moves the initial parameter in a direction that would have maximally benefited the average return over all of the sub-updates."  
 >	"Unlike prior methods, the MAML learner’s weights are updated using the gradient, rather than a learned update rule. Our method does not introduce any additional parameters into the learning process and does not require a particular learner model architecture."  
 >	"MAML finds a shared parameter θ such that for a given task, one gradient step on θ using the training set will yield a model with good predictions on the test set. Then, a meta-gradient update is performed from the test error through the one gradient step in the training set, to update θ."  
@@ -913,8 +921,10 @@ interesting older papers:
   - `post` <http://bair.berkeley.edu/blog/2017/07/18/learning-to-learn/> (Finn)
   - `code` <https://github.com/cbfinn/maml>
 
+----
 #### ["Optimization as a Model for Few-Shot Learning"](https://openreview.net/forum?id=rJY0-Kcll) Ravi, Larochelle
->	"Using LSTM meta-learner in a few-shot classification setting, where the traditional learner was a convolutional-network-based classifier. In this setting, the whole meta-learning algorithm is decomposed into two parts: the traditional learner’s initial parameters are trained to be suitable for fast gradient-based adaptation; the LSTM meta-learner is trained to be an optimization algorithm adapted for meta-learning tasks."  
+  `learning initialization algorithm` `learning optimization algorithm`
+>	"Meta-learning algorithm is decomposed into two parts: the traditional learner’s initial parameters are trained to be suitable for fast gradient-based adaptation; the LSTM meta-learner is trained to be an optimization algorithm adapted for meta-learning tasks."  
 >	"Encoding network reads the training set and generate the parameters of a model, which is trained to perform well on the testing set."  
   - `video` <https://facebook.com/iclr.cc/videos/1713144705381255/> (1:26:48) (Ravi)
   - `video` <http://videolectures.net/deeplearning2017_de_freitas_learning_to_learn/> (1:08:08) (de Freitas)
@@ -923,12 +933,12 @@ interesting older papers:
 
 ----
 #### ["A Simple Neural Attentive Meta-Learner"](https://openreview.net/forum?id=B1DmUzWAW) Mishra, Rohaninejad, Chen, Abbeel
-  `SNAIL`
+  `SNAIL` `learning learning algorithm`
   - <https://sites.google.com/view/snail-iclr-2018/> (demo)
   - `video` <https://facebook.com/nipsfoundation/videos/1554594181298482/> (16:10) (Abbeel)
 
 #### ["Meta-Learning with Temporal Convolutions"](https://arxiv.org/abs/1707.03141) Mishra, Rohaninejad, Chen, Abbeel
-  `TCML`
+  `TCML` `learning learning algorithm`
 >	"Like RL^2 but with LSTM network replaced by dilated temporal convolutional network and attention."  
 >	"Most recent approaches to meta-learning are extensively hand-designed, either using architectures that are specialized to a particular application, or hard-coding algorithmic components that tell the meta-learner how to solve the task. We propose a class of simple and generic meta-learner architectures, based on temporal convolutions, that is domain-agnostic and has no particular strategy or algorithm encoded into it."  
 >	"TCML architectures are nothing more than a deep stack of convolutional layers, making them simple, generic, and versatile, and the causal structure allows them to process sequential data in a sophisticated manner. RNNs also have these properties, but traditional architectures can only propagate information through time via their hidden state, and so there are fewer paths for information to flow from past to present. TCMLs do a better job of preserving the temporal structure of the input sequence; the convolutional structure offers more direct, high-bandwidth access to past information, allowing them to perform more sophisticated computation on a fixed temporal segment."  
@@ -936,7 +946,7 @@ interesting older papers:
   - `video` <https://youtu.be/TERCdog1ddE?t=49m39s> (Abbeel)
 
 #### ["RL^2: Fast Reinforcement Learning via Slow Reinforcement Learning"](http://arxiv.org/abs/1611.02779) Duan, Schulman, Chen, Bartlett, Sutskever, Abbeel
-  `RL^2`
+  `RL^2` `learning learning algorithm`
 >	"MDPs encountered in real world = tiny subset of all MDPs that could be defined"  
 >	"How to acquire a good prior for real-world MDPs?"  
 >	"How to design algorithms that make use of such prior information?"  
@@ -960,6 +970,7 @@ interesting older papers:
   - `paper` ["Learning to Reinforcement Learn"](#learning-to-reinforcement-learn-wang-et-al) by Wang et al. `summary`
 
 #### ["Learning to Reinforcement Learn"](http://arxiv.org/abs/1611.05763) Wang et al.
+  `learning learning algorithm`
 >	"outer episodes (sample a new bandit problem / MDP) and inner episodes (of sampled MDP)"  
 >	"use RNN policy with no state reset between inner episodes for outer POMDP"  
   - `video` <https://youtu.be/Y85Zn50Eczs?t=20m18s> (Botvinick)
@@ -969,15 +980,18 @@ interesting older papers:
 
 ----
 #### ["Learned Optimizers that Scale and Generalize"](http://arxiv.org/abs/1703.04813) Wichrowska, Maheswaranathan, Hoffman, Colmenarejo, Denil, de Freitas, Sohl-Dickstein
+  `learning optimization algorithm`
   - `video` <http://videolectures.net/deeplearning2017_de_freitas_learning_to_learn/> (42:40) (de Freitas)
   - `code` <https://github.com/tensorflow/models/tree/master/research/learned_optimizer>
 
 #### ["Learning to Learn without Gradient Descent by Gradient Descent"](https://arxiv.org/abs/1611.03824) Chen, Hoffman, Colmenarejo, Denil, Lillicrap, Botvinick, de Freitas
+  `learning optimization algorithm`
 >	"Differentiable neural computers as alternatives to parallel Bayesian optimization for hyperparameter tuning of other networks."  
 >	"Proposes RNN optimizers that match performance of Bayesian optimization methods (e.g. Spearmint, SMAC, TPE) but are massively faster."  
   - `video` <http://videolectures.net/deeplearning2017_de_freitas_learning_to_learn/> (52:35) (de Freitas)
 
 #### ["Learning to Learn by Gradient Descent by Gradient Descent"](http://arxiv.org/abs/1606.04474) Andrychowicz, Denil, Gomez, Hoffman, Pfau, Schaul, Shillingford, de Freitas
+  `learning optimization algorithm`
 >	"Take some computation where you usually wouldn’t keep around intermediate states, such as a planning computation (say value iteration, where you only keep your most recent estimate of the value function) or stochastic gradient descent (where you only keep around your current best estimate of the parameters). Now keep around those intermediate states as well, perhaps reifying the unrolled computation in a neural net, and take gradients to optimize the entire computation with respect to some loss function. Instances: Value Iteration Networks, Learning to learn by gradient descent by gradient descent."  
   - `video` <https://youtu.be/SAcHyzMdbXc?t=10m24s> (de Freitas)
   - `video` <https://youtu.be/x1kf4Zojtb0?t=1h4m53s> (de Freitas)
@@ -1986,8 +2000,8 @@ interesting older papers:
   - `post` <http://inference.vc/evolution-strategies-variational-optimisation-and-natural-es-2/> (Huszar)
   - `post` <http://davidbarber.github.io/blog/2017/04/03/variational-optimisation/> (Barber)
   - `post` <http://argmin.net/2017/04/03/evolution/> (Recht)
+  - `paper` ["Parameter-exploring Policy Gradients"](https://mediatum.ub.tum.de/doc/1287490/409330.pdf) by Sehnke et al.
   - `paper` ["Random Gradient-Free Minimization of Convex Functions"](https://mipt.ru/dcam/students/elective/a_5gc1te/RandomGradFree.PDF) by Nesterov
-  - `paper` ["Natural Evolution Strategies"](http://jmlr.org/papers/volume15/wierstra14a/wierstra14a.pdf) by Wierstra et al.
   - `code` <https://github.com/openai/evolution-strategies-starter>
   - `codd` <https://github.com/atgambardella/pytorch-es>
 
@@ -2392,19 +2406,14 @@ interesting older papers:
 >	"We consider uncertainty Bellman equation which connects the uncertainty at any time-step to the expected uncertainties at subsequent time-steps, thereby extending the potential exploratory benefit of a policy beyond individual time-steps. We prove that the unique fixed point of the UBE yields an upper bound on the variance of the estimated value of any fixed policy. This bound can be much tighter than traditional count-based bonuses that compound standard deviation rather than variance. Importantly, and unlike several existing approaches to optimism, this method scales naturally to large systems with complex generalization."  
 
 ----
+#### ["Evolved Policy Gradients"](https://arxiv.org/abs/1802.04821) Houthooft, Chen, Isola, Stadie, Wolski, Ho, Abbeel
+  `learning intrinsic motivation` `meta-learning`
+  - <https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#evolved-policy-gradients-houthooft-chen-isola-stadie-wolski-ho-abbeel>
+
 #### ["Some Considerations on Learning to Explore via Meta-Reinforcement Learning"](https://openreview.net/forum?id=Skk3Jm96W) Stadie, Yang, Houthooft, Chen, Duan, Wu, Abbeel, Sutskever
   `learning to explore` `meta-learning`
->	"We introduce two new algorithms: E-MAML and E-RL2, which are derived by reformulating the underlying meta-learning objective to account for the impact of initial sampling on future (post-meta-updated) returns."  
->	"Meta RL agent must not learn how to master the environments it is given, but rather it must learn how to learn so that it can quickly train at test time."  
 >	"It is likely that future work in this area will focus on meta-learning a curiosity signal which is robust and transfers across tasks. Perhaps this will enable meta agents which learn to explore rather than being forced to explore by mathematical trickery in their objectives."  
-
-#### ["RL^2: Fast Reinforcement Learning via Slow Reinforcement Learning"](http://arxiv.org/abs/1611.02779) Duan, Schulman, Chen, Bartlett, Sutskever, Abbeel
-  `learning to explore` `meta-learning`
-  - <https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#rl2-fast-reinforcement-learning-via-slow-reinforcement-learning--duan-schulman-chen-bartlett-sutskever-abbeel>
-
-#### ["Learning to Reinforcement Learn"](http://arxiv.org/abs/1611.05763) Wang et al.
-  `learning to explore` `meta-learning`
-  - <https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#learning-to-reinforcement-learn-wang-et-al>
+  - <https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#some-considerations-on-learning-to-explore-via-meta-reinforcement-learning-stadie-yang-houthooft-chen-duan-wu-abbeel-sutskever>
 
 ----
 #### ["Deep Bayesian Bandits Showdown: An Empirical Comparison of Bayesian Deep Networks for Thompson Sampling"](https://openreview.net/forum?id=SyYe6k-CW) Riquelme, Tucker, Snoek
