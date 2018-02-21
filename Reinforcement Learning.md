@@ -347,7 +347,12 @@
 ---
 ### problems
 
-  **reinforcement learning and supervised learning**
+  ["Expressivity, Trainability, and Generalization in Machine Learning"](http://blog.evjang.com/2017/11/exp-train-gen.html) by Eric Jang  
+  ["An Outsider's Tour of Reinforcement Learning"](http://argmin.net/2018/02/20/outsider-rl/) by Benjamin Recht  
+
+----
+
+  **reinforcement learning vs supervised learning**
 
   [differences](https://youtube.com/watch?v=2pWv7GOvuf0&t=9m37s) `video` (*David Silver*):  
   - there is no supervisor, only a reward signal  
@@ -361,50 +366,16 @@
 
   [differences](http://videolectures.net/deeplearning2017_szepesvari_theory_of_rl/#t=2026) `video` (*Csaba Szepesvari*)
 
-  [theory](http://videolectures.net/deeplearning2017_szepesvari_theory_of_rl/#t=782) `video` (*Csaba Szepesvari*)
-
-  [expressivity, trainability, generalization](http://blog.evjang.com/2017/11/exp-train-gen.html) `post` (*Eric Jang*)
-
 ----
 
-  characteristics:  
-  - can learn any function  
-  - inherently handles uncertainty  
-    * uncertainty in actions (the world)  
-    * uncertainty in observations (sensors)  
-  - directly maximises criteria we care about  
-  - copes with delayed feedback  
-    * temporal credit assignment problem  
-
-  challenges:  
-  - stability (non-stationary, fleeting nature of time and online data)  
-  - credit assigment (delayed rewards and consequences)  
-  - exploration vs exploitation (need for trial and error)  
-  - using learned model of environment  
-
-  open problems:  
-  - adaptive methods which work under large number of conditions  
-  - addressing exploration problem in large MDPs  
-  - large-scale empirical evaluations  
-  - learning and acting under partial information  
-  - modular and hierarchical learning over multiple time scales  
-  - sample efficiency  
-  - improving existing value-function and policy search methods  
-  - algorithms that work well with large or continuous action spaces  
-  - transfer learning  
-  - lifelong learning  
-  - efficient sample-based planning (e.g., based on Monte-Carlo tree search)  
-  - multiagent or distributed learning  
-  - learning from demonstrations  
-
-----
-
-  components of reinforcement learning algorithm  ([overview](https://youtube.com/watch?v=_UVYhuATS9E&t=2m44s) by Sergey Levine `video`):   
+  **components of reinforcement learning algorithms**  ([overview](https://youtube.com/watch?v=_UVYhuATS9E&t=2m44s) by Sergey Levine `video`):   
   - generate samples / run the policy  
   - fit a model / estimate the return  
   - improve the policy  
 
-  dimensions for classification of methods  ([overview](http://incompleteideas.net/sutton/book/ebook/node105.html) by Sutton and Barto):  
+----
+
+  **classifications of reinforcement learning methods**  ([overview](http://incompleteideas.net/sutton/book/ebook/node105.html) by Sutton and Barto):  
   - prediction vs control  
   - MDPs vs bandits  
   - model-based vs value-based vs policy-based  
@@ -412,6 +383,8 @@
   - bootstrapping vs Monte Carlo  
 
 ----
+
+  **model-based vs value-based vs policy-based methods**
 
   [**model-based methods**](#model-based-methods):  
   - build prediction model for next state and reward after action  
@@ -514,9 +487,9 @@
 
   [interesting papers](#interesting-papers---hierarchical-reinforcement-learning)
 
-----
 
-  **off-policy learning**
+----
+#### off-policy learning
 
   Updates to a statistic of a dynamical process are said to be off-policy if their distribution does not match the dynamics of the process, particularly if the mismatch is due to the way actions are chosen. The prototypical example is learning of value function for one policy, the target policy, using data obtained while following another policy, the behavior policy.
 
@@ -1285,7 +1258,7 @@
   [introduction](http://kvfrans.com/simple-algoritms-for-solving-cartpole/) by Kevin Frans  
   [introduction](https://www.alexirpan.com/rl-derivations/#reinforce) by Alex Irpan  
 
-  ["The Policy of Truth"](http://argmin.net/2018/02/20/reinforce/) by Ben Recht *(REINFORCE is nothing more than random search)*
+  ["The Policy of Truth"](http://argmin.net/2018/02/20/reinforce/) by Benjamin Recht  *(REINFORCE is nothing more than random search)*
 
   [overview](http://videolectures.net/deeplearning2016_abbeel_deep_reinforcement/#t=1003) by Pieter Abbeel `video`  
   overview by John Schulman ([part 1](https://youtube.com/watch?v=oPGVsoBonLM), [part 2](https://youtube.com/watch?v=oPGVsoBonLM)) `video`  
