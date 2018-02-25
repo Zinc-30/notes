@@ -85,6 +85,8 @@
 
   [Coursera](https://coursera.org/learn/bayesian-methods-in-machine-learning) course by Daniil Polykovskiy and Alexander Novikov `video`
 
+  ["Information Theory, Pattern Recognition and Neural Networks"](http://videolectures.net/course_information_theory_pattern_recognition/) course by David MacKay `video`
+
 ----
 
   ["Latent Variable Models"](https://youtube.com/watch?v=7yLOF07Mv5I) by Dmitry Vetrov `video` `in russian`

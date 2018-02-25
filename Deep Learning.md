@@ -1867,6 +1867,7 @@ x."
   - `video` <https://youtu.be/xFCuXE1Nb8w?t=26m55s> (Nowozin)
   - `video` <https://youtu.be/m80Vp-jz-Io?t=1h28m34s> (Tolstikhin)
   - `post` <http://inference.vc/variational-inference-with-implicit-models-part-ii-amortised-inference-2/>
+  - `post` <https://chrisorm.github.io/AVB-pyt.html>
   - `notes` <https://casmls.github.io/general/2017/02/23/modified-gans.html>
   - `code` <https://github.com/wiseodd/generative-models/tree/master/VAE/adversarial_vb>
   - `code` <https://gist.github.com/poolio/b71eb943d6537d01f46e7b20e9225149>
@@ -2000,12 +2001,14 @@ x."
   - `video` <https://youtube.com/watch?v=VKoLGnq15RM> (Raval)
   - `video` <https://youtube.com/watch?v=UZ9BgrofhKk> (Kozlov) `in russian`
   - `video` <https://youtube.com/watch?v=8R3gXmh1F0c> (Lykov) `in russian`
+  - `post` <https://oreilly.com/ideas/introducing-capsule-networks>
   - `post` <https://medium.com/@pechyonkin/understanding-hintons-capsule-networks-part-i-intuition-b4b559d1159b>
   - `post` <https://hackernoon.com/uncovering-the-intuition-behind-capsule-networks-and-inverse-graphics-part-i-7412d121798d>
   - `post` <https://jhui.github.io/2017/11/03/Dynamic-Routing-Between-Capsules/>
   - `post` <https://hackernoon.com/what-is-a-capsnet-or-capsule-network-2bfbe48769cc>
   - `post` <https://medium.com/@mike_ross/a-visual-representation-of-capsule-network-computations-83767d79e737>
   - `notes` <https://blog.acolyer.org/2017/11/13/dynamic-routing-between-capsules/>
+  - `code` <https://github.com/ageron/handson-ml/blob/master/extra_capsnets.ipynb>
   - `code` <https://github.com/Sarasra/models/tree/master/research/capsules>
   - `code` <https://github.com/loretoparisi/CapsNet>
   - `paper` ["Transforming Auto-encoders"](http://www.cs.toronto.edu/~fritz/absps/transauto6.pdf) by Hinton, Krizhevsky, Wang
@@ -2170,6 +2173,7 @@ x."
   - `video` <https://youtu.be/_XRBlhzb31U?t=48m35s> (Figurnov) `in russian`
   - `audio` <https://soundcloud.com/nlp-highlights/36-attention-is-all-you-need-with-ashish-vaswani-and-jakob-uszkoreit> (Vaswani, Uszkoreit)
   - `post` <https://machinethoughts.wordpress.com/2017/09/01/deep-meaning-beyond-thought-vectors/> (McAllester)
+  - `notes` <https://ricardokleinklein.github.io/2017/11/16/Attention-is-all-you-need.html>
   - `notes` <https://blog.tomrochette.com/machine-learning/papers/ashish-vaswani-attention-is-all-you-need>
   - `notes` <https://medium.com/@sharaf/a-paper-a-day-24-attention-is-all-you-need-26eb2da90a91>
   - `code` <https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/models/transformer.py>
