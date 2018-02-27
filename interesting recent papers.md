@@ -450,6 +450,7 @@ interesting older papers:
 #### ["Backpropagation through the Void: Optimizing Control Variates for Black-box Gradient Estimation"](https://arxiv.org/abs/1711.00123) Grathwohl, Choi, Wu, Roeder, Duvenaud
   `variables with discrete distributions` `RELAX`
 >	"We generalize REBAR to learn a free-form control variate parameterized by a neural network, giving a lower-variance, unbiased gradient estimator which can be applied to a wider variety of problems with greater flexibility. Most notably, our method is applicable even when no continuous relaxation is available, as in reinforcement learning or black box function optimization. Furthermore, we derive improved variants of popular reinforcement learning methods with unbiased, action-dependent gradient estimates and lower variance."  
+  - `video` <https://youtu.be/hkRBoiaplEE?t=1h8m1s> (Sobolev)
   - `code` <https://github.com/duvenaud/relax>
   - `code` <https://github.com/Bonnevie/rebar>
 
@@ -461,6 +462,7 @@ interesting older papers:
 >	"Estimators for gradient ∇φ E pθ(h)[f(h)] of expectation over discrete distribution pθ(h): unbiased (REINFORCE, NVIL, MuProp) and biased (Straight Through, 1/2 estimator, Concrete/Gumbel-Softmax)."  
   - `video` <https://youtube.com/watch?v=QODYgBhv_no>
   - `video` <https://facebook.com/nipsfoundation/videos/1554402064651027/> (16:33) (Tucker)
+  - `video` <https://youtu.be/hkRBoiaplEE?t=34m27s> (Sobolev)
   - `code` <https://github.com/tensorflow/models/tree/master/research/rebar>
   - `code` <https://github.com/Bonnevie/rebar>
 
@@ -1810,6 +1812,9 @@ interesting older papers:
 >	"We find large improvements in Proximal Policy Optimization from using the posterior mean. We suspect that these improvements are partially due to the added exploration, aiding the on-policy and adaptive nature of PPO, during early stages of learning where the uncertainty distribution is large. This is backed by ablation analysis where we find that PPO in the Half-Cheetah environment sees larger improvements from a higher dropout rate (presumably yielding slightly more exploratory value estimates)."  
 >	"We found that the Q-value estimates in DDPG were much lower than in the baseline version. We believe this is due to a variance reduction property as in Double-DQN. While in Double-DQN, two function approximators are used for the Q-value function, using dropout effectively creates a parallel to Double-DQN where many different approximators are used from the same set of network weights."  
 
+#### ["An Analysis of Categorical Distributional Reinforcement Learning"](https://arxiv.org/abs/1802.08163) Rowland, Bellemare, Dabney, Munos, Teh
+  `CDRL` `Q-learning`
+
 #### ["Distributional Reinforcement Learning with Quantile Regression"](https://arxiv.org/abs/1710.10044) Dabney, Rowland, Bellemare, Munos
   `QR-DQN` `Q-learning`
 >	"One of the theoretical contributions of the C51 work was a proof that the distributional Bellman operator is a contraction in a maximal form of the Wasserstein metric between probability distributions. In this context, the Wasserstein metric is particularly interesting because it does not suffer from disjoint-support issues which arise when performing Bellman updates. Unfortunately, this result does not directly lead to a practical algorithm: the Wasserstein metric, viewed as a loss, cannot generally be minimized using stochastic gradient methods. This negative result left open the question as to whether it is possible to devise an online distributional reinforcement learning algorithm which takes advantage of the contraction result. Instead, the C51 algorithm first performs a heuristic projection step, followed by the minimization of a KL divergence between projected Bellman update and prediction. The work therefore leaves a theory-practice gap in our understanding of distributional reinforcement learning, which makes it difficult to explain the good performance of C51. Thus, the existence of a distributional algorithm that operates end-to-end on the Wasserstein metric remains an open question."  
@@ -2579,15 +2584,17 @@ hieves."
   - <http://ashvin.me/demoddpg-website/> (demo)
 
 #### ["Hindsight Experience Replay"](https://arxiv.org/abs/1707.01495) Andrychowicz, Wolski, Ray, Schneider, Fong, Welinder, McGrew, Tobin, Abbeel, Zaremba
-  `exploration guided by learning progress`
+  `exploration guided by learning progress` `HER`
 >	"Get reward signal from any experience by simply assuming the goal equals whatever happened."  
 >	"HER may be seen as a form of implicit curriculum as the goals used for replay naturally shift from ones which are simple to achieve even by a random agent to more difficult ones. However, in contrast to explicit curriculum, HER does not require having any control over the distribution of initial environment states."  
 >	"Not only does HER learn with extremely sparse rewards, in our experiments it also performs better with sparse rewards than with shaped ones. These results are indicative of the practical challenges with reward shaping, and that shaped rewards would often constitute a compromise on the metric we truly care about (such as binary success/failure)."  
+  - `post` <https://blog.openai.com/ingredients-for-robotics-research/>
   - <https://sites.google.com/site/hindsightexperiencereplay/> (demo)
   - `video` <https://facebook.com/nipsfoundation/videos/1554594181298482/> (38:00) (Abbeel)
   - `video` <https://youtu.be/BCzFs9Xb9_o?t=21m2s> (Sutskever)
   - `video `<https://youtu.be/RvEwFvl-TrY?t=19m18s> (Sutskever)
   - `video` <https://youtu.be/TERCdog1ddE?t=50m45s> (Abbeel)
+  - `code` <https://github.com/openai/baselines/tree/master/baselines/her>
   - `paper` ["Universal Value Function Approximators"](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#schaul-horgan-gregor-silver---universal-value-function-approximators) by Schaul et al. `summary`
 
 #### ["Reverse Curriculum Generation for Reinforcement Learning"](https://arxiv.org/abs/1707.05300) Florensa, Held, Wulfmeier, Zhang, Abbeel

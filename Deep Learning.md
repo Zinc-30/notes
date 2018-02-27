@@ -544,10 +544,6 @@
 
 ----
 
-  ![architectures by Chris Olah](https://pbs.twimg.com/media/CwM0BzjVUAAWTn4.jpg:large)  
-
-----
-
   "Data distribution is learned via a game between a generator (the generative model) and a discriminator (a teacher providing training signal) that each minimize their own cost. GANs are designed to reach a Nash equilibrium at which each player cannot reduce their cost without changing the other player’s parameters."
 
   "Consists of a generator which converts random noise into samples and a discriminator which tries to distinguish between generated and real samples from training set. The training procedure establishes a minimax game between the generator and the discriminator as follows. On one hand, the discriminator is trained to differentiate between natural samples sampled from the true data distribution, and synthetic samples produced by the generator. On the other hand, the generator is trained to produce samples that confuse the discriminator into mistaking them for genuine samples. The goal is for the generator to produce increasingly more realistic samples as the discriminator learns to pick up on increasingly more subtle inaccuracies that allow it to tell apart real and fake images."
@@ -634,31 +630,13 @@
 
 ----
 
+  [VAE diagram](https://pbs.twimg.com/media/DF3GRw-UAAA9A7-.jpg) by Diederik Kingma
+
   ["Variational auto-encoders do not train complex generative models"](http://dustintran.com/blog/variational-auto-encoders-do-not-train-complex-generative-models/) by Dustin Tran  
   ["VAE = EM"](https://machinethoughts.wordpress.com/2017/10/02/vae-em/) by David McAllester  
 
   [variational inference](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md#variational-inference)  
   [reparametrization trick](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md#pathwise-derivative-estimator-for-gradient-of-elbo)  
-
-----
-
-  ![architecture (Diederik Kingma)](https://pbs.twimg.com/media/DF3GRw-UAAA9A7-.jpg)
-
-----
-
-  "VAE aims to maximize log-likelihood of observed data x by introducing a set of stochastic latent variables z and marginalizing them out of the joint distribution p(x,z). While exact marginalization of latent variables is generally intractable, VAE introduces an approximate variational posterior q(z|x) and maximizes a variational lower bound on log-likelihood of p(x). VAE allows powerful generative models to be trained efficiently by replacing slow iterative inference algorithms with fast feedforward approximate inference neural networks. The inference networks, which map observations to samples from variational posterior, are trained jointly with the model by maximizing a common objective. This objective is a variational lower bound on the marginal log-likelihood."
-
-  "Let x be a random variable (real or binary) representing the observed data and z a collection of real-valued latent variables. The generative model over the pair (x,z) is given by p(x,z) = p(x|z)p(z), where p(z) is the prior distribution over the latent variables and p(x|z) is the conditional likelihood function. Generally, we assume that the components of z are independent Bernoulli or Gaussian random variables. The likelihood function is parameterized by a deep neural network pθ(x|z) = N(x|mu\_p(z), sigma\_p(z)) referred to as the decoder. A key aspect of VAEs is the use of a learned approximate inference procedure that is trained purely using gradient-based methods. This is achieved by using a learned approximate posterior qφ(z|x) = N(z|mu\_q(x), sigma\_q(x)) whose parameters are given by another deep neural network referred to as the encoder. Thus, we have z∼ Enc(x) = q(z|x) and x∼ Dec(z) = p(x|z). The parameters of these networks are optimized by minimizing the upper-bound on the expected negative log-likelihood of x, which is given by Eq(z|x)[-log pθ(x|z)] + DKL(q(z|x)||p(z)). The first term corresponds to the reconstruction error, and the second term is a regularizer that ensures that the approximate posterior stays close to the prior."
-
-  VAE learns to approximate pθ(z|x) by maximizing variational lower bound L(θ,φ,x) on log-likelihood of data log pθ(x): log pθ(x) ≥ L(θ,φ,x)
-
-  log pθ(x) = log ∫ pθ(x,z)dz = log ∫ (qφ(z|x)/qφ(z|x))pθ(x,z)dz ≥ <Jensen's inequality> ∫ qφ(z|x)log(pθ(x,z)/qφ(z|x))dz = ∫ qφ(z|x)(log pθ(x,z) - log qφ(z|x))dz = ∫ qφ(z|x)((log pθ(x|z) + log pθ(z)) - log qφ(z|x))dz = ∫ qφ(z|x)(log pθ(x|z) - log(qφ(z|x)/pθ(z)))dz = ∫ qφ(z|x)log pθ(x|z)dz - DKL(qφ(z|x)||pθ(z)) = L(θ,φ,x)
-
-  L(θ,φ,x) = Lx(θ,φ,x) + Lz(θ,φ,x), where  
-	Lx(θ,φ,x) := ∫ qφ(z|x)log pθ(x|z)dz    (*reconstruction term*, decoder pθ(x|z) evaluating codes from encoder qφ(z|x))  
-	Lz(θ,φ,x) := - DKL(qφ(z|x)||pθ(z))    (*regularization term*, negative expected reconstruction error of x under qφ(z|x))  
-
-  "Reconstruction term will walk decoder to be able to reconstruct individual examples as best as it can. This term tries to make z as unique as possible so that it can reconstruct the x as accurately as possible. Regularization term wants posterior distribution to be as close to prior on z as possible. This term tries to make output of q indepedent of x."
 
 ----
 
@@ -1442,6 +1420,7 @@ Yoshua Bengio:
 
 >	"To that end, we derive MuProp, an unbiased gradient estimator for deep stochastic neural networks that is based on backpropagation. To the best of our knowledge, it is the first unbiased estimator that can handle both continuous and discrete stochastic variables while taking advantage of analytic gradient information. MuProp’s simple and general formulation allows a straightforward derivation of unbiased gradient estimators for arbitrary stochastic computational graphs – directed acyclic graph with a mix of stochastic and deterministic computational nodes. While the algorithm is applicable to both continuous and discrete distributions, we used only discrete models in our experiments, since the reparameterization trick already provides an effective method for handling continuous variables. We present experimental results for training neural networks with discrete Bernoulli and multinomial variables for both supervised and unsupervised learning tasks. With these models, which are notoriously difficult to train, biased methods often significantly outperform the unbiased ones, except in certain cases. Our results indicate that MuProp’s performance is more consistent and often superior to that of the competing estimators. It is the first time that a well-grounded, unbiased estimator consistently performs as well or better than the biased gradient estimators across a range of difficult tasks."
 
+  - `video` <https://youtu.be/hkRBoiaplEE?t=27m53s> (Sobolev)
   - `video` <https://youtu.be/_XRBlhzb31U?t=25m19s> (Figurnov) `in russian`
   - `notes` <http://dustintran.com/blog/muprop-unbiased-backpropagation-for-stochastic-neural-networks/>
   - `notes` <http://www.shortscience.org/paper?bibtexKey=journals/corr/GuLSM15>
@@ -1636,8 +1615,11 @@ Yoshua Bengio:
 #### ["A Connection Between Generative Adversarial Networks, Inverse Reinforcement Learning, and Energy-Based Models"](http://arxiv.org/abs/1611.03852) Finn, Christiano, Abbeel, Levine
 >	"Generative adversarial networks (GANs) are a recently proposed class of generative models in which a generator is trained to optimize a cost function that is being simultaneously learned by a discriminator. While the idea of learning cost functions is relatively new to the field of generative modeling, learning costs has long been studied in control and reinforcement learning (RL) domains, typically for imitation learning from demonstrations. In these fields, learning cost function underlying observed behavior is known as inverse reinforcement learning (IRL) or inverse optimal control. While at first the connection between cost learning in RL and cost learning in generative modeling may appear to be a superficial one, we show in this paper that certain IRL methods are in fact mathematically equivalent to GANs. In particular, we demonstrate an equivalence between a sample-based algorithm for maximum entropy IRL and a GAN in which the generator's density can be evaluated and is provided as an additional input to the discriminator. Interestingly, maximum entropy IRL is a special case of an energy-based model. We discuss the interpretation of GANs as an algorithm for training energy-based models, and relate this interpretation to other recent work that seeks to connect GANs and EBMs. By formally highlighting the connection between GANs, IRL, and EBMs, we hope that researchers in all three communities can better identify and apply transferable ideas from one domain to another, particularly for developing more stable and scalable algorithms: a major challenge in all three domains."
 
-  - `video` <https://channel9.msdn.com/Events/Neural-Information-Processing-Systems-Conference/Neural-Information-Processing-Systems-Conference-NIPS-2016/Deep-Learning-Symposium-Session-3> (33:17) (Levine)
+  - `video` <https://youtu.be/d9DlQSJQAoI?t=23m6s> (Finn)
   - `video` <https://youtu.be/RZOKRFBtSh4?t=10m48s> (Finn)
+  - `video` <https://channel9.msdn.com/Events/Neural-Information-Processing-Systems-Conference/Neural-Information-Processing-Systems-Conference-NIPS-2016/Deep-Learning-Symposium-Session-3> (33:17) (Levine)
+  - `notes` <http://tsong.me/blog/gan-irl-ebm/>
+  - `notes` <http://pemami4911.github.io/paper-summaries/generative-adversarial-networks/2017/02/12/gans-irl-ebm.html>
 
 
 #### ["Adversarial Autoencoders"](https://arxiv.org/abs/1511.05644) Makhzani, Shlens, Jaitly, Goodfellow
