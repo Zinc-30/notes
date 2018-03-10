@@ -525,7 +525,7 @@
 
   Updates to a statistic of a dynamical process are said to be off-policy if their distribution does not match the dynamics of the process, particularly if the mismatch is due to the way actions are chosen. The prototypical example is learning of value function for one policy, the target policy, using data obtained while following another policy, the behavior policy.
 
-  [overview](http://videolectures.net/deeplearning2017_thomas_safe_rl/) (30:21) by Philip Thomas `video`
+  [overview](http://videolectures.net/deeplearning2017_thomas_safe_rl/#t=1821) by Philip Thomas `video`
 
 
 
@@ -924,10 +924,8 @@
 
 ----
 
-  [overview](https://youtu.be/bsuvM1jO-4w?t=35m2s) by Vlad Mnih `video`  
-  [overview](http://videolectures.net/deeplearning2017_szepesvari_theory_of_rl/) (49:34) by Csaba Szepesvari `video`  
+  [overview](https://youtu.be/bsuvM1jO-4w?t=35m2s) by Vlad Mnih `video`
 
-  ["Markov Decision Process"](https://youtube.com/watch?v=lfHX2hHRMVQ) by David Silver `video`  
   ["Planning by Dynamic Programming"](https://youtube.com/watch?v=Nd1-UUMVfz4) by David Silver `video`  
   ["Integrating Learning and Planning"](https://youtube.com/watch?v=ItMutbeOHtc) by David Silver `video`  
 
@@ -1007,15 +1005,13 @@
 
 ----
 
+  [overview](https://youtube.com/watch?v=iC2a7M9voYU) by Chelsea Finn `video`  
   ["Learning Dynamical System Models from Data"](https://youtube.com/watch?v=qVsLk5CVy_c) by Sergey Levine `video`  
   ["Advanced Model Learning"](https://youtube.com/watch?v=6EasN2FAIX0) by Chelsea Finn `video`  
 
   ["Approximate Reinforcement Learning in Partially Observable Markov Decision Process"](https://yadi.sk/i/pMdw-_uI3Gke7Z) (35:54) by Pavel Shvechikov `video` `in russian`  
   ["Deep Recurrent Q-Network"](https://youtube.com/watch?v=bE5DIJvZexc) by Alexander Fritsler `video` `in russian`  
   ["Deep Reinforcement Learning with Memory"](http://93.180.23.59/videos/video/2420/in/channel/1/) by Sergey Bartunov `video` `in russian`  
-
-  ["Deep AutoRegressive Networks"](https://youtu.be/-yX1SYeDHbg?t=49m25s) by Alex Graves `video`  
-  ["Deep AutoRegressive Networks"](https://youtu.be/P78QYjWh5sM?t=20m50s) by Karol Gregor `video`  
 
 ----
 
@@ -1129,7 +1125,7 @@
   [overview](http://youtube.com/watch?v=fevMOp5TDQs) by Vlad Mnih `video`  
 
   [from value function approximation to Deep Q-Network](http://youtu.be/UoPei5o4fps?t=1h9m) by David Silver `video`  
-  [from Fitted Value Iteration to Deep Q-Network](http://videolectures.net/deeplearning2017_szepesvari_theory_of_rl/) (48:49) by Czaba Szepesvari `video`  
+  [from Fitted Value Iteration to Deep Q-Network](http://videolectures.net/deeplearning2017_szepesvari_theory_of_rl/#t=2929) by Czaba Szepesvari `video`  
   ["Approximate Reinforcement Learning"](https://yadi.sk/i/AHDU2p_j3FT3nr) by Fedor Ratnikov `video` `in russian`  
 
   [derivations](http://www.alexirpan.com/rl-derivations/#q-learning) by Alex Irpan
@@ -1491,7 +1487,7 @@ interesting recent papers:
   - `video` <http://youtube.com/watch?v=fevMOp5TDQs> (Mnih)
   - `video` <http://youtube.com/watch?v=dV80NAlEins> (de Freitas)
   - `video` [from value function approximation to Deep Q-Network](http://youtu.be/UoPei5o4fps?t=1h9m) (Silver)
-  - `video` [from Fitted Value Iteration to Deep Q-Network](http://videolectures.net/deeplearning2017_szepesvari_theory_of_rl/) (48:49) (Szepesvari)
+  - `video` [from Fitted Value Iteration to Deep Q-Network](http://videolectures.net/deeplearning2017_szepesvari_theory_of_rl/#t=2929) (Szepesvari)
   - `video` <https://yadi.sk/i/AHDU2p_j3FT3nr> + <https://yadi.sk/i/EeUeheri3FT3ra> (Ratnikov and Vasilev) `in russian`
 
 
@@ -1626,6 +1622,8 @@ interesting recent papers:
   - `video` <https://youtu.be/WM4HC720Cms?t=1h34m49s> (Nikolenko) `in russian`
   - `notes` <https://blog.acolyer.org/2018/01/10/mastering-chess-and-shogi-by-self-play-with-a-general-reinforcement-learning-algorithm/>
   - `code` <https://github.com/glinscott/leela-chess>
+  - `code` <https://github.com/Zeta36/chess-alpha-zero>
+  - `code` <https://github.com/junxiaosong/AlphaZero_Gomoku>
 
 
 #### ["Giraffe: Using Deep Reinforcement Learning to Play Chess"](http://arxiv.org/abs/1509.01549) Lai
@@ -1971,6 +1969,7 @@ interesting recent papers:
 >	"outer episodes (sample a new bandit problem / MDP) and inner episodes (of sampled MDP)"  
 >	"use RNN policy with no state reset between inner episodes for outer POMDP"  
 
+  - `video` <https://vimeo.com/250399556> (Wang)
   - `video` <https://youtu.be/Y85Zn50Eczs?t=20m18s> (Botvinick)
   - `post` <https://hackernoon.com/learning-policies-for-learning-policies-meta-reinforcement-learning-rl²-in-tensorflow-b15b592a2ddf> (Juliani)
   - `code` <https://github.com/awjuliani/Meta-RL>
@@ -2445,7 +2444,7 @@ interesting recent papers:
   - `video` <http://youtube.com/watch?v=fevMOp5TDQs> (Mnih)
   - `video` <http://youtube.com/watch?v=dV80NAlEins> (de Freitas)
   - `video` [from value function approximation to Deep Q-Network](http://youtu.be/UoPei5o4fps?t=1h9m) (Silver)
-  - `video` [from Fitted Value Iteration to Deep Q-Network](http://videolectures.net/deeplearning2017_szepesvari_theory_of_rl/) (48:49) (Szepesvari)
+  - `video` [from Fitted Value Iteration to Deep Q-Network](http://videolectures.net/deeplearning2017_szepesvari_theory_of_rl/#t=2929) (Szepesvari)
   - `video` <https://yadi.sk/i/AHDU2p_j3FT3nr> + <https://yadi.sk/i/EeUeheri3FT3ra> (Ratnikov and Vasilev) `in russian`
 
 
@@ -2927,7 +2926,7 @@ interesting recent papers:
 
   - `video` <https://youtube.com/watch?v=bcnCo9RxhB8> (Ermon)
   - `video` <https://youtu.be/d9DlQSJQAoI?t=22m12s> (Finn)
-  - `video` <http://videolectures.net/deeplearning2017_de_freitas_deep_control/> (1:09:43) (de Freitas)
+  - `video` <http://videolectures.net/deeplearning2017_de_freitas_deep_control/#t=4183> (de Freitas)
   - `notes` <http://tsong.me/blog/gail/>
   - `code` <https://github.com/openai/imitation>
   - `code` <https://github.com/DanielTakeshi/rl_algorithms/tree/master/il>

@@ -1551,6 +1551,8 @@ Yoshua Bengio:
 
 >	"We have proposed a simple and scalable solution that provides a very strong baseline on evaluation metrics for uncertainty quantification. Our method uses scoring rules as training objectives to encourage the neural network to produce better calibrated predictions and uses a combination of ensembles and adversarial training for robustness to model misspecification and dataset shift. Our method is well suited for large scale distributed computation and can be readily implemented for a wide variety of architectures such as MLPs, CNNs, etc including those which do not use dropout (e.g. residual networks). It is perhaps surprising to the Bayesian deep learning community that a non-Bayesian (yet probabilistic) approach can perform as well as Bayesian neural networks. We hope that this work will encourage community to think about hybrid approaches (e.g. using non-Bayesian approaches such as ensembles) and other interesting metrics for evaluating predictive uncertainty."
 
+  - `video` <https://facebook.com/nipsfoundation/videos/1554654864625747/> (1:00:23) (Lakshminarayanan)
+  - `notes` <https://bayesgroup.github.io/sufficient-statistics/posts/simple-and-scalable-predictive-uncertainty-estimation-using-deep-ensembles/> `in russian`
   - `code` <https://github.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation>
 
 
@@ -1596,30 +1598,6 @@ Yoshua Bengio:
   - `video` <https://youtu.be/RZOKRFBtSh4?t=5m37s> (Mohamed)
   - `video` <https://youtu.be/jAI3rBI6poU?t=37m56s> (Ulyanov) `in russian`
   - `post` <https://casmls.github.io/general/2017/05/24/ligm.html>
-
-
-#### ["Connecting Generative Adversarial Networks and Actor-Critic Methods"](https://arxiv.org/abs/1610.01945) Pfau, Vinyals
->	"Both generative adversarial networks in unsupervised learning and actor-critic methods in reinforcement learning have gained a reputation for being difficult to optimize. Practitioners in both fields have amassed a large number of strategies to mitigate these instabilities and improve training. Here we show that GANs can be viewed as actor-critic methods in an environment where the actor cannot affect the reward. We review the strategies for stabilizing training for each class of models, both those that generalize between the two and those that are particular to that model. We also review a number of extensions to GANs and RL algorithms with even more complicated information flow. We hope that by highlighting this formal connection we will encourage both GAN and RL communities to develop general, scalable, and stable algorithms for multilevel optimization with deep networks, and to draw inspiration across communities."
-
->	"Combining deep learning with multilevel optimization holds great promise for a diverse array of problems in machine learning and AI. Already GANs and actor-critic methods have made large impacts on their respective fields, despite the inherent difficulties in optimization and exploration. We hope that by pointing out the deep connections between the two we encourage the development and adoption of general techniques and free flow of ideas between different communities."
-
->	"Most problems in machine learning are formulated as an optimization problem over a single objective. However, a number of problems in machine learning lack a single unified cost, and instead consist of a hybrid of several models, each of which passes information to other models but tries to minimize its own private loss function. This upsets many of the assumptions behind most learning algorithms, and applying ordinary methods like gradient descent often leads to pathological behavior such as oscillations or collapse onto degenerate solutions. Despite these practical difficulties, there is great potential in models with hybrid or multilevel losses, and it has been hypothesized that the combination of many different local losses underlies the functioning of the brain as well."
-
->	"Actor-critic methods and generative adversarial networks are two such classes of multilevel optimization problems which have close parallels. In both cases the information flow is a simple feedforward pass from one model which either takes an action (AC) or generates a sample (GANs) to a second model which evaluates the output of the first model. In both cases, the second model is the only one which has direct access to special information in the environment, either reward information (AC) or real samples from the distribution in question (GANs), and the first model must learn based on error signals from the second model alone. GANs and AC methods have important differences as well, and we show a construction that bridges the two. Both of these models suffer from stability issues, and techniques for stabilizing training have been developed largely independently by the two communities."
-
-  - `video` <https://youtube.com/watch?v=RZOKRFBtSh4&t=1m5s> (Pfau)
-  - `video` <https://youtube.com/watch?v=3s4UyoMilQo> (Pfau)
-  - `video` <https://youtu.be/xfyK03MEZ9Q?t=5h21m15s> (Bagnell)
-
-
-#### ["A Connection Between Generative Adversarial Networks, Inverse Reinforcement Learning, and Energy-Based Models"](http://arxiv.org/abs/1611.03852) Finn, Christiano, Abbeel, Levine
->	"Generative adversarial networks (GANs) are a recently proposed class of generative models in which a generator is trained to optimize a cost function that is being simultaneously learned by a discriminator. While the idea of learning cost functions is relatively new to the field of generative modeling, learning costs has long been studied in control and reinforcement learning (RL) domains, typically for imitation learning from demonstrations. In these fields, learning cost function underlying observed behavior is known as inverse reinforcement learning (IRL) or inverse optimal control. While at first the connection between cost learning in RL and cost learning in generative modeling may appear to be a superficial one, we show in this paper that certain IRL methods are in fact mathematically equivalent to GANs. In particular, we demonstrate an equivalence between a sample-based algorithm for maximum entropy IRL and a GAN in which the generator's density can be evaluated and is provided as an additional input to the discriminator. Interestingly, maximum entropy IRL is a special case of an energy-based model. We discuss the interpretation of GANs as an algorithm for training energy-based models, and relate this interpretation to other recent work that seeks to connect GANs and EBMs. By formally highlighting the connection between GANs, IRL, and EBMs, we hope that researchers in all three communities can better identify and apply transferable ideas from one domain to another, particularly for developing more stable and scalable algorithms: a major challenge in all three domains."
-
-  - `video` <https://youtu.be/d9DlQSJQAoI?t=23m6s> (Finn)
-  - `video` <https://youtu.be/RZOKRFBtSh4?t=10m48s> (Finn)
-  - `video` <https://channel9.msdn.com/Events/Neural-Information-Processing-Systems-Conference/Neural-Information-Processing-Systems-Conference-NIPS-2016/Deep-Learning-Symposium-Session-3> (33:17) (Levine)
-  - `notes` <http://tsong.me/blog/gan-irl-ebm/>
-  - `notes` <http://pemami4911.github.io/paper-summaries/generative-adversarial-networks/2017/02/12/gans-irl-ebm.html>
 
 
 #### ["Adversarial Autoencoders"](https://arxiv.org/abs/1511.05644) Makhzani, Shlens, Jaitly, Goodfellow
@@ -2568,7 +2546,7 @@ x."
 
   - `video` <https://youtu.be/SAcHyzMdbXc?t=10m24s> (de Freitas)
   - `video` <https://youtu.be/x1kf4Zojtb0?t=1h4m53s> (de Freitas)
-  - `video` <http://videolectures.net/deeplearning2017_de_freitas_learning_to_learn/> (27:49) (de Freitas)
+  - `video` <http://videolectures.net/deeplearning2017_de_freitas_learning_to_learn/#t=1669> (de Freitas)
   - `notes` <http://www.shortscience.org/paper?bibtexKey=journals/corr/1606.04474>
   - `notes` <https://theneuralperspective.com/2017/01/04/learning-to-learn-by-gradient-descent-by-gradient-descent/>
   - `notes` <https://blog.acolyer.org/2017/01/04/learning-to-learn-by-gradient-descent-by-gradient-descent/>
