@@ -142,7 +142,7 @@
 
 ----
 
-  [knowledge representation](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#knowledge-representation) examples:
+  [knowledge representation](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#knowledge-representation) kinds:
   - [natural language](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#knowledge-representation---natural-language)
   - [knowledge graph](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#knowledge-representation---knowledge-graph)
   - [probabilistic database](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#knowledge-representation---probabilistic-database)
@@ -164,10 +164,10 @@
 
 ----
 
-  "Knowledge is in our minds and language is just orienting us within our shared experiences.  
-  Language is an index pointing to shared experiences of people on which meaning is grounded.  
-  Communicating using language is possible only after lining up experiences.  
-  Language is a very flexible thing and not a formal mathematical structure."
+  "Knowledge is in our minds and language is just orienting us within our shared experiences."  
+  "Language is an index pointing to shared experiences of people on which meaning is grounded."  
+  "Communicating using language is possible only after lining up experiences."  
+  "Language is a very flexible thing and not a formal mathematical structure."  
 
 
 

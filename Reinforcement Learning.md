@@ -553,8 +553,23 @@
 
 ----
 
+  [interesting papers](#interesting-papers---exploration-and-intrinsic-motivation)  
+  [interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)  
+
+----
+
   [**bandits**](#bandits)  
   [**contextual bandits**](#contextual-bandits)  
+  [**bayesian exploration models**](#exploration-and-intrinsic-motivation---bayesian-exploration-models)  
+
+----
+
+  ["How Can We Define Intrinsic Motivation"](#how-can-we-define-intrinsic-motivation-oudeyer-kaplan) by Oudeyer and Kaplan `paper` `summary`
+
+  [**information theoretic and distributional models**](#exploration-and-intrinsic-motivation---information-theoretic-and-distributional-models)  
+  [**predictive models**](#exploration-and-intrinsic-motivation---predictive-models)  
+  [**competence-based models**](#exploration-and-intrinsic-motivation---competence-based-models)  
+  [**morphological models**](#exploration-and-intrinsic-motivation---morphological-models)  
 
 
 ----
@@ -587,14 +602,6 @@
   ["Learning to Reinforcement Learn"](#learning-to-reinforcement-learn-wang-et-al) by Wang et al. `paper` `summary`  
 
   [interesting papers](#interesting-papers---exploration-and-intrinsic-motivation---bayesian-exploration-models)
-
-----
-
-  ["How Can We Define Intrinsic Motivation"](#how-can-we-define-intrinsic-motivation-oudeyer-kaplan) by Oudeyer and Kaplan `paper` `summary`:
-  - [information theoretic and distributional models](#exploration-and-intrinsic-motivation---information-theoretic-and-distributional-models)
-  - [predictive models](#exploration-and-intrinsic-motivation---predictive-models)
-  - [competence-based models](#exploration-and-intrinsic-motivation---competence-based-models)
-  - [morphological models](#exploration-and-intrinsic-motivation---morphological-models)
 
 
 ----
@@ -702,17 +709,6 @@
 
   - *synchronicity motivation*  
 	high short-term correlation between a maximally large number of sensorimotor channels  
-
-----
-
-  "In sequential decision problems there is an important distinction between risk and uncertainty. We identify risk as inherent stochasticity in a model and uncertainty as the confusion over which model parameters apply. For example, a coin may have a fixed p = 0.5 of heads and so the outcome of any single flip holds some risk; a learning agent may also be uncertain of p. The demarcation between risk and uncertainty is tied to the specific model class, in this case a Bernoulli random variable; with a more detailed model of flip dynamics even the outcome of a coin may not be risky at all. Our distinction is that unlike risk, uncertainty captures the variability of an agent’s posterior belief which can be resolved through statistical analysis of the appropriate data. For a learning agent looking to maximize cumulative utility through time, this distinction represents a crucial dichotomy. Consider the reinforcement learning problem of an agent interacting with its environment while trying to maximize cumulative utility through time. At each timestep, the agent faces a fundamental tradeoff: by exploring uncertain states and actions the agent can learn to improve its future performance, but it may attain better short-run performance by exploiting its existing knowledge. At a high level this effect means uncertain states are more attractive since they can provide important information to the agent going forward. On the other hand, states and action with high risk are actually less attractive for an agent in both exploration and exploitation. For exploitation, any concave utility will naturally penalize risk. For exploration, risk also makes any single observation less informative. Although colloquially similar, risk and uncertainty can require radically different treatment."
-
-  *(Ian Osband)*
-
-----
-
-  [interesting papers](#interesting-papers---exploration-and-intrinsic-motivation)  
-  [interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)  
 
 
 

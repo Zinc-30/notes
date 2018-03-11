@@ -822,6 +822,7 @@
   - `video` <https://youtu.be/x7B6RudUQLI?t=1h5m5s> (Gulin) `in russian`
   - `post` <https://habrahabr.ru/company/yandex/blog/314222/> `in russian`
   - `code` <https://github.com/faneshion/MatchZoo>
+  - `code` <https://github.com/airalcorn2/Deep-Semantic-Similarity-Model>
 
 
 #### ["Distributed Representations of Sentences and Documents"](http://arxiv.org/abs/1405.4053) Le, Mikolov

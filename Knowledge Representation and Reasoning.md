@@ -196,18 +196,18 @@
 ---
 ### ontology
 
-  [overview](https://github.com/brylevkirill/tech/blob/master/RDF/RDF.txt) of Resource Description Framework (RDF)
+  [RDF](https://github.com/brylevkirill/tech/blob/master/RDF/RDF.txt) (Resource Description Framework) `summary`
 
 ----
 
-  [overview](https://github.com/brylevkirill/tech/blob/master/RDF/OWL.txt) of Web Ontology Language (OWL)
+  [OWL](https://github.com/brylevkirill/tech/blob/master/RDF/OWL.txt) (Web Ontology Language) `summary`
 
   ["OWL: The Web Ontology Language"](https://youtube.com/watch?v=EXXIIlfqb0c) by Pavel Klinov `video`  
   ["Ontologies and Knowledge Representation"](https://lektorium.tv/course/22781) course by Boris Konev `video` `in russian`  
 
 ----
 
-  [schema.org](https://github.com/brylevkirill/tech/blob/master/RDF/schema.org.txt)
+  [schema.org](https://github.com/brylevkirill/tech/blob/master/RDF/schema.org.txt) `summary`
 
   ["Schema.org: Evolution of Structured Data on the Web"](http://queue.acm.org/detail.cfm?id=2857276) by Guha et al. `paper`  
 >	"We report some key schema.org adoption metrics from a sample of 10 billion pages from a combination of the Google index and Web Data Commons. In this sample, 31.3% of pages have schema.org markup, up from 22% one year ago. Structured data markup is now a core part of the modern web."
