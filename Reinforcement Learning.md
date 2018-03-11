@@ -597,7 +597,7 @@
 
 ----
 
-  **information theoretic and distributional models**:  
+#### information theoretic and distributional models
 >	"This approach is based on the use of representations, built by an agent, that estimate the distributions of probabilities of observing certain events ek in particular contexts, defined as mathematical configurations in the sensorimotor flow. There are several types of such events, but the probabilities that are measured are typically either the probability of observing a certain state SMk in the sensorimotor flow, denoted P(SMk), or the probability of observing particular transitions between states, such as P(SMk(t),SMl(t+1)), or the probability of observing a particular state after having observed a given state P(SMk(t+1)|SMl(t)). Here, the states SMk can either be direct numerical prototypes or complete regions within the sensorimotor space (and it may involve a mechanism for discretizing the space). We assume that the agent possesses a mechanism that allows it to build internally, and as it experiences the world, an estimation of the probability distribution of events across the whole space E of possible events (but the space of possible events is not predefined and should also be discovered by the agent, so typically this is an initially empty space that grows with experience)."
 
 
