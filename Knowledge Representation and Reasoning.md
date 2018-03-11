@@ -14,7 +14,7 @@
   * [reasoning](#reasoning)
     - [natural logic](#reasoning---natural-logic)
     - [formal logic](#reasoning---formal-logic)
-    - [bayesian inference](#reasoning---bayesian-inference)
+    - [bayesian reasoning](#reasoning---bayesian-reasoning)
     - [commonsense reasoning](#reasoning---commonsense-reasoning)
     - [neural architectures](#reasoning---neural-architectures)
   * [machine reading benchmarks](#machine-reading-benchmarks)
@@ -687,19 +687,16 @@
 ---
 ### knowledge representation - probabilistic program
 
-  [probabilistic programming](https://github.com/brylevkirill/notes/blob/master/Probabilistic%20Programming.md)
-
-  probabilistic programming:
-  - languages for models & systems that simplify / automate aspects of inference
+  [probabilistic programming](https://github.com/brylevkirill/notes/blob/master/Probabilistic%20Programming.md):
+  - languages for models that simplify and automate aspects of inference
   - models and queries defined in terms of complex stochastic computations
   - programs and languages as formal representations of probabilistic objects
 
 ----
 
-  [overview](https://youtube.com/watch?v=-8QMqSWU76Q) by Vikash Mansinghka `video`
-
   ["Engineering and Reverse-Engineering Intelligence Using Probabilistic Programs, Program Induction, and Deep Learning"](https://facebook.com/nipsfoundation/videos/1552446408179926/) by Josh Tenenbaum and Vikash Mansinghka `video`
 
+  ["Computational Cognitive Science: Generative Models, Probabilistic Programs and Common Sense"](https://youtube.com/watch?v=2WQO9e5Mdj4) by Josh Tenenbaum `video`  
   ["Engineering & Reverse-Engineering Human Common Sense"](https://youtube.com/watch?v=hfoeRiZU5YQ) by Josh Tenenbaum `video`  
   ["Cognitive Foundations for Common-sense Knowledge Representation and Reasoning"](https://youtube.com/watch?v=oSAG57plHnI) by Josh Tenenbaum `video`  
   ["Building Machines That Learn Like Humans"](https://youtube.com/watch?v=quPN7Hpk014) by Josh Tenenbaum `video`  
@@ -711,8 +708,6 @@
   ["Probabilistic Programs: A New Language for AI"](http://youtube.com/watch?v=fclvsoaUI-U) by Noah Goodman `video`
 
 ----
-
-  ["How Does the Brain Do Plausible Reasoning"](http://bayes.wustl.edu/etj/articles/brain.pdf) by E.T. Jaynes `paper`
 
   ["What are probabilistic models of cognition?"](http://jhamrick.github.io/quals/responses/response1.pdf) by Jessica Hamrick `notes`
 
@@ -751,7 +746,7 @@
 
   - [natural logic](#reasoning---natural-logic)
   - [formal logic](#reasoning---formal-logic)
-  - [bayesian inference](#reasoning---bayesian-inference)
+  - [bayesian reasoning](#reasoning---bayesian-reasoning)
   - [commonsense reasoning](#reasoning---commonsense-reasoning)
   - [neural architectures](#reasoning---neural-architectures)
 
@@ -815,17 +810,16 @@
 
 
 ---
-### reasoning - bayesian inference
+### reasoning - bayesian reasoning
 
-  [bayesian inference and learning](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md)
-
-  [causal inference](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md#causal-inference)
+  [bayesian inference and learning](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md)  
+  [causal inference](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md#causal-inference)  
+  [Solomonoff induction](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#solomonoff-induction)  
 
 ----
 
-  [probabilistic programs](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#knowledge-representation---probabilistic-program)  *(bayesian models of cognitive processes)*
-
-  [Solomonoff induction](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#solomonoff-induction)  *(bayesian optimal prediction)*
+  [probabilistic databases](#knowledge-representation---probabilistic-database)  
+  [probabilistic programs](#knowledge-representation---probabilistic-program)  
 
 
 
@@ -838,7 +832,9 @@
   ["Simulation as an Engine of Physical Scene Understanding"](http://www.pnas.org/content/110/45/18327.short) by Battaglia, Hamrick, Tenenbaum `paper`  
   ["Computational Rationality: A Converging Paradigm for Intelligence in Brains, Minds and Machines"](https://goo.gl/jWaJVf) by Gershman, Horvitz, Tenenbaum `paper`  
 
-  ["Computational Cognitive Science: Generative Models, Probabilistic Programs and Common Sense"](https://youtube.com/watch?v=2WQO9e5Mdj4) by Tenenbaum `video`
+----
+
+  [probabilistic programming](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#knowledge-representation---probabilistic-program)
 
 ----
 

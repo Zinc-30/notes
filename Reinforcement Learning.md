@@ -1010,7 +1010,7 @@
   ["Advanced Model Learning"](https://youtube.com/watch?v=6EasN2FAIX0) by Chelsea Finn `video`  
 
   ["Approximate Reinforcement Learning in Partially Observable Markov Decision Process"](https://yadi.sk/i/pMdw-_uI3Gke7Z) (35:54) by Pavel Shvechikov `video` `in russian`  
-  ["Deep Recurrent Q-Network"](https://youtube.com/watch?v=bE5DIJvZexc) by Alexander Fritsler `video` `in russian`  
+  ["Deep Recurrent Q-Network"](https://youtube.com/watch?v=bE5DIJvZexc) by Alexander Fritzler `video` `in russian`  
   ["Deep Reinforcement Learning with Memory"](http://93.180.23.59/videos/video/2420/in/channel/1/) by Sergey Bartunov `video` `in russian`  
 
 ----
@@ -1138,7 +1138,7 @@
   - [overview](http://techtalks.tv/talks/deep-reinforcement-learning/62360/) by David Silver `video`  
   - [overview](http://youtu.be/qLaDWKd61Ig?t=9m16s) by David Silver `video`  
   - [overview](http://videolectures.net/rldm2015_silver_reinforcement_learning/) by David Silver `video`  
-  - [overview](https://yadi.sk/i/yBO0q4mI3GAxYd) by Alexander Fritsler `video` `in russian`  
+  - [overview](https://yadi.sk/i/yBO0q4mI3GAxYd) by Alexander Fritzler `video` `in russian`  
   - [overview](http://youtube.com/watch?v=mrgJ53TIcQc) (Pavlov) `in russian`
 
 ----
@@ -1304,9 +1304,9 @@
   [overview](https://youtu.be/xe-z4i3l-iQ?t=30m35s) by Pieter Abbeel `video`  
   [overview](http://videolectures.net/deeplearning2016_abbeel_deep_reinforcement/#t=1630) by Pieter Abbeel `video`  
   [overview](https://youtube.com/watch?v=gb5Q2XL5c8A) by John Schulman `video`  
-  [overview](https://yadi.sk/i/1oyihBnm3HiKHm) by Alexander Fritsler `video` `in russian`  
+  [overview](https://yadi.sk/i/1oyihBnm3HiKHm) by Alexander Fritzler `video` `in russian`  
 
-  [overview of implementation](https://yadi.sk/i/b0ol2gUV3HiKKJ) by Alexander Fritsler and Fedor Ratnikov `video` `in russian`  
+  [overview of implementation](https://yadi.sk/i/b0ol2gUV3HiKKJ) by Alexander Fritzler and Fedor Ratnikov `video` `in russian`  
 
   [explanation](http://kvfrans.com/what-is-the-natural-gradient-and-where-does-it-appear-in-trust-region-policy-optimization/) of natural gradient in TRPO by Kevin Frans  
   [explanation](http://www.alexirpan.com/rl-derivations/#natural-policy-gradient) of natural gradient by Alex Irpan  
@@ -1892,7 +1892,7 @@ interesting recent papers:
   - `video` <http://youtube.com/watch?v=6SAdmG3zAMg>
   - `video` <https://youtu.be/ck4GixLs4ZQ?t=1h27m39s> (Osband) + [slides](https://docs.google.com/presentation/d/1lis0yBGT-uIXnAsi0vlP3SuWD2svMErJWy_LYtfzMOA/)
   - `video` <http://videolectures.net/rldm2015_van_roy_function_randomization/#t=1830> (van Roy)
-  - `video` <https://yadi.sk/i/yBO0q4mI3GAxYd> (47:07) (Fritsler) `in russian`
+  - `video` <https://yadi.sk/i/yBO0q4mI3GAxYd> (47:07) (Fritzler) `in russian`
   - `video` <https://youtu.be/mrgJ53TIcQc?t=32m24s> (Pavlov) `in russian`
   - `code` <https://github.com/Kaixhin/Atari>
   - `code` <https://github.com/iassael/torch-bootstrapped-dqn>
@@ -2461,7 +2461,8 @@ interesting recent papers:
   - `video` <https://youtube.com/watch?v=TpGuQaswaHs> + <https://youtube.com/watch?v=oNLITLfrvQY> (demo)
   - `video` <http://techtalks.tv/talks/dueling-network-architectures-for-deep-reinforcement-learning/62381/> (Wang)
   - `video` <https://youtu.be/fevMOp5TDQs?t=58m24s> (Mnih)
-  - `video` <https://yadi.sk/i/yBO0q4mI3GAxYd> (56:26) (Fritsler) `in russian`
+  - `video` <https://yadi.sk/i/yBO0q4mI3GAxYd> (56:26) (Fritzler) `in russian`
+  - `video` <https://youtu.be/fnwo3GCmyEo?t=37m50s> (Fritzler) `in russian`
   - `video` <https://youtu.be/mrgJ53TIcQc?t=35m4s> (Pavlov) `in russian`
   - `post` <http://torch.ch/blog/2016/04/30/dueling_dqn.html>
   - `code` <https://github.com/carpedm20/deep-rl-tensorflow>
@@ -2478,7 +2479,8 @@ interesting recent papers:
 
   - `video` <https://youtu.be/qLaDWKd61Ig?t=32m52s> (Silver)
   - `video` <https://youtu.be/fevMOp5TDQs?t=53m42s> (Mnih)
-  - `video` <https://yadi.sk/i/yBO0q4mI3GAxYd> (15:02) (Fritsler) `in russian`
+  - `video` <https://yadi.sk/i/yBO0q4mI3GAxYd> (15:02) (Fritzler) `in russian`
+  - `video` <https://youtu.be/fnwo3GCmyEo?t=18m54s> (Fritzler) `in russian`
   - `video` <https://youtu.be/mrgJ53TIcQc?t=17m31s> (Pavlov) `in russian`
   - `code` <https://github.com/carpedm20/deep-rl-tensorflow>
   - `code` <https://github.com/Kaixhin/Atari>
@@ -2506,7 +2508,8 @@ interesting recent papers:
 >	"Numerous neuroscience studies have identified mechanisms of experience replay in the hippocampus of rodents, where sequences of prior experience are replayed, either during awake resting or sleep, and in particular that this happens more for rewarded paths. Furthermore, there is a likely link between increased replay of an experience, and how much can be learned from it, or its TD-error."
 
   - `video` <https://youtu.be/fevMOp5TDQs?t=56m51s> (Mnih)
-  - `video` <https://yadi.sk/i/yBO0q4mI3GAxYd> (33:13) (Fritsler) `in russian`
+  - `video` <https://yadi.sk/i/yBO0q4mI3GAxYd> (33:13) (Fritzler) `in russian`
+  - `video` <https://youtu.be/fnwo3GCmyEo?t=26m29s> (Fritzler) `in russian`
   - `video` <https://youtu.be/mrgJ53TIcQc?t=25m43s> (Pavlov) `in russian`
   - `code` <https://github.com/Kaixhin/Atari>
   - `code` <https://github.com/carpedm20/deep-rl-tensorflow>
@@ -2553,8 +2556,8 @@ interesting recent papers:
 ----
 >	"Demonstrated that recurrent Q learning can perform the required information integration to resolve short-term partial observability (e.g. to estimate velocities) that is achieved via stacks of frames in the original DQN architecture."
 
-  - `video` <https://yadi.sk/i/pMdw-_uI3Gke7Z> (36:29) (Fritsler) `in russian`
-  - `video` <https://youtube.com/watch?v=bE5DIJvZexc> (Fritsler) `in russian`
+  - `video` <https://yadi.sk/i/pMdw-_uI3Gke7Z> (36:29) (Fritzler) `in russian`
+  - `video` <https://youtube.com/watch?v=bE5DIJvZexc> (Fritzler) `in russian`
   - `code` <https://github.com/mhauskn/dqn/tree/recurrent>
   - `code` <https://github.com/awjuliani/DeepRL-Agents/blob/master/Deep-Recurrent-Q-Network.ipynb>
 
@@ -2684,7 +2687,7 @@ interesting recent papers:
   - `video` <https://youtu.be/xe-z4i3l-iQ?t=30m35s> (Abbeel)
   - `video` <http://videolectures.net/deeplearning2016_abbeel_deep_reinforcement/#t=1630> (Abbeel)
   - `video` <https://youtube.com/watch?v=gb5Q2XL5c8A> (Schulman)
-  - `video` <https://yadi.sk/i/1oyihBnm3HiKHm> + <https://yadi.sk/i/b0ol2gUV3HiKKJ> (Fritsler and Ratnikov) `in russian` ([slides](https://yadi.sk/i/9j6S4WVp3HgEdn) `in english`)
+  - `video` <https://yadi.sk/i/1oyihBnm3HiKHm> + <https://yadi.sk/i/b0ol2gUV3HiKKJ> (Fritzler and Ratnikov) `in russian` ([slides](https://yadi.sk/i/9j6S4WVp3HgEdn) `in english`)
   - `post` <http://kvfrans.com/what-is-the-natural-gradient-and-where-does-it-appear-in-trust-region-policy-optimization/>
   - `notes` <http://www.shortscience.org/paper?bibtexKey=journals/corr/SchulmanLMJA15>
   - `notes` <https://towardsdatascience.com/introduction-to-various-reinforcement-learning-algorithms-part-ii-trpo-ppo-87f2c5919bb9>

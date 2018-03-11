@@ -22,7 +22,6 @@
 
   - Juergen Schmidhuber  
 	["Compression Progress: The Algorithmic Principle Behind Curiosity and Creativity"](https://youtube.com/watch?v=h7F5sCLIbKQ) `video`  
-	["Formal Theory of Fun & Creativity"](http://videolectures.net/ecmlpkdd2010_schmidhuber_ftf/) `video`  
 
   - Geoffrey Hinton  
 	["Deep Learning and AI"](https://youtube.com/watch?v=izrG86jycck) `video`  
@@ -41,6 +40,11 @@
 
 ----
 
+  [introductory course](https://agi.mit.edu) from MIT `video`  
+  [introductory course](https://youtube.com/channel/UCHBzJsIcRIVuzzHVYabikTQ/videos) from UC Berkeley `video`  
+
+----
+
   "Learning in Brains and Machines" by Shakir Mohamed:
   - ["Temporal Differences"](http://blog.shakirm.com/2016/02/learning-in-brains-and-machines-1/)
   - ["The Dogma of Sparsity"](http://blog.shakirm.com/2016/04/learning-in-brains-and-machines-2/)
@@ -51,13 +55,6 @@
   - ["Prologue"](http://blog.shakirm.com/2016/10/cognitive-machine-learning-prologue/)
   - ["Learning to Explain"](http://blog.shakirm.com/2017/02/cognitive-machine-learning-1-learning-to-explain/)
   - ["Uncertain Thoughts"](http://blog.shakirm.com/2017/03/cognitive-machine-learning-2-uncertain-thoughts/)
-
-----
-
-  [introductory course](https://youtube.com/channel/UCHBzJsIcRIVuzzHVYabikTQ/videos) from UC Berkeley `video`  
-  [introductory course](https://agi.mit.edu) from MIT `video`  
-
-  [introductory notes](http://frnsys.com/ai_notes/) by Francis Tseng
 
 ----
 
@@ -186,7 +183,7 @@
   inference frameworks:
   - [machine learning](https://github.com/brylevkirill/notes/blob/master/Machine%20Learning.md)
   - [causal inference](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md#causal-inference)
-  - [bayesian inference and learning](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md)
+  - [bayesian inference](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md)
   - [Solomonoff induction](#solomonoff-induction)
 
 ----
@@ -194,11 +191,11 @@
   [reasoning](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#reasoning)
 
   reasoning frameworks:
-  - [natural logic](#reasoning---natural-logic)
-  - [formal logic](#reasoning---formal-logic)
-  - [bayesian inference](#reasoning---bayesian-inference)
-  - [commonsense reasoning](#reasoning---commonsense-reasoning)
-  - [neural architectures](#reasoning---neural-architectures)
+  - [natural logic](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#reasoning---natural-logic)
+  - [formal logic](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#reasoning---formal-logic)
+  - [bayesian reasoning](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#reasoning---bayesian-reasoning)
+  - [commonsense reasoning](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#reasoning---commonsense-reasoning)
+  - [neural architectures](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#reasoning---neural-architectures)
 
 ----
 

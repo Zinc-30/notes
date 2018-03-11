@@ -166,7 +166,7 @@ Hidasi, Karatzoglou, Baltrunas, Tikk - "Session-based Recommendations with Recur
 	-- https://youtube.com/watch?v=M7FqgXySKYk (Karatzoglou)
 	-- https://youtube.com/watch?v=Mw2AV12WH4s (Hidasi)
 	-- http://blog.deepsystems.io/session-based-recommendations-rnn (in russian)
-	-- https://github.com/hidasib/GRU4Rec
+	-- https://github.com/yhs-968/pyGRU4REC
 
 
 Cheng et al. - "Wide & Deep Learning for Recommender Systems" [http://arxiv.org/abs/1606.07792]
