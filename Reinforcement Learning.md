@@ -591,10 +591,10 @@
 ----
 
   ["How Can We Define Intrinsic Motivation"](#how-can-we-define-intrinsic-motivation-oudeyer-kaplan) by Oudeyer and Kaplan `paper` `summary`:
-  - information theoretic and distributional models
-  - predictive models
-  - competence-based models
-  - morphological models
+  - [information theoretic and distributional models](#exploration-and-intrinsic-motivation---information-theoretic-and-distributional-models)
+  - [predictive models](#exploration-and-intrinsic-motivation---predictive-models)
+  - [competence-based models](#exploration-and-intrinsic-motivation---competence-based-models)
+  - [morphological models](#exploration-and-intrinsic-motivation---morphological-models)
 
 
 ----
