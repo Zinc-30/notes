@@ -10,13 +10,13 @@
     - [knowledge graph](#knowledge-representation---knowledge-graph)
     - [probabilistic database](#knowledge-representation---probabilistic-database)
     - [probabilistic program](#knowledge-representation---probabilistic-program)
-    - [distributed representations](#knowledge-representation---distributed-representations)
+    - [distributed representation](#knowledge-representation---distributed-representation)
   * [reasoning](#reasoning)
     - [natural logic](#reasoning---natural-logic)
     - [formal logic](#reasoning---formal-logic)
     - [bayesian reasoning](#reasoning---bayesian-reasoning)
     - [commonsense reasoning](#reasoning---commonsense-reasoning)
-    - [neural architectures](#reasoning---neural-architectures)
+    - [neural reasoning](#reasoning---neural-reasoning)
   * [machine reading benchmarks](#machine-reading-benchmarks)
   * [machine reading projects](#machine-reading-projects)
   * [interesting papers](#interesting-papers)
@@ -146,7 +146,7 @@
     * [Probabilistic Soft Logic](#probabilistic-database---probabilistic-soft-logic)
     * [ProPPR](#probabilistic-database---proppr)
   - [probabilistic program](#knowledge-representation---probabilistic-program)
-  - [distributed representations](#knowledge-representation---distributed-representations)
+  - [distributed representation](#knowledge-representation---distributed-representation)
 
 ----
 
@@ -330,7 +330,7 @@
   ["Poincare Embeddings for Learning Hierarchical Representations"](https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md#poincare-embeddings-for-learning-hierarchical-representations-facebook-ai-research) by Nickel and Kiela `paper` `summary`  
 
 
-  [distributed representations](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#architectures---distributed-representations)  
+  [distributed representation](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#architectures---distributed-representation)  
   [embeddings of natural language](https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md#embeddings)  
 
 
@@ -728,10 +728,10 @@
 
 
 ---
-### knowledge representation - distributed representations
+### knowledge representation - distributed representation
 
-  [distributed representations](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#architectures---distributed-representations)  
-  [distributed representations of natural language](https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md#embeddings)  
+  [distributed representation](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#architectures---distributed-representation)  
+  [distributed representation of natural language](https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md#embeddings)  
 
 
 
@@ -748,7 +748,7 @@
   - [formal logic](#reasoning---formal-logic)
   - [bayesian reasoning](#reasoning---bayesian-reasoning)
   - [commonsense reasoning](#reasoning---commonsense-reasoning)
-  - [neural architectures](#reasoning---neural-architectures)
+  - [neural reasoning](#reasoning---neural-reasoning)
 
 ----
 
@@ -770,6 +770,10 @@
 
   ["Natural Logic: Logical Inference over Text"](http://akbc.ws/2016/slides/manning-akbc16.pdf) by Chris Manning `slides`  
   ["Learning Distributed Word Representations for Natural Logic Reasoning"](https://goo.gl/CCofxS) by Bowman, Potts, Manning `slides`  
+
+----
+
+  [knowledge representation - natural language](#knowledge-representation---natural-language)
 
 ----
 
@@ -799,6 +803,10 @@
 
 ----
 
+  [knowledge representation - knowledge graph](#knowledge-representation---knowledge-graph)
+
+----
+
   ["Applying Deep Learning to Mathematical Reasoning"](https://youtube.com/watch?v=UAa2o0W7vcg) by Francois Chollet `video`
 
 ----
@@ -818,8 +826,8 @@
 
 ----
 
-  [probabilistic databases](#knowledge-representation---probabilistic-database)  
-  [probabilistic programs](#knowledge-representation---probabilistic-program)  
+  [knowledge representation - probabilistic database](#knowledge-representation---probabilistic-database)  
+  [knowledge representation - probabilistic program](#knowledge-representation---probabilistic-program)  
 
 
 
@@ -834,7 +842,7 @@
 
 ----
 
-  [probabilistic programming](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#knowledge-representation---probabilistic-program)
+  [knowledge representation - probabilistic program](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#knowledge-representation---probabilistic-program)
 
 ----
 
@@ -852,10 +860,13 @@
 
 
 ---
-### reasoning - neural architectures
+### reasoning - neural reasoning
 
-  [distributed representations](#knowledge-representation---distributed-representations)  
-  [compute and memory architectures](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#architectures---compute-and-memory)  
+  [neural architectures for reasoning](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#architectures)
+
+----
+
+  [knowledge representation - distributed representation](#knowledge-representation---distributed-representation)
 
 ----
 
@@ -868,9 +879,6 @@
   ["Cognitive Architectures"](https://machinethoughts.wordpress.com/2016/06/20/cognitive-architectures/) by David McAllester
 
 ----
-
-  ["Low-Dimensional Embeddings of Logic"](#rocktaschel-bosnjak-singh-riedel---low-dimensional-embeddings-of-logic--embedding-of-logic) by Tim Rocktaschel `paper` `summary`
-	([talk](http://techtalks.tv/talks/injecting-logical-background-knowledge-into-embeddings-for-relation-extraction/61526/) `video`)
 
   ["What Can Deep Learning Learn from Symbolic Inference?"](http://www.bicv.org/?wpdmdl=2309) by Tim Rocktaschel `slides`  
 >  - Deep Learning and symbolic rules can be combined efficiently  
@@ -889,9 +897,16 @@
 
 ----
 
-  "One of the main benefits in using neural networks is that they can be trained to handle very subtle kinds of logic that humans use in casual language that defy axiomatization. Propositional logic, first-order logic, higher-order logic, modal logic, nonmonotonic logic, probabilistic logic, fuzzy logic - none of them seem to quite be adequate; but if you use the right kind of recursive net, you don't even have to specify the logic to get it to make useful deductions, if you have enough training data."
+  ["Low-Dimensional Embeddings of Logic"](#rocktaschel-bosnjak-singh-riedel---low-dimensional-embeddings-of-logic--embedding-of-logic) by Tim Rocktaschel `paper` `summary`
+	([talk](http://techtalks.tv/talks/injecting-logical-background-knowledge-into-embeddings-for-relation-extraction/61526/) `video`)
 
-  "Many machine reading approaches, from shallow information extraction to deep semantic parsing, map natural language to symbolic representations of meaning. Representations such as first-order logic capture the richness of natural language and support complex reasoning, but often fail in practice due to their reliance on logical background knowledge and the difficulty of scaling up inference. In contrast, low-dimensional embeddings (i.e. distributional representations) are efficient and enable generalization, but it is unclear how reasoning with embeddings could support the full power of symbolic representations such as first-order logic."
+  [interesting papers](#interesting-papers---reasoning)
+
+----
+
+  "One of the main benefits in using neural networks is that they can be trained to handle very subtle kinds of logic that humans use in casual language that defy axiomatization. Propositional logic, first-order logic, higher-order logic, modal logic, nonmonotonic logic, probabilistic logic, fuzzy logic - none of them seem to quite be adequate; but if you use the right kind of recursive net, you don't even have to specify logic to get it to make useful deductions, if you have enough training data."
+
+  "Many machine reading approaches map natural language to symbolic representations of meaning. Representations such as first-order logic capture the richness of natural language and support complex reasoning, but often fail due to their reliance on logical background knowledge and difficulty of scaling up inference. In contrast, distributed representations are efficient and enable generalization, but it is unclear how reasoning with embeddings could support full power of symbolic representations."
 
 
 
