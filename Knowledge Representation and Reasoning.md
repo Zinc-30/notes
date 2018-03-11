@@ -731,7 +731,7 @@
 ### knowledge representation - distributed representations
 
   [distributed representations](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#architectures---distributed-representations)  
-  [distributed representations of natural language](https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md#continuous-space-representations)  
+  [distributed representations of natural language](https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md#embeddings)  
 
 
 
@@ -854,8 +854,8 @@
 ---
 ### reasoning - neural architectures
 
-  [distributed representations](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#architectures---distributed-representations)  
-  [architectures - compute and memory](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#architectures---compute-and-memory)  
+  [distributed representations](#knowledge-representation---distributed-representations)  
+  [compute and memory architectures](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#architectures---compute-and-memory)  
 
 ----
 
