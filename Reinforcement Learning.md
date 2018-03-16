@@ -68,12 +68,8 @@
 
 ----
 
-  [Custom Decision Service](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-decision-service/custom-decision-service-overview) (Microsoft)
-	([summary](#making-contextual-decisions-with-low-technical-debt-agarwal-et-al))
-
-  [personalized news](http://thenewstack.io/reinforcement-learning-ready-real-world/) (Microsoft)  
-  [recommender systems](https://deepmind.com/blog/deep-reinforcement-learning/) (Google)  
-  [datacenter cooling](https://deepmind.com/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-40/) (Google)  
+  [personalized news](http://thenewstack.io/reinforcement-learning-ready-real-world/) (Microsoft) (Custom Decision Service [paper](#making-contextual-decisions-with-low-technical-debt-agarwal-et-al) `summary`)  
+  [datacenter cooling](https://deepmind.com/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-40/) (Google) ([paper](https://arxiv.org/abs/1711.11165))  
 
   ["Deep Reinforcement Learning: An Overview"](https://arxiv.org/abs/1701.07274) by Yuxi Li `paper` ([slides](https://dropbox.com/s/kzkc8t61t7tz9eu/AISeminar.pdf))
 
@@ -516,6 +512,9 @@
 	[overview](http://videolectures.net/deeplearning2016_precup_advanced_lr/) by Doina Precup `video`  
 	["Temporal Abstraction in Reinforcement Learning"](https://youtube.com/watch?v=GntIVgNKkCI) by Doina Precup `video`  
 	["Advances in Option Construction: The Option-Critic Architecture"](https://youtube.com/watch?v=8r_EoYnPjGk) by Pierre-Luc Bacon `video`  
+
+  Feudal framework:  
+	[overview](https://vimeo.com/249557775) by David Silver `video`  
 
   [interesting papers](#interesting-papers---hierarchical-reinforcement-learning)
 

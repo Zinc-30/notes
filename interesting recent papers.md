@@ -441,6 +441,11 @@ interesting older papers:
   - `notes` <http://artem.sobolev.name/posts/2016-07-14-neural-variational-importance-weighted-autoencoders.html>
   - `notes` <http://www.shortscience.org/paper?bibtexKey=journals/corr/MnihR16>
 
+#### ["Tighter Variational Bounds are Not Necessarily Better"](https://arxiv.org/abs/1802.04537) Rainforth, Kosiorek, Le, Maddison, Igl, Wood, Teh
+  `variational inference` `posterior approximation`
+>	"We provide theoretical and empirical evidence that using tighter evidence lower bounds can be detrimental to the process of learning an inference network by reducing the signal-to-noise ratio of the gradient estimator. Our results call into question common implicit assumptions that tighter ELBOs are better variational objectives for simultaneous model learning and inference amortization schemes."  
+  - `post` <http://akosiorek.github.io/ml/2018/03/14/what_is_wrong_with_vaes.html>
+
 #### ["Importance Weighted Autoencoders"](http://arxiv.org/abs/1509.00519) Burda, Grosse, Salakhutdinov
   `variational inference` `posterior approximation`
 >	"As we show empirically, the VAE objective can lead to overly simplified representations which fail to use the network's entire modeling capacity. We present the importance weighted autoencoder, a generative model with the same architecture as the VAE, but which uses a strictly tighter log-likelihood lower bound derived from importance weighting. In the IWAE, the recognition network uses multiple samples to approximate the posterior, giving it increased flexibility to model complex posteriors which do not fit the VAE modeling assumptions."  
@@ -1402,6 +1407,7 @@ interesting older papers:
 #### ["Theoretical Limitations of Encoder-Decoder GAN Architectures"](https://arxiv.org/abs/1711.02651) Arora, Risteski, Zhang
   `GAN theory`
 >	"Encoder-decoder GANs architectures (e.g., BiGAN and ALI) seek to add an “inference” mechanism to the GANs setup, consisting of a small encoder deep net that maps data-points to their succinct encodings. The intuition is that being forced to train an encoder alongside the usual generator forces the system to learn meaningful mappings from the code to the data-point and vice-versa, which should improve the learning of the target distribution and ameliorate mode-collapse. It should also yield meaningful codes that are useful as features for downstream tasks. The current paper shows rigorously that even on real-life distributions of images, the encode-decoder GAN training objectives (a) cannot prevent mode collapse; i.e. the objective can be near-optimal even when the generated distribution has low and finite support (b) cannot prevent learning meaningless codes for data – essentially white noise. Thus if encoder-decoder GANs do indeed work then it must be due to reasons as yet not understood, since the training objective can be low even for meaningless solutions."  
+  - `video` <https://smartech.gatech.edu/handle/1853/59407> (Arora)
 
 #### ["Approximation and Convergence Properties of Generative Adversarial Learning"](https://arxiv.org/abs/1705.08991) Liu, Bousquet, Chaudhuri
   `GAN theory`
@@ -1417,7 +1423,9 @@ interesting older papers:
 
 #### ["Do GANs Actually Learn the Distribution? An Empirical Study"](https://arxiv.org/abs/1706.08224) Arora, Zhang
   `GAN theory`
+>	"On the positive side, we can show the existence of an equilibrium where generator succeeds in fooling the discriminator. On the  negative side, we show that in this equilibrium, generator produces a distribution of fairly low support."  
 >	"A recent analysis raised doubts whether GANs actually learn the target distribution when discriminator has finite size. It showed that the training objective can approach its optimum value even if the generated distribution has very low support ---in other words, the training objective is unable to prevent mode collapse. The current note reports experiments suggesting that such problems are not merely theoretical. It presents empirical evidence that well-known GANs approaches do learn distributions of fairly low support, and thus presumably are not learning the target distribution. The main technical contribution is a new proposed test, based upon the famous birthday paradox, for estimating the support size of the generated distribution."  
+  - `video` <https://smartech.gatech.edu/handle/1853/59407> (Arora)
   - `post` <http://www.offconvex.org/2017/07/07/GANs3/> (Arora)
 
 #### ["Generalization and Equilibrium in Generative Adversarial Nets"](https://arxiv.org/abs/1703.00573) Arora, Ge, Liang, Ma, Zhang
@@ -1463,6 +1471,7 @@ interesting older papers:
   - `post` <https://casmls.github.io/general/2017/04/13/gan.html>
   - `post` <https://lernapparat.de/improved-wasserstein-gan>
   - `notes` <https://bayesgroup.github.io/sufficient-statistics/posts/wasserstein-generative-adversarial-networks/> `in russian`
+  - `code` <https://github.com/jalola/improved-wgan-pytorch>
   - `code` <https://github.com/wiseodd/generative-models/tree/master/GAN/improved_wasserstein_gan>
   - `code` <https://github.com/igul222/improved_wgan_training>
 
@@ -1819,6 +1828,7 @@ interesting older papers:
   - `video` <https://channel9.msdn.com/Events/Neural-Information-Processing-Systems-Conference/Neural-Information-Processing-Systems-Conference-NIPS-2016/Deep-Learning-Symposium-Session-2> (44:02) (Wiseman)
   - `video` <https://periscope.tv/hugo_larochelle/1eaKbLQXbWdJX> (31:19) (Rush)
   - `video` <https://vimeo.com/240428387#t=1h3m16s> (Jaitly)
+  - `audio` <https://soundcloud.com/nlp-highlights/52-sequence-to-sequence-learning-as-beam-search-optimization-with-sam-wiseman> (Rush)
   - `notes` <http://shortscience.org/paper?bibtexKey=journals/corr/1606.02960>
   - `notes` <https://medium.com/@sharaf/a-paper-a-day-2-sequence-to-sequence-learning-as-beam-search-optimization-92424b490350>
 
@@ -2729,9 +2739,10 @@ hieves."
 >	"Agent with two level hierarchy: manager and worker."  
 >	"Manager does not act in environment directly, sets goals for worker and gets rewarded for setting good goals with true reward."  
 >	"Worker acts in environment and gets rewarded for achieving goals by manager - this is potentially much richer learning signal."  
+>	"Manager selects subgoal direction that maximises reward. Worker selects actions that maximise cosine similarity with direction."  
+>	"Manager is encouraged to predict advantageous direction in latent space and to provide reward to worker to follow the direction."  
 >	"Key problems: how to represent goals and determine when they've been achieved."  
 >
->	"Encourage manager to predict advantageous direction in latent space and give intrinsic reward to worker to follow the direction."  
 >	"Options framework:  
 >	- bottom level: option, a sub-policy with terminal condition  
 >	- top level: policy over options  
@@ -2740,6 +2751,7 @@ hieves."
 >	- top level: provide meaningful and explicit goal for bottom level  
 >	- sub-goal: a direction in latent space"  
   - `video` <https://youtube.com/watch?v=0e_uGa7ic74&t=29m20s> (demo)
+  - `video` <https://vimeo.com/249557775> (Silver)
   - `video` <https://vimeo.com/238243758> (Vezhnevets)
   - `video` <https://youtube.com/watch?v=0e_uGa7ic74&t=20m10s> + <https://vimeo.com/238221551#t=6m21s> (Hadsell)
   - `video` <https://youtube.com/watch?v=bsuvM1jO-4w&t=46m31s> (Mnih)
