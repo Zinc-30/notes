@@ -90,6 +90,8 @@
 
   * LightFM [https://youtube.com/watch?v=EgE0DUrYmo8] [https://arxiv.org/abs/1507.08439] [https://github.com/lyst/lightfm/]
 
+  * "Causal Inference for Recommendation" [http://people.hss.caltech.edu/~fde/UAI2016WS/papers/Liang.pdf] [http://people.hss.caltech.edu/~fde/UAI2016WS/talks/Dawen.pdf] [http://www.homepages.ucl.ac.uk/~ucgtrbd/whatif/David.pdf]
+
 
   item features modeling:
 
@@ -100,7 +102,7 @@
 
   active learning:
 
-  * Azure Custom Decision Service [https://youtube.com/watch?v=7ic_d5TeIUk] [https://vimeo.com/240429210] [http://arxiv.org/abs/1606.03966]
+  * Microsoft Custom Decision Service [https://youtube.com/watch?v=7ic_d5TeIUk] [https://vimeo.com/240429210] [http://arxiv.org/abs/1606.03966] [https://github.com/Microsoft/mwt-ds]
 
 	https://ds.microsoft.com (video)
 	https://azure.microsoft.com/en-us/services/cognitive-services/custom-decision-service/

@@ -354,6 +354,7 @@
 >	"Neural machine translation is a recently proposed approach to machine translation. Unlike the traditional statistical machine translation, the neural machine translation aims at building a single neural network that can be jointly tuned to maximize the translation performance. The models proposed recently for neural machine translation often belong to a family of encoder–decoders and encodes a source sentence into a fixed-length vector from which a decoder generates a translation. In this paper, we conjecture that the use of a fixed-length vector is a bottleneck in improving the performance of this basic encoder–decoder architecture, and propose to extend this by allowing a model to automatically (soft-)search for parts of a source sentence that are relevant to predicting a target word, without having to form these parts as a hard segment explicitly. With this new approach, we achieve a translation performance comparable to the existing state-of-the-art phrase-based system on the task of English-to-French translation. Furthermore, qualitative analysis reveals that the (soft-)alignments found by the model agree well with our intuition."
 
   - `video` <http://slideshot.epfl.ch/play/khnnunGF0elc> (Cho)
+  - `video` <https://youtube.com/watch?v=QuvRWevJMZ4> (Chevalier)
   - `video` <https://youtu.be/_XRBlhzb31U?t=42m26s> (Figurnov) `in russian`
   - `notes` <http://www.shortscience.org/paper?bibtexKey=journals/corr/BahdanauCB14>
   - `post` <http://devblogs.nvidia.com/parallelforall/introduction-neural-machine-translation-with-gpus/>
@@ -397,7 +398,9 @@
 #### ["Unsupervised Neural Machine Translation"](https://arxiv.org/abs/1710.11041) Artetxe, Labaka, Agirre, Cho
 >	"In spite of the recent success of neural machine translation in standard benchmarks, the lack of large parallel corpora poses a major practical problem for many language pairs. There have been several proposals to alleviate this issue with, for instance, triangulation and semi-supervised learning techniques, but they still require a strong cross-lingual signal. In this work, we completely remove the need of parallel data and propose a novel method to train an NMT system in a completely unsupervised manner, relying on nothing but monolingual corpora. Our model builds upon the recent work on unsupervised embedding mappings, and consists of a slightly modified attentional encoder-decoder model that can be trained on monolingual corpora alone using a combination of denoising and backtranslation. Despite the simplicity of the approach, our system obtains 15.56 and 10.21 BLEU points in WMT 2014 French → English and German → English translation. The model can also profit from small parallel corpora, and attains 21.81 and 15.24 points when combined with 100,000 parallel sentences, respectively. Our approach is a breakthrough in unsupervised NMT, and opens exciting opportunities for future research."
 
+  - `video` <https://youtu.be/_tQVfq2IOHA?t=25m30s> (Cho)
   - `notes` <http://ankitg.me/blog/2017/11/05/unsupervised-machine-translation.html>
+  - `code` <https://github.com/artetxem/undreamt>
 
 
 #### ["Unsupervised Machine Translation Using Monolingual Corpora Only"](https://arxiv.org/abs/1711.00043) Lample, Denoyer, Ranzato
