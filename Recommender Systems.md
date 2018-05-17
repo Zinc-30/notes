@@ -1,91 +1,13 @@
 
 
-  * [applications](#applications)
-  * [study](#study)
-  * [challenges](#challenges)
+  * [overview](#overview)
+  * [interesting applications](#interesting-applications)
   * [interesting papers](#interesting-papers)
 
 
 
 ---
-### applications
-
-#### item-to-item similarity
-
-  * ["Two Decades of Recommender Systems at Amazon.com"](https://www.computer.org/csdl/mags/ic/2017/03/mic2017030012.html) `Amazon`
-	- learning item-to-item similarity on offline data (e.g. item2 often bought with item1)
-
-  * ["Exponential Family Embeddings"](https://arxiv.org/abs/1608.00778)
-	- identifying substitutes and co-purchases in high-scale consumer data (basket analysis)
-	- `video` <https://youtu.be/zwcjJQoK8_Q?t=15m14s> (Blei)
-	- `code` <https://github.com/mariru/exponential_family_embeddings>
-	- `code` <https://github.com/franrruiz/p-emb>
-
-  * ["E-commerce in Your Inbox: Product Recommendations at Scale"](https://arxiv.org/abs/1606.07154) `prod2vec` `Yahoo`
-	- `video` <https://youtube.com/watch?v=W56fZewflRw> (Djuric)
-
-
-#### user preferences
-
-  * ["Latent LSTM Allocation"](http://proceedings.mlr.press/v70/zaheer17a/zaheer17a.pdf) `Google`
-	- `video` <https://youtube.com/watch?v=ofaPq5aRKZ0> (Smola)
-	- `video` <https://vimeo.com/240608072> (Zaheer)
-	- `paper` ["State Space LSTM Models with Particle MCMC Inference"](https://arxiv.org/abs/1711.11179) by Zheng et al.
-
-  * ["DropoutNet: Addressing Cold Start in Recommender Systems"](https://papers.nips.cc/paper/7081-dropoutnet-addressing-cold-start-in-recommender-systems)
-	- `video` <https://youtu.be/YSQqHlQwQDY?t=1h44m18s> (Ushanov) `in russian`
-	- `code` <https://github.com/HongleiXie/DropoutNet>
-
-  * ["VAE for Collaborative Filtering"](https://arxiv.org/abs/1802.05814) `Netflix`
-	- `video` <https://youtube.com/watch?v=gRvxr47Gj3k> (Liang)
-	- `code` <https://github.com/dawenl/vae_cf>
-
-  * ["Content-based recommendations with Poisson factorization"](http://www.cs.toronto.edu/~lcharlin/papers/GopalanCharlinBlei_nips14.pdf)
-	- collaborative topic models (blending factorization-based and content-based recommendation + describing user preferences with interpretable topics)
-	- `video` <http://www.fields.utoronto.ca/video-archive/2017/03/2267-16706> (26:36) (Blei)
-
-  * ["Scalable Recommendation with Hierarchical Poisson Factorization"](http://auai.org/uai2015/proceedings/papers/208.pdf)
-	- discovering correlated preferences (devising new utility models and other factors such as time of day, date, in stock, customer demographic information)
-	- `video` [https://youtu.be/zwcjJQoK8_Q?t=41m49s] (Blei)
-	- `code` <https://github.com/premgopalan/hgaprec>
-
-  * ["E-commerce in Your Inbox: Product Recommendations at Scale"](https://arxiv.org/abs/1606.07154) `user2vec` `Yahoo`
-	- `video` <https://youtube.com/watch?v=W56fZewflRw> (Djuric)
-
-  * ["Metadata Embeddings for User and Item Cold-start Recommendations"](https://arxiv.org/abs/1507.08439) `LightFM`
-	- `video` <https://youtube.com/watch?v=EgE0DUrYmo8> (Kula)
-	- `code` <https://github.com/lyst/lightfm>
-
-  * ["Causal Inference for Recommendation"](http://people.hss.caltech.edu/~fde/UAI2016WS/papers/Liang.pdf)
-	- `slides` <http://people.hss.caltech.edu/~fde/UAI2016WS/talks/Dawen.pdf> (Liang)
-	- `slides` <http://www.homepages.ucl.ac.uk/~ucgtrbd/whatif/David.pdf> (Blei)
-
-
-#### item features
-
-  * "Wide & Deep Learning" (Google) [https://youtube.com/watch?v=NV1tkZ9Lq48] [https://research.googleblog.com/2016/06/wide-deep-learning-better-together-with.html] [https://arxiv.org/abs/1606.07792] [https://www.tensorflow.org/tutorials/wide_and_deep]
-
-  * BigARTM (Yandex) [https://youtu.be/3Lxb-DqPtv4?t=1h45m9s] [https://youtube.com/watch?v=eJzNAhsbQNI] [https://youtube.com/watch?v=Y7lGYjJ7TR8] [https://youtube.com/watch?v=00qF2yMuRkQ] [http://www.machinelearning.ru/wiki/images/d/d5/Voron17survey-artm.pdf] [https://github.com/bigartm/bigartm]
-
-  * Spotlight [https://youtube.com/watch?v=ZkBQ6YA9E40] [https://maciejkula.github.io/spotlight/]
-
-
-
-#### active learning
-
-  * Microsoft Custom Decision Service [https://youtube.com/watch?v=7ic_d5TeIUk] [https://vimeo.com/240429210] [http://arxiv.org/abs/1606.03966] [https://github.com/Microsoft/mwt-ds]
-
-	https://ds.microsoft.com
-	https://azure.microsoft.com/en-us/services/cognitive-services/custom-decision-service/
-	https://docs.microsoft.com/en-us/azure/cognitive-services/custom-decision-service/custom-decision-service-overview
-	https://blogs.microsoft.com/next/2016/12/01/machine-learning-breakthroughs-abound-researchers-look-democratize-benefits/
-
-  * conversational recommendations [https://youtube.com/watch?v=udrkPBIb8D4] [https://youtube.com/watch?v=nLUfAJqXFUI] [https://chara.cs.illinois.edu/sites/fa16-cs591txt/pdf/Christakopoulou-2016-KDD.pdf]
-
-
-
----
-### study
+### overview
 
   ["Recommender Systems: The Textbook"](http://charuaggarwal.net/Recommender-Systems.htm) by Charu Aggarwal ([book](https://yadi.sk/i/eMDtp31h3P8AxL))  
   ["Recommender Systems Handbook"](http://www.cs.ubbcluj.ro/~gabis/DocDiplome/SistemeDeRecomandare/Recommender_systems_handbook.pdf) by Ricci, Rokach, Shapira, Kantor  
@@ -116,11 +38,9 @@
   [overview](https://youtube.com/watch?v=iGAMPnv-0VY) of Yandex.Zen by Igor Lifar and Dmitry Ushanov `video` `in russian`  
   [overview](https://youtube.com/watch?v=JKTneRi2vn8) of Yandex.Disco by Michael Rozner `video` `in russian`  
 
+----
 
-
----
-### challenges
-
+  challenges:
   - diversity vs accuracy
   - personalization vs popularity
   - novelty vs relevance
@@ -128,6 +48,101 @@
   - presentation bias
   - explaining vs selecting items
   - influencing user vs predicting future
+
+
+
+---
+### interesting applications
+
+#### item-to-item similarity
+
+  * ["Two Decades of Recommender Systems at Amazon.com"](https://www.computer.org/csdl/mags/ic/2017/03/mic2017030012.html) `Amazon`
+	- learning item-to-item similarity on offline data (e.g. item2 often bought with item1)
+
+  * ["Exponential Family Embeddings"](https://arxiv.org/abs/1608.00778)
+	- identifying substitutes and co-purchases in high-scale consumer data (basket analysis)
+	- `video` <https://youtu.be/zwcjJQoK8_Q?t=15m14s> (Blei)
+	- `code` <https://github.com/mariru/exponential_family_embeddings>
+	- `code` <https://github.com/franrruiz/p-emb>
+
+  * ["E-commerce in Your Inbox: Product Recommendations at Scale"](https://arxiv.org/abs/1606.07154) `prod2vec` `Yahoo`
+	- `video` <https://youtube.com/watch?v=W56fZewflRw> (Djuric)
+
+
+#### user preferences
+
+  * ["Latent LSTM Allocation"](http://proceedings.mlr.press/v70/zaheer17a/zaheer17a.pdf) `Google`
+	- `video` <https://youtube.com/watch?v=ofaPq5aRKZ0> (Smola)
+	- `video` <https://vimeo.com/240608072> (Zaheer)
+	- `paper` ["State Space LSTM Models with Particle MCMC Inference"](https://arxiv.org/abs/1711.11179) by Zheng et al.
+
+  * ["DropoutNet: Addressing Cold Start in Recommender Systems"](https://papers.nips.cc/paper/7081-dropoutnet-addressing-cold-start-in-recommender-systems) `Layer6`
+	- `video` <https://youtu.be/YSQqHlQwQDY?t=1h44m18s> (Ushanov) `in russian`
+	- `code` <https://github.com/HongleiXie/DropoutNet>
+
+  * ["VAE for Collaborative Filtering"](https://arxiv.org/abs/1802.05814) `Netflix`
+	- `video` <https://youtube.com/watch?v=gRvxr47Gj3k> (Liang)
+	- `code` <https://github.com/dawenl/vae_cf>
+
+  * ["Content-based recommendations with Poisson factorization"](http://www.cs.toronto.edu/~lcharlin/papers/GopalanCharlinBlei_nips14.pdf)
+	- collaborative topic models (blending factorization-based and content-based recommendation + describing user preferences with interpretable topics)
+	- `video` <http://www.fields.utoronto.ca/video-archive/2017/03/2267-16706> (26:36) (Blei)
+
+  * ["Scalable Recommendation with Hierarchical Poisson Factorization"](http://auai.org/uai2015/proceedings/papers/208.pdf)
+	- discovering correlated preferences (devising new utility models and other factors such as time of day, date, in stock, customer demographic information)
+	- `video` [https://youtu.be/zwcjJQoK8_Q?t=41m49s] (Blei)
+	- `code` <https://github.com/premgopalan/hgaprec>
+
+  * ["E-commerce in Your Inbox: Product Recommendations at Scale"](https://arxiv.org/abs/1606.07154) `user2vec` `Yahoo`
+	- `video` <https://youtube.com/watch?v=W56fZewflRw> (Djuric)
+
+  * ["Metadata Embeddings for User and Item Cold-start Recommendations"](https://arxiv.org/abs/1507.08439) `LightFM`
+	- `video` <https://youtube.com/watch?v=EgE0DUrYmo8> (Kula)
+	- `code` <https://github.com/lyst/lightfm>
+
+  * ["Causal Inference for Recommendation"](http://people.hss.caltech.edu/~fde/UAI2016WS/papers/Liang.pdf)
+	- `slides` <http://people.hss.caltech.edu/~fde/UAI2016WS/talks/Dawen.pdf> (Liang)
+	- `slides` <http://www.homepages.ucl.ac.uk/~ucgtrbd/whatif/David.pdf> (Blei)
+
+
+#### item features
+
+  * ["Wide & Deep Learning"](https://arxiv.org/abs/1606.07792) `Google`
+	- `post` <https://research.googleblog.com/2016/06/wide-deep-learning-better-together-with.html>
+	- `video` <https://youtube.com/watch?v=NV1tkZ9Lq48> (Cheng)
+	- `post` <https://www.tensorflow.org/tutorials/wide_and_deep>
+	- `code` <https://github.com/tensorflow/models/blob/master/official/wide_deep/wide_deep.py>
+
+  * ["Additive Regularization of Topic Models"](https://link.springer.com/article/10.1007/s10994-014-5476-6)
+	- `video` <https://youtube.com/watch?v=00qF2yMuRkQ> (Vorontsov)
+	- `video` <https://youtu.be/3Lxb-DqPtv4?t=1h45m9s> (Vorontsov) `in russian`
+	- `video` <https://youtube.com/watch?v=eJzNAhsbQNI> (Vorontsov) `in russian`
+	- `video` <https://youtube.com/watch?v=Y7lGYjJ7TR8> (Ianina) `in russian`
+	- `paper` ["Fast and Modular Regularized Topic Modelling"](https://fruct.org/publications/fruct21/files/Koc.pdf) by Kochedykov et al.
+	- `paper` <http://www.machinelearning.ru/wiki/images/d/d5/Voron17survey-artm.pdf> by Vorontsov `in russian`
+	- `code` <https://github.com/bigartm/bigartm>
+
+  * Spotlight
+	- `video` <https://youtube.com/watch?v=ZkBQ6YA9E40> (Kula)
+	- `code` <https://maciejkula.github.io/spotlight>
+
+
+#### active learning
+
+  * Microsoft Custom Decision Service
+	- <https://azure.microsoft.com/en-us/services/cognitive-services/custom-decision-service/>
+	- <https://ds.microsoft.com>
+	- <https://mwtds.azurewebsites.net>
+	- <http://research.microsoft.com/en-us/projects/mwt/>
+	- `video` <https://youtube.com/watch?v=7ic_d5TeIUk> (Langford)
+	- `video` <https://vimeo.com/240429210> (Langford, Agarwal)
+	- `video` <https://youtube.com/watch?v=5JXRbhPLSQw> (Agarwal)
+	- `code` <https://github.com/Microsoft/mwt-ds>
+	- `paper` ["Making Contextual Decisions with Low Technical Debt"](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#making-contextual-decisions-with-low-technical-debt-agarwal-et-al) by Agarwal et al. `summary`
+
+  * ["Towards Conversational Recommender Systems"](https://chara.cs.illinois.edu/sites/fa16-cs591txt/pdf/Christakopoulou-2016-KDD.pdf)
+	- `video` <https://youtube.com/watch?v=udrkPBIb8D4> (Christakopoulou)
+	- `video` <https://youtube.com/watch?v=nLUfAJqXFUI> (Christakopoulou)
 
 
 
