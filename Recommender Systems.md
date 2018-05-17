@@ -1,4 +1,76 @@
-[study]
+
+
+  * [applications](#applications)
+  * [study](#study)
+  * [challenges](#challenges)
+  * [interesting papers](#interesting-papers)
+
+
+
+---
+### applications
+
+#### item-to-item similarity modeling
+
+  * "Two Decades of Recommender Systems at Amazon.com" (Amazon) [https://www.computer.org/csdl/mags/ic/2017/03/mic2017030012.html]
+	- learning item-to-item similarity on offline data (e.g. item2 often bought with item1)
+
+  * exponential family embeddings [https://youtu.be/zwcjJQoK8_Q?t=15m14s] [https://arxiv.org/abs/1608.00778] [https://github.com/mariru/exponential_family_embeddings] [https://github.com/franrruiz/p-emb]
+	- identifying substitutes and co-purchases in high-scale consumer data (basket analysis)
+
+  * prod2vec (Yahoo) [https://youtube.com/watch?v=W56fZewflRw] [https://arxiv.org/abs/1606.07154]
+
+
+
+#### user preferences modeling
+
+  * "Latent LSTM Allocation" (Amazon) [https://youtube.com/watch?v=ofaPq5aRKZ0] [https://vimeo.com/240608072] [http://proceedings.mlr.press/v70/zaheer17a/zaheer17a.pdf] [https://arxiv.org/abs/1711.11179]
+
+  * "DropoutNet: Addressing Cold Start in Recommender Systems" [https://youtu.be/YSQqHlQwQDY?t=1h44m18s] [https://papers.nips.cc/paper/7081-dropoutnet-addressing-cold-start-in-recommender-systems] [https://github.com/HongleiXie/DropoutNet]
+
+  * "VAE for Collaborative Filtering" (Netflix) [https://youtube.com/watch?v=gRvxr47Gj3k] [https://arxiv.org/abs/1802.05814] [https://github.com/dawenl/vae_cf]
+
+  * "Content-based recommendations with Poisson factorization" [http://www.fields.utoronto.ca/video-archive/2017/03/2267-16706  (26:36)] [http://www.cs.toronto.edu/~lcharlin/papers/GopalanCharlinBlei_nips14.pdf]
+	collaborative topic models:
+	- blending factorization-based and content-based recommendation
+	- describing user preferences with interpretable topics
+
+  * "Scalable Recommendation with Hierarchical Poisson Factorization" [https://youtu.be/zwcjJQoK8_Q?t=41m49s] [http://auai.org/uai2015/proceedings/papers/208.pdf] [https://github.com/premgopalan/hgaprec]
+	- discovering correlated preferences (devising new utility models and other factors such as time of day, date, in stock, customer demographic information)
+
+  * user2vec (Yahoo) [https://youtube.com/watch?v=W56fZewflRw] [https://arxiv.org/abs/1606.07154]
+
+  * LightFM [https://youtube.com/watch?v=EgE0DUrYmo8] [https://arxiv.org/abs/1507.08439] [https://github.com/lyst/lightfm/]
+
+  * "Causal Inference for Recommendation" [http://people.hss.caltech.edu/~fde/UAI2016WS/papers/Liang.pdf] [http://people.hss.caltech.edu/~fde/UAI2016WS/talks/Dawen.pdf] [http://www.homepages.ucl.ac.uk/~ucgtrbd/whatif/David.pdf]
+
+
+
+#### item features modeling
+
+  * "Wide & Deep Learning" (Google) [https://youtube.com/watch?v=NV1tkZ9Lq48] [https://research.googleblog.com/2016/06/wide-deep-learning-better-together-with.html] [https://arxiv.org/abs/1606.07792] [https://www.tensorflow.org/tutorials/wide_and_deep]
+
+  * BigARTM (Yandex) [https://youtu.be/3Lxb-DqPtv4?t=1h45m9s] [https://youtube.com/watch?v=eJzNAhsbQNI] [https://youtube.com/watch?v=Y7lGYjJ7TR8] [https://youtube.com/watch?v=00qF2yMuRkQ] [http://www.machinelearning.ru/wiki/images/d/d5/Voron17survey-artm.pdf] [https://github.com/bigartm/bigartm]
+
+  * Spotlight [https://youtube.com/watch?v=ZkBQ6YA9E40] [https://maciejkula.github.io/spotlight/]
+
+
+
+#### active learning
+
+  * Microsoft Custom Decision Service [https://youtube.com/watch?v=7ic_d5TeIUk] [https://vimeo.com/240429210] [http://arxiv.org/abs/1606.03966] [https://github.com/Microsoft/mwt-ds]
+
+	https://ds.microsoft.com
+	https://azure.microsoft.com/en-us/services/cognitive-services/custom-decision-service/
+	https://docs.microsoft.com/en-us/azure/cognitive-services/custom-decision-service/custom-decision-service-overview
+	https://blogs.microsoft.com/next/2016/12/01/machine-learning-breakthroughs-abound-researchers-look-democratize-benefits/
+
+  * conversational recommendations [https://youtube.com/watch?v=udrkPBIb8D4] [https://youtube.com/watch?v=nLUfAJqXFUI] [https://chara.cs.illinois.edu/sites/fa16-cs591txt/pdf/Christakopoulou-2016-KDD.pdf]
+
+
+
+---
+### study
 
   "Recommender Systems: The Textbook" by Charu Aggarwal - http://charuaggarwal.net/Recommender-Systems.htm [https://yadi.sk/i/eMDtp31h3P8AxL]
   "Recommender Systems Handbook" by Ricci, Rokach, Shapira, Kantor - http://www.cs.ubbcluj.ro/~gabis/DocDiplome/SistemeDeRecomandare/Recommender_systems_handbook.pdf
@@ -36,8 +108,8 @@
 
 
 
-
-[challenges]
+---
+### challenges
 
   - diversity vs accuracy
   - popularity vs personalization
@@ -58,74 +130,13 @@
 
 
 
+---
+### interesting papers
 
-[applications]
+[selected papers](https://yadi.sk/d/RtAsSjLG3PhrT2)
 
-  item-to-item similarity modeling:
-
-  * "Two Decades of Recommender Systems at Amazon.com" (Amazon) [https://www.computer.org/csdl/mags/ic/2017/03/mic2017030012.html]
-	- learning item-to-item similarity on offline data (e.g. item2 often bought with item1)
-
-  * exponential family embeddings [https://youtu.be/zwcjJQoK8_Q?t=15m14s] [https://arxiv.org/abs/1608.00778] [https://github.com/mariru/exponential_family_embeddings] [https://github.com/franrruiz/p-emb]
-	- identifying substitutes and co-purchases in high-scale consumer data (basket analysis)
-
-  * prod2vec (Yahoo) [https://youtube.com/watch?v=W56fZewflRw] [https://arxiv.org/abs/1606.07154]
-
-
-  user preferences modeling:
-
-  * "Latent LSTM Allocation" (Amazon) [https://youtube.com/watch?v=ofaPq5aRKZ0] [https://vimeo.com/240608072] [http://proceedings.mlr.press/v70/zaheer17a/zaheer17a.pdf] [https://arxiv.org/abs/1711.11179]
-
-  * "DropoutNet: Addressing Cold Start in Recommender Systems" [https://youtu.be/YSQqHlQwQDY?t=1h44m18s] [https://papers.nips.cc/paper/7081-dropoutnet-addressing-cold-start-in-recommender-systems] [https://github.com/HongleiXie/DropoutNet]
-
-  * "VAE for Collaborative Filtering" (Netflix) [https://youtube.com/watch?v=gRvxr47Gj3k] [https://arxiv.org/abs/1802.05814] [https://github.com/dawenl/vae_cf]
-
-  * "Content-based recommendations with Poisson factorization" [http://www.fields.utoronto.ca/video-archive/2017/03/2267-16706  (26:36)] [http://www.cs.toronto.edu/~lcharlin/papers/GopalanCharlinBlei_nips14.pdf]
-	collaborative topic models:
-	- blending factorization-based and content-based recommendation
-	- describing user preferences with interpretable topics
-
-  * "Scalable Recommendation with Hierarchical Poisson Factorization" [https://youtu.be/zwcjJQoK8_Q?t=41m49s] [http://auai.org/uai2015/proceedings/papers/208.pdf] [https://github.com/premgopalan/hgaprec]
-	- discovering correlated preferences (devising new utility models and other factors such as time of day, date, in stock, customer demographic information)
-
-  * user2vec (Yahoo) [https://youtube.com/watch?v=W56fZewflRw] [https://arxiv.org/abs/1606.07154]
-
-  * LightFM [https://youtube.com/watch?v=EgE0DUrYmo8] [https://arxiv.org/abs/1507.08439] [https://github.com/lyst/lightfm/]
-
-  * "Causal Inference for Recommendation" [http://people.hss.caltech.edu/~fde/UAI2016WS/papers/Liang.pdf] [http://people.hss.caltech.edu/~fde/UAI2016WS/talks/Dawen.pdf] [http://www.homepages.ucl.ac.uk/~ucgtrbd/whatif/David.pdf]
-
-
-  item features modeling:
-
-  * "Wide & Deep Learning" (Google) [https://youtube.com/watch?v=NV1tkZ9Lq48] [https://research.googleblog.com/2016/06/wide-deep-learning-better-together-with.html] [https://arxiv.org/abs/1606.07792] [https://www.tensorflow.org/tutorials/wide_and_deep]
-
-  * BigARTM (Yandex) [https://youtu.be/3Lxb-DqPtv4?t=1h45m9s] [https://youtube.com/watch?v=eJzNAhsbQNI] [https://youtube.com/watch?v=Y7lGYjJ7TR8] [https://youtube.com/watch?v=00qF2yMuRkQ] [http://www.machinelearning.ru/wiki/images/d/d5/Voron17survey-artm.pdf] [https://github.com/bigartm/bigartm]
-
-  * Spotlight [https://youtube.com/watch?v=ZkBQ6YA9E40] [https://maciejkula.github.io/spotlight/]
-
-
-  active learning:
-
-  * Microsoft Custom Decision Service [https://youtube.com/watch?v=7ic_d5TeIUk] [https://vimeo.com/240429210] [http://arxiv.org/abs/1606.03966] [https://github.com/Microsoft/mwt-ds]
-
-	https://ds.microsoft.com
-	https://azure.microsoft.com/en-us/services/cognitive-services/custom-decision-service/
-	https://docs.microsoft.com/en-us/azure/cognitive-services/custom-decision-service/custom-decision-service-overview
-	https://blogs.microsoft.com/next/2016/12/01/machine-learning-breakthroughs-abound-researchers-look-democratize-benefits/
-
-  * conversational recommendations [https://youtube.com/watch?v=udrkPBIb8D4] [https://youtube.com/watch?v=nLUfAJqXFUI] [https://chara.cs.illinois.edu/sites/fa16-cs591txt/pdf/Christakopoulou-2016-KDD.pdf]
-
-
-
-
-selected papers - https://yadi.sk/d/RtAsSjLG3PhrT2
-
-
-
-
-[interesting papers]
-
-Volkovs, Yu, Poutanen - "DropoutNet: Addressing Cold Start in Recommender Systems" [https://papers.nips.cc/paper/7081-dropoutnet-addressing-cold-start-in-recommender-systems]
+----
+#### ["DropoutNet: Addressing Cold Start in Recommender Systems"](https://papers.nips.cc/paper/7081-dropoutnet-addressing-cold-start-in-recommender-systems) Volkovs, Yu, Poutanen
 >	"Latent models have become the default choice for recommender systems due to their performance and scalability. However, research in this area has primarily focused on modeling user-item interactions, and few latent models have been developed for cold start. Deep learning has recently achieved remarkable success showing excellent results for diverse input types. Inspired by these results we propose a neural network based latent model called DropoutNet to address the cold start problem in recommender systems. Unlike existing approaches that incorporate additional content-based objective terms, we instead focus on the optimization and show that neural network models can be explicitly trained for cold start through dropout."
 
 >	"Our approach is based on the observation that cold start is equivalent to the missing data problem where preference information is missing. Hence, instead of adding additional objective terms to model content, we modify the learning procedure to explicitly condition the model for the missing input. The key idea behind our approach is that by applying dropout to input mini-batches, we can train DNNs to generalize to missing input. By selecting an appropriate amount of dropout we show that it is possible to learn a DNN-based latent model that performs comparably to state-of-the-art on warm start while significantly outperforming it on cold start. The resulting model is simpler than most hybrid approaches and uses a single objective function, jointly optimizing all components to maximize recommendation accuracy."
