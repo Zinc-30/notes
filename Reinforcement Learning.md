@@ -1556,7 +1556,7 @@ interesting recent papers:
   - `video` <https://youtube.com/watch?v=6fKG4wJ7uBk> (Baudis)
   - `video` <https://youtube.com/watch?v=XuzIqE2IshY> (Kington)
   - `video` <https://youtube.com/watch?v=vC66XFoN4DE> (Raval)
-  - `video` <https://youtu.be/Lz5_xFGt2hA?t=3m11s> (Grinchuk) `in russian`
+  - `video` <https://youtu.be/V0HNXVSrvhg?t=1h20m45s> + <https://youtu.be/Lz5_xFGt2hA?t=3m11s> (Grinchuk) `in russian`
   - `video` <https://youtu.be/WM4HC720Cms?t=1h34m49s> (Nikolenko) `in russian`
   - `video` <https://youtu.be/zHjE07NBA_o?t=1h10m24s> (Kozlov) `in russian`
   - `post` <http://inference.vc/alphago-zero-policy-improvement-and-vector-fields/>
@@ -2547,6 +2547,7 @@ interesting recent papers:
   - `video` <https://yadi.sk/i/yBO0q4mI3GAxYd> (33:13) (Fritzler) `in russian`
   - `video` <https://youtu.be/fnwo3GCmyEo?t=26m29s> (Fritzler) `in russian`
   - `video` <https://youtu.be/mrgJ53TIcQc?t=25m43s> (Pavlov) `in russian`
+  - `notes` <http://www.shortscience.org/paper?bibtexKey=journals/corr/1511.05952>
   - `code` <https://github.com/higgsfield/RL-Adventure/blob/master/4.prioritized%20dqn.ipynb>
   - `code` <https://github.com/Kaixhin/Atari>
   - `code` <https://github.com/carpedm20/deep-rl-tensorflow>
@@ -2684,6 +2685,7 @@ interesting recent papers:
   - `post` <https://blog.openai.com/evolution-strategies/>
   - `video` <https://youtube.com/watch?v=SQtOI9jsrJ0> (Chen) `video`
   - `video` <https://youtube.com/watch?v=Rd0UdJFYkqI> (Temirchev) `in russian`
+  - `video` <https://youtube.com/watch?v=8jKC95KklT0> (Karazeev) `in russian`
   - `post` <http://inference.vc/evolutionary-strategies-embarrassingly-parallelizable-optimization/> (Huszar)
   - `post` <http://inference.vc/evolution-strategies-variational-optimisation-and-natural-es-2/> (Huszar)
   - `post` <http://davidbarber.github.io/blog/2017/04/03/variational-optimisation/> (Barber)
@@ -2974,6 +2976,7 @@ interesting recent papers:
   - `video` <https://youtu.be/d9DlQSJQAoI?t=22m12s> (Finn)
   - `video` <http://videolectures.net/deeplearning2017_de_freitas_deep_control/#t=4183> (de Freitas)
   - `notes` <http://tsong.me/blog/gail/>
+  - `notes` <https://yobibyte.github.io/files/paper_notes/Generative_Adversarial_Imitation_Learning__Ho_Ermon__2017.pdf>
   - `code` <https://github.com/openai/imitation>
   - `code` <https://github.com/DanielTakeshi/rl_algorithms/tree/master/il>
 

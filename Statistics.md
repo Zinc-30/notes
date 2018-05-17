@@ -64,12 +64,13 @@
 
   [course](https://youtube.com/playlist?list=PLCzY7wK5FzzPANgnZq5pIT3FOomCT1s36) by Joe Blitzstein `video`  
 
-  [course](https://coursera.org/specializations/machine-learning-data-analysis) from Yandex `video` `in russian`  
-  [course](https://youtube.com/playlist?list=PLrCZzMib1e9p5F99rIOzugNgQP5KHHfK8) from Mail.ru `video` `in russian`  
+  [course](https://stepik.org/course/326/) from Computer Science Center `video` `in russian`  
   [course](https://compscicenter.ru/courses/math-stat/2015-spring/) from Computer Science Center `video` `in russian`  
   [course](https://compscicenter.ru/courses/math-stat/2013-spring/) from Computer Science Center `video` `in russian`  
 
-  [course](https://coursera.org/learn/ekonometrika/) from HSE `video` `in russian`
+  [course](https://coursera.org/specializations/machine-learning-data-analysis) from Yandex `video` `in russian`  
+  [course](https://youtube.com/playlist?list=PLrCZzMib1e9p5F99rIOzugNgQP5KHHfK8) from Mail.ru `video` `in russian`  
+  [course](https://coursera.org/learn/ekonometrika/) from HSE `video` `in russian`  
 
 
 
