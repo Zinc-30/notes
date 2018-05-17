@@ -99,6 +99,8 @@
 
   * "Wide & Deep Learning" (Google) [https://youtube.com/watch?v=NV1tkZ9Lq48] [https://research.googleblog.com/2016/06/wide-deep-learning-better-together-with.html] [https://arxiv.org/abs/1606.07792] [https://www.tensorflow.org/tutorials/wide_and_deep]
 
+  * BigARTM (Yandex) [https://youtu.be/3Lxb-DqPtv4?t=1h45m9s] [https://youtube.com/watch?v=eJzNAhsbQNI] [https://youtube.com/watch?v=Y7lGYjJ7TR8] [https://youtube.com/watch?v=00qF2yMuRkQ] [http://www.machinelearning.ru/wiki/images/d/d5/Voron17survey-artm.pdf] [https://github.com/bigartm/bigartm]
+
   * Spotlight [https://youtube.com/watch?v=ZkBQ6YA9E40] [https://maciejkula.github.io/spotlight/]
 
 
@@ -106,7 +108,7 @@
 
   * Microsoft Custom Decision Service [https://youtube.com/watch?v=7ic_d5TeIUk] [https://vimeo.com/240429210] [http://arxiv.org/abs/1606.03966] [https://github.com/Microsoft/mwt-ds]
 
-	https://ds.microsoft.com (video)
+	https://ds.microsoft.com
 	https://azure.microsoft.com/en-us/services/cognitive-services/custom-decision-service/
 	https://docs.microsoft.com/en-us/azure/cognitive-services/custom-decision-service/custom-decision-service-overview
 	https://blogs.microsoft.com/next/2016/12/01/machine-learning-breakthroughs-abound-researchers-look-democratize-benefits/
