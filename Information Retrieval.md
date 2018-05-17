@@ -49,6 +49,7 @@
 
 ---
 
+  challenges:
   - full text document retrieval, passage retrieval, question answering
   - web search, searching social media, distributed information retrieval, entity ranking
   - learning to rank combined with neural network based representation learning
