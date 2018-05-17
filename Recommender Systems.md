@@ -208,7 +208,7 @@
   - `post` <https://research.googleblog.com/2016/06/wide-deep-learning-better-together-with.html>
   - `video` <https://youtube.com/watch?v=NV1tkZ9Lq48> (Cheng)
   - `post` <https://www.tensorflow.org/tutorials/wide_and_deep>
-  - `code` <https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/learn/wide_n_deep_tutorial.py>
+  - `code` <https://github.com/tensorflow/models/blob/master/official/wide_deep/wide_deep.py>
 
 
 #### ["Deep Neural Networks for YouTube Recommendations"](http://research.google.com/pubs/pub45530.html) Covington, Adams, Sargin
