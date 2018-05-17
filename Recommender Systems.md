@@ -22,32 +22,43 @@
 	- `code` <https://github.com/franrruiz/p-emb>
 
   * ["E-commerce in Your Inbox: Product Recommendations at Scale"](https://arxiv.org/abs/1606.07154) `prod2vec` `Yahoo`
-	- `video` <https://youtube.com/watch?v=W56fZewflRw> (Djuric) [https://arxiv.org/abs/1606.07154]
-
+	- `video` <https://youtube.com/watch?v=W56fZewflRw> (Djuric)
 
 
 #### user preferences
 
-  * "Latent LSTM Allocation" (Amazon) [https://youtube.com/watch?v=ofaPq5aRKZ0] [https://vimeo.com/240608072] [http://proceedings.mlr.press/v70/zaheer17a/zaheer17a.pdf] [https://arxiv.org/abs/1711.11179]
+  * ["Latent LSTM Allocation"](http://proceedings.mlr.press/v70/zaheer17a/zaheer17a.pdf) `Google`
+	- `video` <https://youtube.com/watch?v=ofaPq5aRKZ0> (Smola)
+	- `video` <https://vimeo.com/240608072> (Zaheer)
+	- `paper` ["State Space LSTM Models with Particle MCMC Inference"](https://arxiv.org/abs/1711.11179) by Zheng et al.
 
-  * "DropoutNet: Addressing Cold Start in Recommender Systems" [https://youtu.be/YSQqHlQwQDY?t=1h44m18s] [https://papers.nips.cc/paper/7081-dropoutnet-addressing-cold-start-in-recommender-systems] [https://github.com/HongleiXie/DropoutNet]
+  * ["DropoutNet: Addressing Cold Start in Recommender Systems"](https://papers.nips.cc/paper/7081-dropoutnet-addressing-cold-start-in-recommender-systems)
+	- `video` <https://youtu.be/YSQqHlQwQDY?t=1h44m18s> (Ushanov) `in russian`
+	- `code` <https://github.com/HongleiXie/DropoutNet>
 
-  * "VAE for Collaborative Filtering" (Netflix) [https://youtube.com/watch?v=gRvxr47Gj3k] [https://arxiv.org/abs/1802.05814] [https://github.com/dawenl/vae_cf]
+  * ["VAE for Collaborative Filtering"](https://arxiv.org/abs/1802.05814) `Netflix`
+	- `video` <https://youtube.com/watch?v=gRvxr47Gj3k> (Liang)
+	- `code` <https://github.com/dawenl/vae_cf>
 
-  * "Content-based recommendations with Poisson factorization" [http://www.fields.utoronto.ca/video-archive/2017/03/2267-16706  (26:36)] [http://www.cs.toronto.edu/~lcharlin/papers/GopalanCharlinBlei_nips14.pdf]
-	collaborative topic models:
-	- blending factorization-based and content-based recommendation
-	- describing user preferences with interpretable topics
+  * ["Content-based recommendations with Poisson factorization"](http://www.cs.toronto.edu/~lcharlin/papers/GopalanCharlinBlei_nips14.pdf)
+	- collaborative topic models (blending factorization-based and content-based recommendation + describing user preferences with interpretable topics)
+	- `video` <http://www.fields.utoronto.ca/video-archive/2017/03/2267-16706> (26:36) (Blei)
 
-  * "Scalable Recommendation with Hierarchical Poisson Factorization" [https://youtu.be/zwcjJQoK8_Q?t=41m49s] [http://auai.org/uai2015/proceedings/papers/208.pdf] [https://github.com/premgopalan/hgaprec]
+  * ["Scalable Recommendation with Hierarchical Poisson Factorization"](http://auai.org/uai2015/proceedings/papers/208.pdf)
 	- discovering correlated preferences (devising new utility models and other factors such as time of day, date, in stock, customer demographic information)
+	- `video` [https://youtu.be/zwcjJQoK8_Q?t=41m49s] (Blei)
+	- `code` <https://github.com/premgopalan/hgaprec>
 
-  * user2vec (Yahoo) [https://youtube.com/watch?v=W56fZewflRw] [https://arxiv.org/abs/1606.07154]
+  * ["E-commerce in Your Inbox: Product Recommendations at Scale"](https://arxiv.org/abs/1606.07154) `user2vec` `Yahoo`
+	- `video` <https://youtube.com/watch?v=W56fZewflRw> (Djuric)
 
-  * LightFM [https://youtube.com/watch?v=EgE0DUrYmo8] [https://arxiv.org/abs/1507.08439] [https://github.com/lyst/lightfm/]
+  * ["Metadata Embeddings for User and Item Cold-start Recommendations"](https://arxiv.org/abs/1507.08439) `LightFM`
+	- `video` <https://youtube.com/watch?v=EgE0DUrYmo8> (Kula)
+	- `code` <https://github.com/lyst/lightfm>
 
-  * "Causal Inference for Recommendation" [http://people.hss.caltech.edu/~fde/UAI2016WS/papers/Liang.pdf] [http://people.hss.caltech.edu/~fde/UAI2016WS/talks/Dawen.pdf] [http://www.homepages.ucl.ac.uk/~ucgtrbd/whatif/David.pdf]
-
+  * ["Causal Inference for Recommendation"](http://people.hss.caltech.edu/~fde/UAI2016WS/papers/Liang.pdf)
+	- `slides` <http://people.hss.caltech.edu/~fde/UAI2016WS/talks/Dawen.pdf> (Liang)
+	- `slides` <http://www.homepages.ucl.ac.uk/~ucgtrbd/whatif/David.pdf> (Blei)
 
 
 #### item features
