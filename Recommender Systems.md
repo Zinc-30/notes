@@ -10,19 +10,23 @@
 ---
 ### applications
 
-#### item-to-item similarity modeling
+#### item-to-item similarity
 
-  * "Two Decades of Recommender Systems at Amazon.com" (Amazon) [https://www.computer.org/csdl/mags/ic/2017/03/mic2017030012.html]
+  * ["Two Decades of Recommender Systems at Amazon.com"](https://www.computer.org/csdl/mags/ic/2017/03/mic2017030012.html) `Amazon`
 	- learning item-to-item similarity on offline data (e.g. item2 often bought with item1)
 
-  * exponential family embeddings [https://youtu.be/zwcjJQoK8_Q?t=15m14s] [https://arxiv.org/abs/1608.00778] [https://github.com/mariru/exponential_family_embeddings] [https://github.com/franrruiz/p-emb]
+  * ["Exponential Family Embeddings"](https://arxiv.org/abs/1608.00778)
 	- identifying substitutes and co-purchases in high-scale consumer data (basket analysis)
+	- `video` <https://youtu.be/zwcjJQoK8_Q?t=15m14s> (Blei)
+	- `code` <https://github.com/mariru/exponential_family_embeddings>
+	- `code` <https://github.com/franrruiz/p-emb>
 
-  * prod2vec (Yahoo) [https://youtube.com/watch?v=W56fZewflRw] [https://arxiv.org/abs/1606.07154]
+  * ["E-commerce in Your Inbox: Product Recommendations at Scale"](https://arxiv.org/abs/1606.07154) `prod2vec` `Yahoo`
+	- `video` <https://youtube.com/watch?v=W56fZewflRw> (Djuric) [https://arxiv.org/abs/1606.07154]
 
 
 
-#### user preferences modeling
+#### user preferences
 
   * "Latent LSTM Allocation" (Amazon) [https://youtube.com/watch?v=ofaPq5aRKZ0] [https://vimeo.com/240608072] [http://proceedings.mlr.press/v70/zaheer17a/zaheer17a.pdf] [https://arxiv.org/abs/1711.11179]
 
@@ -46,7 +50,7 @@
 
 
 
-#### item features modeling
+#### item features
 
   * "Wide & Deep Learning" (Google) [https://youtube.com/watch?v=NV1tkZ9Lq48] [https://research.googleblog.com/2016/06/wide-deep-learning-better-together-with.html] [https://arxiv.org/abs/1606.07792] [https://www.tensorflow.org/tutorials/wide_and_deep]
 
