@@ -90,7 +90,7 @@
 
   * ["Scalable Recommendation with Hierarchical Poisson Factorization"](http://auai.org/uai2015/proceedings/papers/208.pdf)
 	- discovering correlated preferences (devising new utility models and other factors such as time of day, date, in stock, customer demographic information)
-	- `video` [https://youtu.be/zwcjJQoK8_Q?t=41m49s] (Blei)
+	- `video` <https://youtu.be/zwcjJQoK8_Q?t=41m49s> (Blei)
 	- `code` <https://github.com/premgopalan/hgaprec>
 
   * ["E-commerce in Your Inbox: Product Recommendations at Scale"](https://arxiv.org/abs/1606.07154) `user2vec` `Yahoo`
