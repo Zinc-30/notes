@@ -72,39 +72,34 @@
 ---
 ### study
 
-  "Recommender Systems: The Textbook" by Charu Aggarwal - http://charuaggarwal.net/Recommender-Systems.htm [https://yadi.sk/i/eMDtp31h3P8AxL]
-  "Recommender Systems Handbook" by Ricci, Rokach, Shapira, Kantor - http://www.cs.ubbcluj.ro/~gabis/DocDiplome/SistemeDeRecomandare/Recommender_systems_handbook.pdf
+  ["Recommender Systems: The Textbook"](http://charuaggarwal.net/Recommender-Systems.htm) by Charu Aggarwal ([book](https://yadi.sk/i/eMDtp31h3P8AxL))  
+  ["Recommender Systems Handbook"](http://www.cs.ubbcluj.ro/~gabis/DocDiplome/SistemeDeRecomandare/Recommender_systems_handbook.pdf) by Ricci, Rokach, Shapira, Kantor  
 
+----
 
-  tutorial by Xavier Amatriain - http://technocalifornia.blogspot.ru/2014/08/introduction-to-recommender-systems-4.html
+  [overview](https://youtube.com/watch?v=gCaOa3W9kM0) by Alex Smola `video`  
+  [overview](https://youtube.com/watch?v=xMr7I-OypVY) by Alex Smola `video`  
+  [tutorial](http://technocalifornia.blogspot.ru/2014/08/introduction-to-recommender-systems-4.html) by Xavier Amatriain `video`  
+  ["The Recommender Problem Revisited"](http://videolectures.net/kdd2014_amatriain_mobasher_recommender_problem) by Xavier Amatriain `video`  
+  ["Lessons Learned from Building Real-life Recommender Systems"](https://youtube.com/watch?v=VJOtr47V0eo) by Xavier Amatriain and Deepak Agarwal `video`  
 
-  overview by Alex Smola - https://youtube.com/watch?v=gCaOa3W9kM0
-  overview by Alex Smola - https://youtube.com/watch?v=xMr7I-OypVY
+  ["Deep Learning for Recommender Systems"](https://slideshare.net/kerveros99/deep-learning-for-recommender-systems-recsys2017-tutorial) by Alexandros Karatzoglou and Balazs Hidasi `slides`  
+  ["Deep Learning for Recommender Systems"](https://youtube.com/watch?v=KZ7bcfYGuxw) by Alexandros Karatzoglou `video`  
+  ["Deep Learning for Personalized Search and Recommender Systems"](https://youtube.com/watch?v=0DYQzZp68ok) by Zhang, Le, Fawaz, Venkataraman `video`  
 
-  "Lessons Learned from Building Real-life Recommender Systems" by Xavier Amatriain and Deepak Agarwal - https://youtube.com/watch?v=VJOtr47V0eo
-  "The Recommender Problem Revisited" by Xavier Amatriain - http://videolectures.net/kdd2014_amatriain_mobasher_recommender_problem/
+  [ACM RecSys](https://youtube.com/channel/UC2nEn-yNA1BtdDNWziphPGA) conference `video`
 
+----
 
-  overview by Michael Rozner (in russian) - https://youtube.com/watch?v=Us4KJkJiYrM
-  overview by Sergey Nikolenko (in russian) - https://youtube.com/watch?v=mr8u54jsveA + https://youtube.com/watch?v=cD47Ssp_Flk + https://youtube.com/watch?v=OFyb8ukrRDo
-  overview by Konstantin Vorontsov (in russian) - https://youtube.com/watch?v=kfhqzkcfMqI
-  overview by Victor Kantor (in russian) - https://youtube.com/watch?v=Te_6TqEhyTI
-  overview by Vladimir Gulin (in russian) - https://youtube.com/watch?v=5ir_fCgzfLM
-  overview by Alexey Dral (in russian) - https://youtube.com/watch?v=MLljnzsz9Dk
+  [overview](https://youtube.com/watch?v=Us4KJkJiYrM) by Michael Rozner `video` `in russian`  
+  overview by Sergey Nikolenko ([part 1](https://youtube.com/watch?v=mr8u54jsveA), [part 2](https://youtube.com/watch?v=cD47Ssp_Flk), [part 3](https://youtube.com/watch?v=OFyb8ukrRDo)) `video` `in russian`  
+  [overview](https://youtube.com/watch?v=kfhqzkcfMqI) by Konstantin Vorontsov `video` `in russian`  
+  [overview](https://youtube.com/watch?v=Te_6TqEhyTI) by Victor Kantor `video` `in russian`  
+  [overview](https://youtube.com/watch?v=5ir_fCgzfLM) by Vladimir Gulin `video` `in russian`  
+  [overview](https://youtube.com/watch?v=MLljnzsz9Dk) by Alexey Dral `video` `in russian`  
 
-
-  overview of Yandex Recommender System by Michael Rozner - https://youtube.com/watch?v=VgioTyMyJus
-  overview of Yandex.Disco by Michael Rozner (in russian) - https://youtube.com/watch?v=JKTneRi2vn8
-  overview of Yandex.Zen by Igor Lifar and Dmitry Ushanov (in russian) - https://youtube.com/watch?v=iGAMPnv-0VY
-
-
-  "Deep Learning for Recommender Systems" by Alexandros Karatzoglou - https://youtube.com/watch?v=KZ7bcfYGuxw
-  "Deep Learning for Recommender Systems" tutorial by Alexandros Karatzoglou and Balazs Hidasi - https://slideshare.net/kerveros99/deep-learning-for-recommender-systems-recsys2017-tutorial
-
-  "Deep Learning for Personalized Search and Recommender Systems" from LinkedIn and Airbnb - https://youtube.com/watch?v=0DYQzZp68ok
-
-
-  ACM RecSys conference - https://youtube.com/channel/UC2nEn-yNA1BtdDNWziphPGA
+  [overview](https://youtube.com/watch?v=iGAMPnv-0VY) of Yandex.Zen by Igor Lifar and Dmitry Ushanov `video` `in russian`  
+  [overview](https://youtube.com/watch?v=JKTneRi2vn8) of Yandex.Disco by Michael Rozner `video` `in russian`  
 
 
 
@@ -112,21 +107,12 @@
 ### challenges
 
   - diversity vs accuracy
-  - popularity vs personalization
-  - item fatigue vs freshness (repeating items)
-  - serendepity (how much to surprise user)
-  - predicting future vs influencing user
-
-
-  [http://quora.com/Recommendation-Systems/What-developments-have-occurred-in-recommender-systems-after-the-Netflix-Prize]:
-  - Implicit feedback from usage has proven to be a better and more reliable way to capture user preference.
-  - Rating prediction is not the best formalization of the "recommender problem". Other approaches, and in particular personalized Learning to Rank, are much more aligned with the idea of recommending the best item for a user.  
-  - It is important to find ways to balance the trade-off between exploration and exploitation. Approaches such as Multi-Armed Bandit algorithms offer an informed way to address this issue.
-  - Issues such as diversity and novelty can be as important as relevance.
-  - It is important to address the presentation bias caused by users only being able to give feedback to those items previously decided where good for them.
-  - The recommendation problem is not only a two dimensional problem of users and items but rather a multi-dimensional problem that includes many contextual dimensions such as time of the day or day of the week. Algorithms such as Tensor Factorization or Factorization Machines come in very handy for this.
-  - Users decide to select items not only based on how good they think they are, but also based on the possible impact on their social network. Therefore, social connections can be a good source of data to add to the recommendation system.
-  - It is not good enough to design algorithms that select the best items for users, these items need to be presented with the right form of explanations for users to be attracted to them.
+  - personalization vs popularity
+  - novelty vs relevance
+  - contextual dimensions (time)
+  - presentation bias
+  - explaining vs selecting items
+  - influencing user vs predicting future
 
 
 
