@@ -35,19 +35,20 @@
   - agent abilities (e.g. ability to draft emails, carry out complex tasks)
 
 
-  use cases:
-  - http://www.semanticmachines.com/case
-
-
   "Learning from Human Instruction" by Tom Mitchell - https://youtube.com/watch?v=p89PKaKirMs
-  "The Problem(s) with Neural Chatbots" by Ryan Lowe - http://cs.mcgill.ca/~rlowe1/problem_with_neural_chatbots.pdf
-
 
   "Statistical Spoken Dialogue Systems and the Challenges for Machine Learning" by Steve Young -
 	http://videolectures.net/aaai2017_young_machine_learning/
 	http://mi.eng.cam.ac.uk/~sjy/presentations/SSDS-Challenges.pdf
 
-  https://recherche.orange.com/en/dialogue-with-machines-between-fantasy-and-reality/
+  "Dialogue with Machines: between Fantasy and Reality" by Romain Laroche and Jean Leon Bouraoui -
+	https://recherche.orange.com/en/dialogue-with-machines-between-fantasy-and-reality/
+
+
+  "Deep Learning for Dialogue Systems" tutorial by Yun-Nung Chen, Asli Celikyilmaz and Dilek Hakkani-Tur -
+	https://vimeo.com/234950627
+
+  "The Problem(s) with Neural Chatbots" by Ryan Lowe - http://cs.mcgill.ca/~rlowe1/problem_with_neural_chatbots.pdf
 
 
 
