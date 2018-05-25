@@ -1,3 +1,7 @@
+<script type="text/javascript">
+window.onload = function() { $('details').attr("open", true); };
+</script>
+
   Deep Learning is learning to represent knowledge with composition of continuous functions.
 
 
@@ -2950,8 +2954,3 @@ x."
   - `video` <http://youtube.com/watch?v=TQ_hJ63YCTw#t=22m> (demo)
   - `code` <https://github.com/reedscot/icml2016>
   - `code` <https://github.com/paarthneekhara/text-to-image>
-
-
-<script>
-window.onload = function() { $('details').attr("open", true); };
-</script>
