@@ -2952,4 +2952,6 @@ x."
   - `code` <https://github.com/paarthneekhara/text-to-image>
 
 
-<script>$('details').removeAttr("open");alert('hello');</script>
+<script>
+$(document).ready(function() { $('details').removeAttr("open"); });
+</script>
