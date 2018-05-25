@@ -2950,3 +2950,6 @@ x."
   - `video` <http://youtube.com/watch?v=TQ_hJ63YCTw#t=22m> (demo)
   - `code` <https://github.com/reedscot/icml2016>
   - `code` <https://github.com/paarthneekhara/text-to-image>
+
+
+<script>$('details').removeAttr("open")</script>
