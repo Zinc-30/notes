@@ -149,8 +149,30 @@
 ----
   - *Poker*  
 
+	[Libratus "Science" magazine](http://science.sciencemag.org/content/early/2017/12/15/science.aao1733.full) `paper`  
+	["Safe and Nested Subgame Solving for Imperfect-Information Games"](https://arxiv.org/abs/1705.02955) by Noam Brown and Tuomas Sandholm `paper` ([talk](https://youtube.com/watch?v=tRiaGahlyy4) `video`)  
+	["Depth-Limited Solving for Imperfect-Information Games"](https://arxiv.org/abs/1805.08195) by Brown, Sandholm, Amos `paper`  
+
+	[Libratus overview](http://videolectures.net/aaai2017_bowling_sandholm_poker/#t=1350) by Tuomas Sandholm `video`  
+	[Libratus overview](https://youtube.com/watch?v=xrWulRY_t1o) by Tuomas Sandholm `video`  
+	[Libratus overview](https://youtube.com/watch?v=2dX0lwaQRX0) by Noam Brown `video`  
+	[Libratus overview](https://youtube.com/watch?v=UTogLB99JKQ) by Noam Brown `video`  
+
+	["Safe and Nested Subgame Solving for Imperfect-Information Games"](https://youtube.com/watch?v=tRiaGahlyy4) by Noam Brown `video`  
+	["Reduced Space and Faster Convergence in Imperfect-Information Games via Pruning"](https://vimeo.com/238229930) by Noam Brown `video`  
+	["The State of Techniques for Solving Large Imperfect-Information Games"](https://youtube.com/watch?v=Gz026reyVwc) by Tuomas Sandholm `video`  
+	["The State of Techniques for Solving Large Imperfect-Information Games, Including Poker"](https://youtube.com/watch?v=QgCxCeoW5JI) by Tuomas Sandholm `video`  
+
+	[discussion](https://reddit.com/r/MachineLearning/comments/7jn12v/ama_we_are_noam_brown_and_professor_tuomas] with Noam Brown and Tuomas Sandholm  
+	[discussion](https://youtube.com/watch?v=wKey6eKccYM) with Noam Brown `audio`  
+	[discussion](https://youtube.com/watch?v=ZlPPp_xokd4) with Tuomas Sandholm `audio`  
+
+	[Libratus vs top professional players](https://youtube.com/watch?v=crgmYTMfrSc) discussion with Doug Polk and players `video`
+
+----
+
+	[DeepStack "Science" magazine](http://science.sciencemag.org/content/early/2017/03/01/science.aam6960) `paper`  
 	["DeepStack: Expert-Level Artificial Intelligence in No-Limit Poker"](#deepstack-expert-level-artificial-intelligence-in-no-limit-poker-moravcik-et-al) by Moravcik et al. `paper` `summary`  
-	["Science" magazine](http://science.sciencemag.org/content/early/2017/03/01/science.aam6960) `paper`  
 
 	<http://deepstack.ai>  
 	<http://twitter.com/DeepStackAI>  
@@ -1937,6 +1959,7 @@ interesting recent papers:
   - `video` <https://youtube.com/watch?v=lfQEPWj97jk> (Osband)
   - `video` <http://techtalks.tv/talks/generalization-and-exploration-via-randomized-value-functions/62467/> (Osband)
   - `video` <https://youtu.be/ck4GixLs4ZQ?t=33m7s> (Osband)
+  - `video` <https://vimeo.com/252186381> (van Roy)
 
 
 #### ["Risk versus Uncertainty in Deep Learning: Bayes, Bootstrap and the Dangers of Dropout"](http://bayesiandeeplearning.org/papers/BDL_4.pdf) Osband
