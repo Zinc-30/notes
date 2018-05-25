@@ -2953,5 +2953,5 @@ x."
 
 
 <script>
-$(document).ready(function() { $('details').removeAttr("open"); });
+window.onload = function() { $('details').removeAttr("open"); };
 </script>
