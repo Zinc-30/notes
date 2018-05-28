@@ -531,7 +531,35 @@
 ---
 ### meta-learning
 
-  [learning to learn](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#meta-learning)
+  [overview](https://facebook.com/nipsfoundation/videos/1554594181298482/) (4:37) by Pieter Abbeel `video`  
+  [overview](https://vimeo.com/250423463) by Oriol Vinyals `video`  
+  [overview](http://videolectures.net/deeplearning2017_de_freitas_learning_to_learn/#t=631) by Nando de Freitas `video`  
+
+  [Metalearning symposium](http://metalearning-symposium.ml) `video`
+
+  [Metalearning symposium](https://vimeo.com/250399623) panel `video`  
+  [RNN symposium](https://youtube.com/watch?v=zSNkbhgMkzQ) panel `video`  
+
+  [interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#meta-learning)
+
+----
+
+  [overview](http://scholarpedia.org/article/Metalearning) by Tom Schaul and Juergen Schmidhuber
+
+  ["On Learning How to Learn Learning Strategies"](https://vimeo.com/250399374) by Juergen Schmidhuber `video`  
+  ["Learning how to Learn Learning Algorithms: Recursive Self-Improvement"](https://youtube.com/watch?v=nqiUFc52g78) by Juergen Schmidhuber `video`  
+
+  [Goedel Machine](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#meta-learning---goedel-machine)
+
+----
+
+  ["The Future of Deep Learning"](https://blog.keras.io/the-future-of-deep-learning.html) by Francois Chollet ([talk](https://youtu.be/MUF32XHqM34?t=16m55s) `video`)
+
+----
+
+  "Current commercial AI algorithms are still missing something fundamental. They are no self-referential general purpose learning algorithms. They improve some system’s performance in a given limited domain, but they are unable to inspect and improve their own learning algorithm. They do not learn the way they learn, and the way they learn the way they learn, and so on (limited only by the fundamental limits of computability)."
+
+  *(Juergen Schmidhuber)*
 
 
 
@@ -585,12 +613,13 @@
 
   [TPOT](https://github.com/EpistasisLab/tpot) project  
 
-  [auto_ml](http://auto-ml.readthedocs.io/en/latest/) project  
+  [auto_ml](http://auto-ml.readthedocs.io) project  
 
   [The Automatic Statistician](https://automaticstatistician.com) project  
-  - ["The Automatic Statistician"](https://youtu.be/H7AMB0oo__4?t=53m20s) by Zoubin Ghahramani `video`  
-  - ["The Automatic Statistician: A Project Update"](https://youtube.com/watch?v=WW2eunuApAU) by Zoubin Ghahramani `video`  
-  - ["The Automatic Statistician: an AI for Data Science"](https://www.snn.ru.nl/v2/img/ml2015/slides/Ghahramani_nijmegen15part2.pdf) by Zoubin Ghahramani `slides`  
+  - [overview](https://youtube.com/watch?v=aPDOZfu_Fyk) by Zoubin Ghahramani `video`  
+  - [overview](https://youtu.be/H7AMB0oo__4?t=53m20s) by Zoubin Ghahramani `video`  
+  - [overview](https://youtube.com/watch?v=WW2eunuApAU) by Zoubin Ghahramani `video`  
+  - [overview](https://www.snn.ru.nl/v2/img/ml2015/slides/Ghahramani_nijmegen15part2.pdf) by Zoubin Ghahramani `slides`  
 
 ----
 

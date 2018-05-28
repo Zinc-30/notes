@@ -1,7 +1,3 @@
-<script type="text/javascript">
-window.onload = function() { $('details').attr("open", true); };
-</script>
-
   Deep Learning is learning to represent knowledge with composition of continuous functions.
 
 
@@ -94,14 +90,15 @@ window.onload = function() { $('details').attr("open", true); };
 
   [applications](#interesting-papers---applications)
 
+  [other applications](https://yadi.sk/d/mQnJYmxo3WZDvP)
+
   [reinforcement learning](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md)  
   [bayesian inference and learning](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md)  
   [probabilistic programming](https://github.com/brylevkirill/notes/blob/master/Probabilistic%20Programming.md)  
   [knowledge representation and reasoning](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md)  
   [natural language processing](https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md)  
+  [recommender systems](https://github.com/brylevkirill/notes/blob/master/Recommender%20Systems.md)  
   [information retrieval](https://github.com/brylevkirill/notes/blob/master/Information%20Retrieval.md)  
-
-  [other applications](https://dropbox.com/sh/dio0ypwiph44ehn/AAADQCyEutvVt9iugVU1F5S8a)
 
 
 #### research areas
@@ -121,7 +118,6 @@ window.onload = function() { $('details').attr("open", true); };
   - metric learning and kernel learning
   - dimensionality expansion, sparse modeling
   - compositional / hierarchical models
-  - non-convex optimization for representation learning
   - architecture engineering
 
 
@@ -1089,7 +1085,7 @@ window.onload = function() { $('details').attr("open", true); };
 
 
 #### ["Understanding Deep Learning Requires Rethinking Generalization"](http://arxiv.org/abs/1611.03530) Zhang, Bengio, Hardt, Recht, Vinyals
-  `generalization`  <details><summary></summary>
+  `generalization`
 >	"Despite their massive size, successful deep artificial neural networks can exhibit a remarkably small difference between training and test performance. Conventional wisdom attributes small generalization error either to properties of the model family, or to the regularization techniques used during training. Through extensive systematic experiments, we show how these traditional approaches fail to explain why large neural networks generalize well in practice. Specifically, our experiments establish that state-of-the-art convolutional networks for image classification trained with stochastic gradient methods easily fit a random labeling of the training data. This phenomenon is qualitatively unaffected by explicit regularization, and occurs even if we replace the true images by completely unstructured random noise. We corroborate these experimental findings with a theoretical construction showing that simple depth two neural networks already have perfect finite sample expressivity as soon as the number of parameters exceeds the number of data points as it usually does in practice. We interpret our experimental findings by comparison with traditional models."
 
 >	"1. The effective capacity of neural networks is large enough for a brute-force memorization of the entire data set.  
@@ -1113,11 +1109,10 @@ window.onload = function() { $('details').attr("open", true); };
   - `notes` <https://blog.acolyer.org/2017/05/11/understanding-deep-learning-requires-re-thinking-generalization/>
   - `notes` <https://reddit.com/r/MachineLearning/comments/6ailoh/r_understanding_deep_learning_requires_rethinking/dhis1hz/>
   - `post` <http://www.offconvex.org/2017/12/08/generalization1/> (Arora)
-  </details>
 
 
 #### ["Opening the Black Box of Deep Neural Networks via Information"](http://arxiv.org/abs/1703.00810) Shwartz-Ziv, Tishby
-  `generalization`  <details><summary></summary>
+  `generalization`
 >	"Despite their great success, there is still no comprehensive theoretical understanding of learning with Deep Neural Networks or their inner organization. Previous work [Tishby & Zaslavsky (2015)] proposed to analyze DNNs in the Information Plane; i.e., the plane of the Mutual Information values that each layer preserves on the input and output variables. They suggested that the goal of the network is to optimize the Information Bottleneck tradeoff between compression and prediction, successively, for each layer. In this work we follow up on this idea and demonstrate the effectiveness of the Information-Plane visualization of DNNs. We first show that the stochastic gradient descent epochs have two distinct phases: fast empirical error minimization followed by slow representation compression, for each layer. We then argue that the DNN layers end up very close to the IB theoretical bound, and present a new theoretical argument for the computational benefit of the hidden layers."
 
 >	"Our numerical experiments were motivated by the Information Bottleneck framework. We demonstrated that the visualization of the layers in the information plane reveals many - so far unknown - details about the inner working of Deep Learning and Deep Neural Networks. They revealed the distinct phases of the SGD optimization, drift and diffusion, which explain the ERM and the representation compression trajectories of the layers. The stochasticity of SGD methods is usually motivated as a way of escaping local minima of the training error. In this paper we give it a new, perhaps much more important role: it generates highly efficient internal representations through compression by diffusion. This is consistent with other recent suggestions on the role of noise in Deep Learning."
@@ -1174,7 +1169,6 @@ window.onload = function() { $('details').attr("open", true); };
   - `notes` <https://reddit.com/r/MachineLearning/comments/60fhyb/r_opening_the_black_box_of_deep_neural_networks/df8jsbm/>
   - `press` <https://quantamagazine.org/new-theory-cracks-open-the-black-box-of-deep-learning-20170921>
   - `paper` ["Deep Learning and the Information Bottleneck Principle"](#tishby-zaslavsky---deep-learning-and-the-information-bottleneck-principle) by Tishby and Zaslavsky `summary`
-  </details>
 
 
 #### ["Deep Learning and the Information Bottleneck Principle"](https://arxiv.org/abs/1503.02406) Tishby, Zaslavsky
@@ -2784,14 +2778,7 @@ x."
 
 
 #### ["Learning Representations for Counterfactual Inference"](http://arxiv.org/abs/1605.03661) Johansson, Shalit, Sontag
->	"Observational studies are rising in importance due to the widespread accumulation of data in fields such as healthcare, education, employment and ecology. We consider the task of answering counterfactual questions such as, "Would this patient have lower blood sugar had she received a different medication?". We propose a new algorithmic framework for counterfactual inference which brings together ideas from domain adaptation and representation learning. In addition to a theoretical justification, we perform an empirical comparison with previous approaches to causal inference from observational data. Our deep learning algorithm significantly outperforms the previous state-of-the-art."
-
->	"As machine learning is becoming a major tool for researchers and policy makers across different fields such as healthcare and economics, causal inference becomes a crucial issue for the practice of machine learning. In this paper we focus on counterfactual inference, which is a widely applicable special case of causal inference. We cast counterfactual inference as a type of domain adaptation problem, and derive a novel way of learning representations suited for this problem. Our models rely on a novel type of regularization criteria: learning balanced representations, representations which have similar distributions among the treated and untreated populations. We show that trading off a balancing criterion with standard data fitting and regularization terms is both practically and theoretically prudent. Open questions which remain are how to generalize this method for cases where more than one treatment is in question, deriving better optimization algorithms and using richer discrepancy measures."
-
-  - `video` <http://techtalks.tv/talks/learning-representations-for-counterfactual-inference/62489/> (Johansson)
-  - `video` <https://channel9.msdn.com/Events/Neural-Information-Processing-Systems-Conference/Neural-Information-Processing-Systems-Conference-NIPS-2016/Deep-Learning-Symposium-Session-3> (Shalit)
-  - `notes` <http://www.shortscience.org/paper?bibtexKey=journals/corr/JohanssonSS16>
-  - `code` <https://github.com/clinicalml/cfrnet>
+  - <https://github.com/brylevkirill/notes/blob/master/Causal%20Inference.md#johansson-shalit-sontag---learning-representations-for-counterfactual-inference>
 
 
 #### ["Domain-Adversarial Training of Neural Networks"](http://arxiv.org/abs/1505.07818) Ganin, Ustinova, Ajakan, Germain, Larochelle, Laviolette, Marchand, Lempitsky
