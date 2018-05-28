@@ -1407,6 +1407,7 @@ interesting older papers:
 >	- fast to sample from  
 >	- limited capacity vs MAF"  
   - `video` <https://vimeo.com/252105837> (Papamakarios)
+  - `audio` <https://youtube.com/watch?v=315xKcYX-1w> (Papamakarios)
   - `post` <http://blog.evjang.com/2018/01/nf2.html>
   - `code` <https://github.com/gpapamak/maf>
 
