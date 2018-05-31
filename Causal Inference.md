@@ -11,13 +11,13 @@
 ----
 #### overview
 
+  ["The Seven Pillars of Causal Reasoning with Reflections on Machine Learning"](http://ftp.cs.ucla.edu/pub/stat_ser/r481.pdf) by Judea Pearl `paper`  
   ["Theoretical Impediments to Machine Learning"](http://web.cs.ucla.edu/~kaoru/theoretical-impediments.pdf) by Judea Pearl `paper`  
-  ["Theoretical Impediments to Machine Learning with Seven Sparks from the Causal Revolution"](https://arxiv.org/abs/1801.04016) by Judea Pearl `paper`  
 
   ["ML beyond Curve Fitting: An Intro to Causal Inference and do-Calculus"](http://inference.vc/untitled) by Ferenc Huszar
 
   ["Causal Data Science"](https://medium.com/@akelleh/causal-data-science-721ed63a4027) by Adam Kelleher:
-  - ["If Correlation Doesn’t Imply Causation, Then What Does?"](https://medium.com/@akelleh/if-correlation-doesnt-imply-causation-then-what-does-c74f20d26438) by Adam Kelleher
+  - ["If Correlation Doesn’t Imply Causation, Then What Does?"](https://medium.com/@akelleh/if-correlation-doesnt-imply-causation-then-what-does-c74f20d26438)
   - ["Understanding Bias: A Prerequisite For Trustworthy Results"](https://medium.com/@akelleh/understanding-bias-a-pre-requisite-for-trustworthy-results-ee590b75b1be)
   - ["Speed vs. Accuracy: When Is Correlation Enough? When Do You Need Causation?"](https://medium.com/@akelleh/speed-vs-accuracy-when-is-correlation-enough-when-do-you-need-causation-708c8ca93753)
   - ["A Technical Primer on Causality"](https://medium.com/@akelleh/a-technical-primer-on-causality-181db2575e41)
@@ -35,7 +35,7 @@
 ----
 
   ["The Book of Why: The New Science of Cause and Effect"](https://amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X) by Judea Pearl `book` ([overview](http://bayes.cs.ucla.edu/WHY/why-intro.pdf))  
-  ["Causality: Models, Reasoning, and Inference"](https://dropbox.com/s/m2m1935e6tohii9/Pearl%20-%20Causality%3A%20Models%2C%20Reasoning%2C%20and%20Inference.pdf) by Judea Pearl ([epilogue](http://bayes.cs.ucla.edu/BOOK-2K/causality2-epilogue.pdf))  
+  ["Causality: Models, Reasoning, and Inference"](https://dropbox.com/s/m2m1935e6tohii9/Pearl%20-%20Causality%3A%20Models%2C%20Reasoning%2C%20and%20Inference.pdf) by Judea Pearl `book` ([epilogue](http://bayes.cs.ucla.edu/BOOK-2K/causality2-epilogue.pdf))  
   ["Elements of Causal Inference"](https://mitpress.mit.edu/books/elements-causal-inference) by Jonas Peters, Dominik Janzing, Bernhard Scholkopf `book`  
   ["Causal Inference Book"](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/) by Miguel Hernan and James Robins `book`  
 
