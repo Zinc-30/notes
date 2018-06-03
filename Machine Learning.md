@@ -391,9 +391,11 @@
   ["Program Synthesis Explained"](http://homes.cs.washington.edu/~bornholt/post/synthesis-for-architects.html) by James Bornholt  
   ["Inductive Programming Meets the Real World"](https://microsoft.com/en-us/research/publication/inductive-programming-meets-real-world/) by Gulwani et al. `paper`  
 
-----
+  ["Approaches and Applications of Inductive Programming"](http://drops.dagstuhl.de/opus/volltexte/2018/8590/pdf/dagrep_v007_i009_p086_17382.pdf) by Schmid, Muggleton, Singh `paper`  
+  ["Recent Advances in Neural Program Synthesis"](https://arxiv.org/abs/1802.02353) by Neel Kant `paper`  
 
-  ["The Future of Deep Learning"](https://blog.keras.io/the-future-of-deep-learning.html) by Francois Chollet ([talk](https://youtu.be/MUF32XHqM34) `video`)
+  [**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#program-induction)  
+  [**selected papers**](https://yadi.sk/d/LZYQN7Lu3WxVVb)  
 
 ----
 
@@ -407,11 +409,7 @@
 
 ----
 
-  ["Approaches and Applications of Inductive Programming"](http://drops.dagstuhl.de/opus/volltexte/2018/8590/pdf/dagrep_v007_i009_p086_17382.pdf) by Schmid, Muggleton, Singh `paper`  
-  ["Recent Advances in Neural Program Synthesis"](https://arxiv.org/abs/1802.02353) by Neel Kant `paper`  
-
-  [**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#program-induction)  
-  [**selected papers**](https://yadi.sk/d/LZYQN7Lu3WxVVb)  
+  ["The Future of Deep Learning"](https://blog.keras.io/the-future-of-deep-learning.html) by Francois Chollet ([talk](https://youtu.be/MUF32XHqM34) `video`)
 
 
 
