@@ -402,7 +402,7 @@
 
   ["Neural Abstract Machines & Program Induction"](https://uclmr.github.io/nampi) workshop at NIPS 2016
 	([videos](https://youtube.com/playlist?list=PLzTDea_cM27LVPSTdK9RypSyqBHZWPywt))  
-  [panel](https://youtu.be/nqiUFc52g78?t=1h29m3s) at NAMPI workshop
+  [panel](https://youtu.be/nqiUFc52g78?t=1h29m3s) at NAMPI 2016
 	with Percy Liang, Juergen Schmidhuber, Joshua Tenenbaum, Martin Vechev, Daniel Tarlow, Dawn Song `video`  
 
 ----
