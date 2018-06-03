@@ -64,7 +64,7 @@
 
   [course](https://youtube.com/playlist?list=PLCzY7wK5FzzPANgnZq5pIT3FOomCT1s36) by Joe Blitzstein `video`  
 
-  [course](https://stepik.org/course/326/) from Computer Science Center `video` `in russian`  
+  [course](https://stepik.org/course/326/) from Computer Science Center `video` `in russian` ([videos](https://youtube.com/playlist?list=PLwwk4BHih4fgFBDweG6t8DDPMzaWIbGXr))  
   [course](https://compscicenter.ru/courses/math-stat/2015-spring/) from Computer Science Center `video` `in russian`  
   [course](https://compscicenter.ru/courses/math-stat/2013-spring/) from Computer Science Center `video` `in russian`  
 

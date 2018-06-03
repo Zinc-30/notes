@@ -16,21 +16,21 @@
 
 ----
 
-  [deep learning](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md)  
-  [reinforcement learning](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md)  
-  [bayesian inference and learning](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md)  
-  [probabilistic programming](https://github.com/brylevkirill/notes/blob/master/Probabilistic%20Programming.md)  
+  [**deep learning**](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md)  
+  [**reinforcement learning**](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md)  
+  [**bayesian inference and learning**](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md)  
+  [**probabilistic programming**](https://github.com/brylevkirill/notes/blob/master/Probabilistic%20Programming.md)  
 
 
 
 ----
 #### applications
 
-  [artificial intelligence](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md)  
-  [knowledge representation and reasoning](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md)  
-  [natural language processing](https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md)  
-  [recommender systems](https://github.com/brylevkirill/notes/blob/master/Recommender%20Systems.md)  
-  [information retrieval](https://github.com/brylevkirill/notes/blob/master/Information%20Retrieval.md)  
+  [**artificial intelligence**](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md)  
+  [**knowledge representation and reasoning**](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md)  
+  [**natural language processing**](https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md)  
+  [**recommender systems**](https://github.com/brylevkirill/notes/blob/master/Recommender%20Systems.md)  
+  [**information retrieval**](https://github.com/brylevkirill/notes/blob/master/Information%20Retrieval.md)  
 
 
   Any source code for expression y = f(x), where f(x) has some parameters and is used to make decision, prediction or estimate, has potential to be replaced by machine learning algorithm.
@@ -244,8 +244,8 @@
   - identify new and refine old challenges  
 
   frameworks:  
-  - [statistical learning theory](#theory---statistical-learning-theory)  
-  - [computational learning theory](#theory---computational-learning-theory) (PAC learning or PAC-Bayes)  
+  - [**statistical learning theory**](#theory---statistical-learning-theory)  
+  - [**computational learning theory**](#theory---computational-learning-theory) (PAC learning or PAC-Bayes)  
 
 
 ----
@@ -293,11 +293,11 @@
 ----
 #### theory - applications
 
-  [bayesian inference and learning](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md#theory)
+  [**bayesian inference and learning**](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md#theory)
 
-  [deep learning](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#theory)
+  [**deep learning**](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#theory)
 
-  [reinforcement learning](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#problems)  
+  [**reinforcement learning**](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#problems)  
   ["Theory of Reinforcement Learning"](http://videolectures.net/deeplearning2017_szepesvari_theory_of_rl/) by Csaba Szepesvari `video`  
 
 
@@ -315,116 +315,6 @@
   - How to quantify uncertainty?  
   - How to take into account the costs of decisions?  
   - How to handle non-indepedent and non-stationary data?  
-
-----
-
-  *machine learning* = *representation* + *evaluation* + *optimization*
-
-  *representation*:  A classifier/regressor must be represented in some formal language that the computer can handle. Conversely, choosing a representation for a learner is tantamount to choosing the set of classifiers that it can possibly learn. This set is called the hypothesis space of the learner. If a classifier is not in the hypothesis space, it cannot be learned. A related question is how to represent the input, i.e., what features to use.
-
-  *evaluation*:  An evaluation function (also called objective function or scoring function) is needed to distinguish good classifiers from bad ones. The evaluation function used internally by the algorithm may differ from the external one that we want the classifier to optimize, for ease of optimization and other issues.
-
-  *optimization*:  Finally, we need a method to search among the classifiers in the language for the highest-scoring one. The choice of optimization technique is key to the efficiency of the learner, and also helps determine the classifier produced if the evaluation function has more than one optimum. It is common for new learners to start out using off-the-shelf optimizers, which are later replaced by custom-designed ones.
-
-  *representation*:  
-  - instances  
-    * k-nearest neighbor  
-    * support vector machines  
-  - hyperplanes  
-    * naive Bayes  
-    * logistic regression  
-  - decision trees  
-  - sets of rules  
-    * propositional rules  
-    * logic programs  
-  - neural networks  
-  - graphical models  
-    * bayesian networks  
-    * conditional random fields  
-
-  *evaluation*:  
-  - accuracy/error rate  
-  - precision/recall  
-  - squared error  
-  - likelihood  
-  - posterior probability  
-  - information gain  
-  - K-L divergence  
-  - cost/utility  
-  - margin  
-
-  *optimization*:  
-  - combinatorial optimization  
-    * greedy search  
-    * beam search  
-    * branch-and-bound  
-  - unconstrained continuous optimization  
-    * gradient descent  
-    * conjugate gradient  
-    * quasi-Newton methods  
-  - constrained continuous optimization  
-    * linear programming  
-    * quadratic programming  
-
-----
-
-  *machine learning* = *experience obtaining* + *cost function* + *decision function*
-
-  *experience obtaining*:  
-  - transductive learning  
-  - inductive learning  
-  - stochastic optimization  
-  - active learning  
-  - budget learning  
-  - online learning  
-  - multi-armed bandits  
-  - reinforcement learning  
-
-  *cost function*:  
-  - supervised  
-    * classification  
-    * regression  
-    * learning to rank  
-    * metric learning  
-  - unsupervised  
-    * cluster analysis  
-    * dimensionality reduction  
-    * representation learning  
-  - semi-supervised  
-    * conditional clustering  
-    * transfer learning  
-
-  *decision function*:  
-  - linear desions  
-    * linear regression, logistic regression  
-    * LDA/QDA  
-    * LASSO  
-    * SVM  
-    * LSI  
-  - graphs  
-    * Markov chains, Hidden Markov Models  
-    * Probabilistic Graphical Models  
-    * Conditional Random Fields  
-  - artificial neural networks  
-    * Multilayer Perceptron  
-    * Hopfield net  
-    * Kohonen net  
-  - parametric family functions  
-    * sampling  
-    * genetic algorithms  
-    * PLSI  
-    * LDA  
-  - instance based learning  
-    * KNN  
-    * DANN  
-  - predicates  
-    * logic rules  
-    * decision trees  
-  - ensembles  
-    * bagging  
-    * boosting  
-    * bayesian model averaging  
-    * stacking  
 
 ----
 
@@ -459,9 +349,9 @@
 
 ----
 
-  [deep learning](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md)  
-  [probabilistic programming](https://github.com/brylevkirill/notes/blob/master/Probabilistic%20Programming.md)  
-  [knowledge representation](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#knowledge-representation)  
+  [**deep learning**](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md)  
+  [**probabilistic programming**](https://github.com/brylevkirill/notes/blob/master/Probabilistic%20Programming.md)  
+  [**knowledge representation**](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#knowledge-representation)  
 
 
 
@@ -549,7 +439,7 @@
   ["On Learning How to Learn Learning Strategies"](https://vimeo.com/250399374) by Juergen Schmidhuber `video`  
   ["Learning how to Learn Learning Algorithms: Recursive Self-Improvement"](https://youtube.com/watch?v=nqiUFc52g78) by Juergen Schmidhuber `video`  
 
-  [Goedel Machine](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#meta-learning---goedel-machine)
+  [**Goedel Machine**](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#meta-learning---goedel-machine)
 
 ----
 
@@ -630,6 +520,7 @@
 
   ["The Future of Deep Learning"](https://blog.keras.io/the-future-of-deep-learning.html) by Francois Chollet ([talk](https://youtu.be/MUF32XHqM34?t=11m43s) `video`)
 
+----
 
   ["Why Tool AIs Want to Be Agent AIs"](http://www.gwern.net/Tool%20AI) by Gwern Branwen:  
 
