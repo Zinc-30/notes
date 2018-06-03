@@ -566,7 +566,7 @@
 [**interesting papers - probabilistic programming**](https://github.com/brylevkirill/notes/blob/master/Probabilistic%20Programming.md#interesting-papers)  
 
 
-[**interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md)
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md)
 
 
 
