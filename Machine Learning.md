@@ -61,7 +61,7 @@
 
   <http://metacademy.org>  
   <http://en.wikipedia.org/wiki/Machine_learning> ([*guide*](https://github.com/Nixonite/open-source-machine-learning-degree/blob/master/Introduction%20to%20Machine%20Learning%20-%20Wikipedia.pdf))  
-  <http://machinelearning.ru/wiki/> `in russian`  
+  <http://machinelearning.ru> `in russian`  
 
 
 #### guides
@@ -129,11 +129,11 @@
   <http://hunch.net>  
   <http://machinedlearnings.com>  
   <http://nlpers.blogspot.com>  
-  <http://ruder.io>
+  <http://ruder.io>  
   <http://fastml.com>  
   <http://wildml.com>  
   <http://blogs.princeton.edu/imabandit>  
-  <http://timvieira.github.io/blog/>  
+  <http://timvieira.github.io/blog>  
   <http://r2rt.com>  
   <http://danieltakeshi.github.io>  
   <http://theneuralperspective.com>  
@@ -410,11 +410,8 @@
   ["Approaches and Applications of Inductive Programming"](http://drops.dagstuhl.de/opus/volltexte/2018/8590/pdf/dagrep_v007_i009_p086_17382.pdf) by Schmid, Muggleton, Singh `paper`  
   ["Recent Advances in Neural Program Synthesis"](https://arxiv.org/abs/1802.02353) by Neel Kant `paper`  
 
-  ["TerpreT: A Probabilistic Programming Language for Program Induction"](https://arxiv.org/abs/1608.04428) by Gaunt et al. `paper`  
-  ["Learning Explanatory Rules from Noisy Data"](https://arxiv.org/abs/1711.04574) by Evans and Grefenstette `paper`  
-
-  [interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#program-induction)  
-  [selected papers](https://dropbox.com/sh/vrr1gs798zy02n1/AACj7hlXOiRt1nXltXVC-2Wca)  
+  [**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#program-induction)  
+  [**selected papers**](https://yadi.sk/d/LZYQN7Lu3WxVVb)  
 
 
 
@@ -430,7 +427,7 @@
   [Metalearning symposium](https://vimeo.com/250399623) panel `video`  
   [RNN symposium](https://youtube.com/watch?v=zSNkbhgMkzQ) panel `video`  
 
-  [interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#meta-learning)
+  [**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#meta-learning)
 
 ----
 
@@ -495,7 +492,7 @@
   ["Neural Architecture Search"](https://vimeo.com/250399509) by Quoc Le `video`
 	([post](https://research.googleblog.com/2017/11/automl-for-large-scale-image.html))  
 
-  [interesting papers](#interesting-papers---automated-machine-learning)
+  [**interesting papers**](#interesting-papers---automated-machine-learning)
 
 ----
 
@@ -563,13 +560,13 @@
   - [systems](#interesting-papers---systems)
 
 
-[interesting papers - deep learning](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#interesting-papers)  
-[interesting papers - reinforcement learning](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#interesting-papers)  
-[interesting papers - bayesian inference and learning](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md#interesting-papers)  
-[interesting papers - probabilistic programming](https://github.com/brylevkirill/notes/blob/master/Probabilistic%20Programming.md#interesting-papers)  
+[**interesting papers - deep learning**](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#interesting-papers)  
+[**interesting papers - reinforcement learning**](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#interesting-papers)  
+[**interesting papers - bayesian inference and learning**](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md#interesting-papers)  
+[**interesting papers - probabilistic programming**](https://github.com/brylevkirill/notes/blob/master/Probabilistic%20Programming.md#interesting-papers)  
 
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md)
+[**interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md)
 
 
 
