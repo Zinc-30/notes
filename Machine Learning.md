@@ -2,7 +2,6 @@
 
 
   * [overview](#overview)
-  * [study](#study)
   * [theory](#theory)
   * [methods](#methods)
   * [representation learning](#representation-learning)
@@ -30,7 +29,7 @@
 
   overview by Igor Kuralenok ([first](https://youtu.be/ynS7XvkAdLU?t=12m5s), [second](https://youtu.be/jiyD0r2SC-g?t=12m55s)) `video` `in russian`
 
-
+----
 #### applications
 
   [**artificial intelligence**](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md)  
@@ -44,14 +43,14 @@
 
   Any source code for expression y = f(x), where f(x) has some parameters and is used to make decision, prediction or estimate, has potential to be replaced by machine learning algorithm.
 
-
+----
 #### knowledge bases
 
   <http://metacademy.org>  
   <http://en.wikipedia.org/wiki/Machine_learning> ([*guide*](https://github.com/Nixonite/open-source-machine-learning-degree/blob/master/Introduction%20to%20Machine%20Learning%20-%20Wikipedia.pdf))  
   <http://machinelearning.ru> `in russian`  
 
-
+----
 #### guides
 
   ["Machine Learning Basics"](http://www.deeplearningbook.org/contents/ml.html) by Ian Goodfellow, Yoshua Bengio, Aaron Courville  
@@ -67,7 +66,7 @@
   ["Software Engineering vs Machine Learning Concepts"](http://machinedlearnings.com/2017_02_01_archive.html) by Paul Mineiro  
   ["Rules of Machine Learning: Best Practices for ML Engineering"](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf) by Martin Zinkevich  
 
-
+----
 #### courses
 
   [course](https://youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN) by Andrew Ng `video`  
@@ -88,7 +87,7 @@
   [course](http://youtube.com/playlist?list=PLlb7e2G7aSpSSsCeUMLN-RxYOLAI9l2ld) by Igor Kuralenok `video` `in russian`  
   [course](http://lektorium.tv/course/22975) by Igor Kuralenok `video` `in russian`  
 
-
+----
 #### books
 
   ["The Master Algorithm"](http://basicbooks.com/full-details?isbn=9780465065707) by Pedro Domingos  
@@ -107,7 +106,7 @@
   ["Foundations of Machine Learning"](http://www.cs.nyu.edu/~mohri/mlbook/) by Mehryar Mohri  
   ["Scaling Up Machine Learning: Parallel and Distributed Approaches"](https://goo.gl/dE7jPb) by Ron Bekkerman, Mikhail Bilenko, John Langford  
 
-
+----
 #### blogs
 
   <http://inference.vc>  
@@ -126,7 +125,7 @@
   <http://danieltakeshi.github.io>  
   <http://theneuralperspective.com>  
 
-
+----
 #### news and discussions
 
   <https://jack-clark.net/import-ai>  
@@ -135,7 +134,7 @@
 
   <https://reddit.com/r/MachineLearning>
 
-
+----
 #### conferences
 
   - ICLR 2018  
