@@ -23,7 +23,14 @@
 
 
 
-----
+---
+### overview
+
+  ["The Talking Machines"](http://thetalkingmachines.com/blog/) podcast `audio`
+
+  overview by Igor Kuralenok ([first](https://youtu.be/ynS7XvkAdLU?t=12m5s), [second](https://youtu.be/jiyD0r2SC-g?t=12m55s)) `video` `in russian`
+
+
 #### applications
 
   [**artificial intelligence**](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md)  
@@ -32,30 +39,11 @@
   [**recommender systems**](https://github.com/brylevkirill/notes/blob/master/Recommender%20Systems.md)  
   [**information retrieval**](https://github.com/brylevkirill/notes/blob/master/Information%20Retrieval.md)  
 
-
-  Any source code for expression y = f(x), where f(x) has some parameters and is used to make decision, prediction or estimate, has potential to be replaced by machine learning algorithm.
-
-
-
----
-### overview
-
   ["Machine Learning is The New Algorithms"](http://nlpers.blogspot.ru/2014/10/machine-learning-is-new-algorithms.html) by Hal Daume  
   ["When is Machine Learning Worth It?"](http://inference.vc/when-is-machine-learning-worth-it/) by Ferenc Huszar  
 
-----
+  Any source code for expression y = f(x), where f(x) has some parameters and is used to make decision, prediction or estimate, has potential to be replaced by machine learning algorithm.
 
-  ["The Talking Machines"](http://thetalkingmachines.com/blog/) podcast `audio`
-
-----
-
-  [overview](http://youtube.com/watch?v=lkh7bLUc30g) by Dmitry Vetrov `video` `in russian`  
-  overview by Igor Kuralenok ([first](https://youtu.be/ynS7XvkAdLU?t=12m5s), [second](https://youtu.be/jiyD0r2SC-g?t=12m55s)) `video` `in russian`  
-
-
-
----
-### study
 
 #### knowledge bases
 
