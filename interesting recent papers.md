@@ -391,6 +391,9 @@ interesting older papers:
 >	"Implicit reparameterization gradients can outperform existing stochastic variational methods at training the Latent Dirichlet Allocation topic model in a black-box fashion using amortized inference."  
 >	"Implicit reparameterization gradients can be used to train VAEs with Gamma, Beta, and von Mises latent variables, leading to latent spaces with interesting alternative topologies."  
 >	"Following Graves, we use implicit differentiation to differentiate the CDF rather than its inverse. While the method of Graves is only practical for distributions with analytically tractable CDFs and has been used solely with mixture distributions, we leverage automatic differentiation to handle distributions with numerically tractable CDFs."  
+>	"One common example of implicit differentiation is the inverse function theorem. Suppose that you can easily compute y = f(x), but computing f^-1(y) is expensive/hard. Then, you can take points x, compute y = f(x), and by definition have x = f^-1(y). The inverse function theorem tells you that (f^-1(y))' = 1 / f'(x) . So, you can compute the derivative of the inverse even when you cannot easily compute x = f^-1(y) for any y. Implicit differentiation is an extension of this idea that handles the case when the inverse is taken w.r.t. one argument and differentiation is performed w.r.t. another."  
+  - <https://i.imgur.com/iEVFES7.png>
+  - <https://www.math.ucdavis.edu/~kouba/CalcOneDIRECTORY/implicitdiffdirectory/ImplicitDiff.html>
 
 #### ["Backpropagation through the Void: Optimizing Control Variates for Black-box Gradient Estimation"](https://arxiv.org/abs/1711.00123) Grathwohl, Choi, Wu, Roeder, Duvenaud
   `variables with discrete distributions` `non-differentiable loss` `RELAX`
@@ -1079,6 +1082,10 @@ interesting older papers:
 >	"Models learn to identify multiple objects - counting, locating and classifying the elements of a scene - without any supervision, e.g., decomposing 3D images with various numbers of objects in a single forward pass of a neural network."  
   - `video` <https://youtube.com/watch?v=4tc84kKdpY4> (demo)
   - `notes` <http://www.shortscience.org/paper?bibtexKey=journals/corr/EslamiHWTKH16>
+  - `post` <http://akosiorek.github.io/ml/2017/09/03/implementing-air.html>
+  - `post` <http://pyro.ai/examples/air.html>
+  - `code` <https://github.com/akosiorek/attend_infer_repeat>
+  - `code` <https://github.com/uber/pyro/tree/dev/examples/air>
 
 ----
 #### ["Synthesizing Programs for Images using Reinforced Adversarial Learning"](https://arxiv.org/abs/1804.01118) Ganin, Kulkarni, Babuschkin, Eslami, Vinyals
@@ -1132,6 +1139,7 @@ interesting older papers:
   - `post` <https://rare-technologies.com/implementing-poincare-embeddings/>
   - `code` <https://github.com/facebookresearch/poincare-embeddings>
   - `code` <https://github.com/TatsuyaShirakawa/poincare-embedding>
+  - `code` <https://github.com/lateral/poincare-embeddings>
 
 
 
@@ -2436,6 +2444,9 @@ interesting older papers:
   - `video` <https://youtube.com/watch?v=L5Q4Y3omnrY> (Agarwal)
   - `video` <https://vimeo.com/235929810> (Schapire)
 
+#### ["Why is Posterior Sampling Better than Optimism for Reinforcement Learning?"](http://arxiv.org/abs/1607.00215) Osband, van Roy
+  - <https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#why-is-posterior-sampling-better-than-optimism-for-reinforcement-learning-osband-van-roy>
+
 ----
 #### ["Evolved Policy Gradients"](https://arxiv.org/abs/1802.04821) Houthooft, Chen, Isola, Stadie, Wolski, Ho, Abbeel
   `learning intrinsic motivation` `meta-learning`
@@ -3176,6 +3187,7 @@ hieves."
 >	"These works raise questions of (a) whether new models can be designed specifically to synthesize interpretable source code that may contain looping and branching structures, and (b) whether searching over program space using techniques developed for training deep neural networks is a useful alternative to the combinatorial search methods used in traditional IPS. In this work, we make several contributions in both of these directions."  
 >	"Shows that differentiable interpreter-based program induction is inferior to discrete search-based techniques used by the programming languages community. We are then left with the question of how to make progress on program induction using machine learning techniques."  
   - `video` <https://youtu.be/vzDuVhFMB9Q?t=2m40s> (Gaunt)
+  - `code` <https://github.com/51alg/TerpreT>
 
 #### ["Programming with a Differentiable Forth Interpreter"](http://arxiv.org/abs/1605.06640) Bošnjak, Rocktaschel, Naradowsky, Riedel
   `learning details of probabilistic program`
@@ -3547,9 +3559,8 @@ hieves."
 >	"The paper also gives a theoretical explanation of the success of the above unsupervised method using a latent variable generative model for sentences, which is a simple extension of the model in Arora et al. (TACL’16) with new “smoothing” terms that allow for words occurring out of context, as well as high probabilities for words like and, not in all contexts."  
   - `video` <https://youtube.com/watch?v=BCsOrewkmH4> (Ma)
   - `video` <https://youtu.be/KR46z_V0BVw?t=49m10s> (Arora)
-  - <https://akshayka.github.io/papers/html/arora2017sentence-embeddings.html>
-  - <https://github.com/PrincetonML/SIF>
-  - <https://github.com/YingyuLiang/SIF>
+  - `code` <https://github.com/PrincetonML/SIF>
+  - `code` <https://github.com/YingyuLiang/SIF>
 
 #### ["On the Use of Word Embeddings Alone to Represent Natural Language Sequences"](https://openreview.net/forum?id=Sy5OAyZC-) Shen et al.
 >	"To construct representations for natural language sequences, information from two main sources needs to be captured: (i) semantic meaning of individual words, and (ii) their compositionality. These two types of information are usually represented in the form of word embeddings and compositional functions, respectively. For the latter, Recurrent Neural Networks (RNNs) and Convolutional Neural Networks (CNNs) have been considered. There has not been a rigorous evaluation regarding the relative importance of each component to different text-representation-based tasks; i.e., how important is the modeling capacity of word embeddings alone, relative to the added value of a compositional function? We conduct an extensive comparative study between Simple Word Embeddings-based Models (SWEMs), with no compositional parameters, relative to employing word embeddings within RNN/CNN-based models. Surprisingly, SWEMs exhibit comparable or even superior performance in the majority of cases considered."  

@@ -1346,8 +1346,6 @@
   [overview](http://videolectures.net/deeplearning2016_abbeel_deep_reinforcement/#t=1003) by Pieter Abbeel `video`  
   overview by John Schulman ([part 1](https://youtube.com/watch?v=oPGVsoBonLM), [part 2](https://youtube.com/watch?v=oPGVsoBonLM)) `video`  
 
-  [overview of implementation](https://yadi.sk/i/8f9NX_E73GKBkT) by Fedor Ratnikov `video` `in russian`
-
 
 
 ----
@@ -1360,8 +1358,6 @@
   [overview](https://youtube.com/watch?v=gb5Q2XL5c8A) by John Schulman `video`  
   [overview](https://youtu.be/ycCtmp4hcUs?t=58m53s) by Joshua Achiam `video`  
   [overview](https://yadi.sk/i/1oyihBnm3HiKHm) by Alexander Fritzler `video` `in russian`  
-
-  [overview of implementation](https://yadi.sk/i/b0ol2gUV3HiKKJ) by Alexander Fritzler and Fedor Ratnikov `video` `in russian`  
 
   [explanation](http://kvfrans.com/what-is-the-natural-gradient-and-where-does-it-appear-in-trust-region-policy-optimization/) of natural gradient in TRPO by Kevin Frans  
   [explanation](http://www.alexirpan.com/rl-derivations/#natural-policy-gradient) of natural gradient by Alex Irpan  
@@ -2786,6 +2782,7 @@ interesting recent papers:
   - `post` <https://learningai.io/projects/2017/07/28/ai-gym-workout.html>
   - `notes` <https://towardsdatascience.com/introduction-to-various-reinforcement-learning-algorithms-part-ii-trpo-ppo-87f2c5919bb9>
   - `notes` <https://github.com/DanielTakeshi/Paper_Notes/blob/master/reinforcement_learning/Proximal_Policy_Optimization_Algorithms.md>
+  - `post` <http://blog.varunajayasiri.com/ml/ppo.html>
   - `code` <https://github.com/openai/baselines/tree/master/baselines/pposgd>
   - `code` <https://github.com/ikostrikov/pytorch-a2c-ppo-acktr>
   - `code` <https://github.com/ShangtongZhang/DeepRL>
