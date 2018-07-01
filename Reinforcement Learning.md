@@ -150,15 +150,15 @@
   - *Poker*  
 
 	[Libratus "Science" magazine](http://science.sciencemag.org/content/early/2017/12/15/science.aao1733.full) `paper`  
-	["Safe and Nested Subgame Solving for Imperfect-Information Games"](https://arxiv.org/abs/1705.02955) by Noam Brown and Tuomas Sandholm `paper` ([talk](https://youtube.com/watch?v=tRiaGahlyy4) `video`)  
+	["Safe and Nested Subgame Solving for Imperfect-Information Games"](https://arxiv.org/abs/1705.02955) by Noam Brown and Tuomas Sandholm `paper` ([talk](https://vimeo.com/248533943#t=53s) `video`)  
 	["Depth-Limited Solving for Imperfect-Information Games"](https://arxiv.org/abs/1805.08195) by Brown, Sandholm, Amos `paper`  
 
-	[Libratus overview](http://videolectures.net/aaai2017_bowling_sandholm_poker/#t=1350) by Tuomas Sandholm `video`  
 	[Libratus overview](https://youtube.com/watch?v=xrWulRY_t1o) by Tuomas Sandholm `video`  
+	[Libratus overview](http://videolectures.net/aaai2017_bowling_sandholm_poker/#t=1350) by Tuomas Sandholm `video`  
 	[Libratus overview](https://youtube.com/watch?v=2dX0lwaQRX0) by Noam Brown `video`  
 	[Libratus overview](https://youtube.com/watch?v=UTogLB99JKQ) by Noam Brown `video`  
 
-	["Safe and Nested Subgame Solving for Imperfect-Information Games"](https://youtube.com/watch?v=tRiaGahlyy4) by Noam Brown `video`  
+	["Safe and Nested Subgame Solving for Imperfect-Information Games"](https://vimeo.com/248533943#t=53s) by Noam Brown `video`  
 	["Reduced Space and Faster Convergence in Imperfect-Information Games via Pruning"](https://vimeo.com/238229930) by Noam Brown `video`  
 	["The State of Techniques for Solving Large Imperfect-Information Games"](https://youtube.com/watch?v=Gz026reyVwc) by Tuomas Sandholm `video`  
 	["The State of Techniques for Solving Large Imperfect-Information Games, Including Poker"](https://youtube.com/watch?v=QgCxCeoW5JI) by Tuomas Sandholm `video`  
@@ -178,9 +178,10 @@
 	<http://deepstack.ai>  
 	<http://twitter.com/DeepStackAI>  
 
-	[DeepStack overview](http://videolectures.net/aaai2017_bowling_sandholm_poker/#t=177) by Michael Bowling `video`  
+	[DeepStack overview](https://vimeo.com/248532904) by Michael Bowling `video`  
 	[DeepStack overview](https://youtu.be/02xIkHowQOk?t=11m45s) by Michael Bowling `video`  
 	[DeepStack overview](https://youtube.com/watch?v=qndXrHcV1sM) by Michael Bowling `video`  
+	[DeepStack overview](http://videolectures.net/aaai2017_bowling_sandholm_poker/#t=177) by Michael Bowling `video`  
 
 	[discussion](http://thinkingpoker.net/2017/03/episode-208-michael-bowling-of-cprg/) with Michael Bowling  
 	[discussion](http://thinkingpoker.net/2017/04/episode-210-michael-johanson-and-dustin-morrill/) with Michael Johanson and Dustin Morrill  
@@ -211,6 +212,8 @@
 
 ----
   - *Dota 2*  
+
+	[overview](https://blog.openai.com/openai-five/) of OpenAI Five bot
 
 	[overview](https://blog.openai.com/dota-2/) of OpenAI bot  
 	[overview](https://blog.openai.com/more-on-dota-2/) of OpenAI bot  
@@ -344,6 +347,8 @@
   [exercises and solutions](https://github.com/yandexdataschool/Practical_RL/) from Yandex  
 
   [implementations of algorithms](https://github.com/ShangtongZhang/DeepRL) from Shangtong Zhang  
+  [implementations of algorithms](https://github.com/higgsfield/RL-Adventure) from Dulat Yerzat  
+  [implementations of algorithms](https://github.com/higgsfield/RL-Adventure-2) from Dulat Yerzat  
   [implementations of algorithms](https://github.com/NervanaSystems/coach) from Intel Nervana  
   [implementations of algorithms](https://github.com/rlcode/reinforcement-learning) from RLCode team  
   [implementations of algorithms](https://github.com/openai/rllab/tree/master/rllab/algos) from OpenAI  
@@ -1238,7 +1243,8 @@
   course by John Schulman (parts [1](https://youtube.com/watch?v=BB-BhTn6DCM), [2](https://youtube.com/watch?v=_t5fpZuuf-4), [3](https://youtube.com/watch?v=Fauwwkiy-bo), [4](https://youtube.com/watch?v=IDSA2wAACr0)) `video`  
   course by John Schulman (parts [1](https://youtube.com/watch?v=aUrX-rP_ss4), [2](https://youtube.com/watch?v=oPGVsoBonLM), [3](https://youtube.com/watch?v=rO7Dx8pSJQw), [4](https://youtube.com/watch?v=gb5Q2XL5c8A)) `video`  
 
-  ["Advanced Policy Gradient Methods"](https://youtube.com/watch?v=ycCtmp4hcUs) by Joshua Achiam `video`
+  [overview](https://youtu.be/eeJ1-bUnwRI?t=49m57s) by Olivier Sigaud `video`  
+  ["Advanced Policy Gradient Methods"](https://youtube.com/watch?v=ycCtmp4hcUs) by Joshua Achiam `video`  
 
   [overview](https://yadi.sk/i/I3M09HKQ3GKBiP) by Fedor Ratnikov `video` `in russian`  
   [overview](https://youtu.be/mrgJ53TIcQc?t=41m35s) by Alexey Seleznev `video` `in russian`  
@@ -1263,12 +1269,13 @@
     * [Deep Deterministic Policy Gradient](#deep-deterministic-policy-gradient-ddpg)  (policy gradient estimation using gradient of critic as model of returns)  
     * [Stochastic Value Gradient](#stochastic-value-gradient-svg)  (policy gradient estimation using gradient of critic or gradient of environment model)  
 
-
   what's the right core model-free algorithm is not clear:  
   - *derivative-free policy optimization*:  scalable, very sample-inefficient, more robust, no off-policy  
   - *policy gradient optimization*:  scalable, not sample-efficient, not robust, no off-policy  
   - *trust region policy optimization*:  less scalable, more sample-efficient, more robust, no off-policy  
   - *value-based policy optimization*:  scalable in state space, more sample-efficient, not robust, more off-policy  
+
+  [overview](https://youtu.be/eeJ1-bUnwRI?t=1h58m38s) of methods (the big picture) by Olivier Sigaud `video`
 
 ----
 
@@ -1538,7 +1545,7 @@ interesting recent papers:
 >	"The theory of reinforcement learning provides a normative account, deeply rooted in psychological and neuroscientific perspectives on animal behaviour, of how agents may optimize their control of an environment. To use reinforcement learning successfully in situations approaching real-world complexity, however, agents are confronted with a difficult task: they must derive efficient representations of the environment from high-dimensional sensory inputs, and use these to generalize past experience to new situations. Remarkably, humans and other animals seem to solve this problem through a harmonious combination of reinforcement learning and hierarchical sensory processing systems, the former evidenced by a wealth of neural data revealing notable parallels between the phasic signals emitted by dopaminergic neurons and temporal difference reinforcement learning algorithms. While reinforcement learning agents have achieved some successes in a variety of domains, their applicability has previously been limited to domains in which useful features can be handcrafted, or to domains with fully observed, low-dimensional state spaces. Here we use recent advances in training deep neural networks to develop a novel artificial agent, termed a deep Q-network, that can learn successful policies directly from high-dimensional sensory inputs using end-to-end reinforcement learning. We tested this agent on the challenging domain of classic Atari 2600 games. We demonstrate that the deep Q-network agent, receiving only the pixels and the game score as inputs, was able to surpass the performance of all previous algorithms and achieve a level comparable to that of a professional human games tester across a set of 49 games, using the same algorithm, network architecture and hyperparameters. This work bridges the divide between high-dimensional sensory inputs and actions, resulting in the first artificial agent that is capable of learning to excel at a diverse array of challenging tasks."
 
   - `paper` <http://nature.com/nature/journal/v518/n7540/full/nature14236.html>
-  - `video` <http://youtube.com/watch?v=re6hkcTWVUY> (ViZDoom demo)
+  - `video` <http://youtube.com/watch?v=re6hkcTWVUY> (demo)
   - `video` <http://youtube.com/watch?v=iqXKQf2BOSE> (demo)
   - `video` <http://youtube.com/watch?v=EfGD2qveGdQ> (demo)
   - `video` <http://youtube.com/user/eldubro/videos> (demo)
@@ -1592,6 +1599,7 @@ interesting recent papers:
   - `video` <https://youtu.be/V0HNXVSrvhg?t=1h20m45s> + <https://youtu.be/Lz5_xFGt2hA?t=3m11s> (Grinchuk) `in russian`
   - `video` <https://youtu.be/WM4HC720Cms?t=1h34m49s> (Nikolenko) `in russian`
   - `video` <https://youtu.be/zHjE07NBA_o?t=1h10m24s> (Kozlov) `in russian`
+  - `post` <http://depthfirstlearning.com/2018/AlphaGoZero>
   - `post` <http://inference.vc/alphago-zero-policy-improvement-and-vector-fields/>
   - `post` <http://tim.hibal.org/blog/alpha-zero-how-and-why-it-works/>
   - `post` <https://reddit.com/r/MachineLearning/comments/76xjb5/ama_we_are_david_silver_and_julian_schrittwieser/dolnq31/> (Anthony)
@@ -1660,9 +1668,10 @@ interesting recent papers:
   - `video` <https://youtube.com/playlist?list=PLX7NnbJAq7PlA2XpynViLOigzWtmr6QVZ> (demo matches)
   - <http://deepstack.ai>
   - <http://twitter.com/DeepStackAI>
+  - `video` <https://vimeo.com/248532904> (Bowling)
   - `video` <https://youtu.be/02xIkHowQOk?t=11m45s> (Bowling)
   - `video` <https://youtube.com/watch?v=qndXrHcV1sM> (Bowling)
-  - `video` <http://videolectures.net/aaai2017_bowling_sandholm_poker> (Bowling, Sandholm)
+  - `video` <http://videolectures.net/aaai2017_bowling_sandholm_poker/#t=177> (Bowling)
   - `code` <https://github.com/lifrordi/DeepStack-Leduc>
 
 
@@ -2443,20 +2452,6 @@ interesting recent papers:
   - `code` <https://github.com/siemens/policy_search_bb-alpha>
 
 
-#### ["Continuous Deep Q-Learning with Model-based Acceleration"](http://arxiv.org/abs/1603.00748) Gu, Lillicrap, Sutskever, Levine
->	"Model-free reinforcement learning has been successfully applied to a range of challenging problems, and has recently been extended to handle large neural network policies and value functions. However, the sample complexity of model-free algorithms, particularly when using high-dimensional function approximators, tends to limit their applicability to physical systems. In this paper, we explore algorithms and representations to reduce the sample complexity of deep reinforcement learning for continuous control tasks. We propose two complementary techniques for improving the efficiency of such algorithms. First, we derive a continuous variant of the Q-learning algorithm, which we call normalized adantage functions (NAF), as an alternative to the more commonly used policy gradient and actor-critic methods. NAF representation allows us to apply Q-learning with experience replay to continuous tasks, and substantially improves performance on a set of simulated robotic control tasks. To further improve the efficiency of our approach, we explore the use of learned models for accelerating model-free reinforcement learning. We show that iteratively refitted local linear models are especially effective for this, and demonstrate substantially faster learning on domains where such models are applicable."
-
->	"Model-free RL algorithm using imagination rollouts coming from a model learned with the previous interactions with the environment or via expert demonstrations. NAF is the natural extension of Q-Learning in the continuous case where the advantage function is parameterized as a quadratic function of non-linear state features. The uni-modal nature of this function allows the maximizing action for the Q-function to be obtained directly as the mean policy. This formulation makes the greedy step of Q-Learning tractable for continuous action domains."
-
-  - `video` <http://techtalks.tv/talks/continuous-deep-q-learning-with-model-based-acceleration/62474/> (Gu)
-  - `video` <https://youtu.be/M6nfipCxQBc?t=10m48s> (Lillicrap)
-  - `video` <https://youtu.be/jtjW5Pye_44?t=1h17m18s> (Levine)
-  - `video` <https://youtu.be/mrgJ53TIcQc?t=57m> (Seleznev) `in russian`
-  - `code` <https://github.com/reinforceio/tensorforce/blob/master/tensorforce/models/naf_model.py>
-  - `code` <https://github.com/ikostrikov/pytorch-naf>
-  - `code` <https://github.com/carpedm20/NAF-tensorflow>
-
-
 #### ["Action-Conditional Video Prediction using Deep Networks in Atari Games"](http://arxiv.org/abs/1507.08750) Oh, Guo, Lee, Lewis, Singh
 >	"Motivated by vision-based reinforcement learning problems, in particular Atari games from the recent benchmark Aracade Learning Environment, we consider spatio-temporal prediction problems where future (image-)frames are dependent on control variables or actions as well as previous frames. While not composed of natural scenes, frames in Atari games are high-dimensional in size, can involve tens of objects with one or more objects being controlled by the actions directly and many other objects being influenced indirectly, can involve entry and departure of objects, and can involve deep partial observability. We propose and evaluate two deep neural network architectures that consist of encoding, action-conditional transformation, and decoding layers based on convolutional neural networks and recurrent neural networks. Experimental results show that the proposed architectures are able to generate visually-realistic frames that are also useful for control over approximately 100-step action-conditional futures in some games. To the best of our knowledge, this paper is the first to make and evaluate long-term predictions on high-dimensional video conditioned by control inputs."
 
@@ -2495,7 +2490,7 @@ interesting recent papers:
 #### ["Playing Atari with Deep Reinforcement Learning"](https://arxiv.org/abs/1312.5602) Mnih, Kavukcuoglu, Silver, Graves, Antonoglou, Wierstra, Riedmiller
 >	"We present the first deep learning model to successfully learn control policies directly from high-dimensional sensory input using reinforcement learning. The model is a convolutional neural network, trained with a variant of Q-learning, whose input is raw pixels and whose output is a value function estimating future rewards. We apply our method to seven Atari 2600 games from the Arcade Learning Environment, with no adjustment of the architecture or learning algorithm. We find that it outperforms all previous approaches on six of the games and surpasses a human expert on three of them."
 
-  - `video` <http://youtube.com/watch?v=re6hkcTWVUY> (ViZDoom demo)
+  - `video` <http://youtube.com/watch?v=re6hkcTWVUY> (demo)
   - `video` <http://youtube.com/watch?v=EfGD2qveGdQ> (demo)
   - `video` <http://youtube.com/user/eldubro/videos> (demo)
   - <http://cs.stanford.edu/people/karpathy/convnetjs/demo/rldemo.html> (demo)
@@ -2722,16 +2717,17 @@ interesting recent papers:
 
 >	"We have presented asynchronous versions of four standard reinforcement learning algorithms and showed that they are able to train neural network controllers on a variety of domains in a stable manner. Our results show that in our proposed framework stable training of neural networks through reinforcement learning is possible with both valuebased and policy-based methods, off-policy as well as onpolicy methods, and in discrete as well as continuous domains. When trained on the Atari domain using 16 CPU cores, the proposed asynchronous algorithms train faster than DQN trained on an Nvidia K40 GPU, with A3C surpassing the current state-of-the-art in half the training time. One of our main findings is that using parallel actorlearners to update a shared model had a stabilizing effect on the learning process of the three value-based methods we considered. While this shows that stable online Q-learning is possible without experience replay, which was used for this purpose in DQN, it does not mean that experience replay is not useful. Incorporating experience replay into the asynchronous reinforcement learning framework could substantially improve the data efficiency of these methods by reusing old data. This could in turn lead to much faster training times in domains like TORCS where interacting with the environment is more expensive than updating the model for the architecture we used."
 
-  - `video` <http://youtube.com/watch?v=0xo1Ldx3L5Q> (TORCS demo)
-  - `video` <http://youtube.com/watch?v=nMR5mjCFZCw> (3D Labyrinth demo)
-  - `video` <http://youtube.com/watch?v=Ajjc08-iPx8> (MuJoCo demo)
+  - `video` <http://youtube.com/watch?v=0xo1Ldx3L5Q> (demo)
+  - `video` <http://youtube.com/watch?v=nMR5mjCFZCw> (demo)
+  - `video` <http://youtube.com/watch?v=Ajjc08-iPx8> (demo)
   - `video` <http://youtube.com/watch?v=9sx1_u2qVhQ> (Mnih)
   - `video` <http://techtalks.tv/talks/asynchronous-methods-for-deep-reinforcement-learning/62475/> (Mnih)
+  - `video` <https://youtu.be/eeJ1-bUnwRI?t=1h49m19s> (Sigaud)
   - `post` <https://medium.com/@awjuliani/simple-reinforcement-learning-with-tensorflow-part-8-asynchronous-actor-critic-agents-a3c-c88f72a5e9f2>
   - `notes` <http://www.shortscience.org/paper?bibtexKey=journals%2Fcorr%2FMnihBMGLHSK16>
   - `code` <https://github.com/openai/baselines/tree/master/baselines/a2c>
-  - `code` <https://github.com/reinforceio/tensorforce/blob/master/tensorforce/models/dqn_nstep_model.py>
   - `code` <https://github.com/ikostrikov/pytorch-a3c>
+  - `code` <https://github.com/higgsfield/RL-Adventure-2>
   - `code` <https://github.com/dgriff777/a3c_continuous>
 
 
@@ -2750,7 +2746,9 @@ interesting recent papers:
   - `video` <http://videolectures.net/deeplearning2016_abbeel_deep_reinforcement/#t=1630> (Abbeel)
   - `video` <https://youtube.com/watch?v=gb5Q2XL5c8A> (Schulman)
   - `video` <https://youtu.be/ycCtmp4hcUs?t=58m53s> (Achiam)
+  - `video` <https://youtu.be/eeJ1-bUnwRI?t=1h35m20s> (Sigaud)
   - `video` <https://yadi.sk/i/1oyihBnm3HiKHm> + <https://yadi.sk/i/b0ol2gUV3HiKKJ> (Fritzler and Ratnikov) `in russian` ([slides](https://yadi.sk/i/9j6S4WVp3HgEdn) `in english`)
+  - `post` <http://depthfirstlearning.com/2018/TRPO>
   - `post` <http://kvfrans.com/what-is-the-natural-gradient-and-where-does-it-appear-in-trust-region-policy-optimization/>
   - `notes` <http://www.shortscience.org/paper?bibtexKey=journals/corr/SchulmanLMJA15>
   - `notes` <https://towardsdatascience.com/introduction-to-various-reinforcement-learning-algorithms-part-ii-trpo-ppo-87f2c5919bb9>
@@ -2771,6 +2769,7 @@ interesting recent papers:
   - `notes` <https://danieltakeshi.github.io/2017/04/02/notes-on-the-generalized-advantage-estimation-paper/>
   - `code` <https://github.com/joschu/modular_rl>
   - `code` <https://github.com/rll/deeprlhw2/blob/master/ppo.py>
+  - `code` <https://github.com/higgsfield/RL-Adventure-2>
 
 
 #### ["Proximal Policy Optimization Algorithms"](https://arxiv.org/abs/1707.06347) Schulman, Wolski, Dhariwal, Radford, Klimov
@@ -2779,12 +2778,14 @@ interesting recent papers:
 
   - `post` <https://blog.openai.com/openai-baselines-ppo/> (demo)
   - `video` <https://youtu.be/ycCtmp4hcUs?t=1h7m> (Achiam)
+  - `video` <https://youtu.be/eeJ1-bUnwRI?t=1h44m24s> (Sigaud)
   - `post` <https://learningai.io/projects/2017/07/28/ai-gym-workout.html>
   - `notes` <https://towardsdatascience.com/introduction-to-various-reinforcement-learning-algorithms-part-ii-trpo-ppo-87f2c5919bb9>
   - `notes` <https://github.com/DanielTakeshi/Paper_Notes/blob/master/reinforcement_learning/Proximal_Policy_Optimization_Algorithms.md>
   - `post` <http://blog.varunajayasiri.com/ml/ppo.html>
-  - `code` <https://github.com/openai/baselines/tree/master/baselines/pposgd>
+  - `code` <https://github.com/openai/baselines/tree/master/baselines/ppo2>
   - `code` <https://github.com/ikostrikov/pytorch-a2c-ppo-acktr>
+  - `code` <https://github.com/higgsfield/RL-Adventure-2>
   - `code` <https://github.com/ShangtongZhang/DeepRL>
 
 
@@ -2826,12 +2827,13 @@ interesting recent papers:
   - `video` <http://youtu.be/M6nfipCxQBc?t=7m45s> (Lillicrap)
   - `video` <http://videolectures.net/deeplearning2016_abbeel_deep_reinforcement/#t=3724> (Abbeel)
   - `video` <https://youtu.be/rO7Dx8pSJQw?t=50m> (Schulman)
+  - `video` <https://youtu.be/eeJ1-bUnwRI?t=55m38s> (Sigaud)
   - `video` <https://youtu.be/mrgJ53TIcQc?t=1h3m2s> (Seleznev) `in russian`
   - `post` <https://yanpanlau.github.io/2016/10/11/Torcs-Keras.html>
   - `post` <http://pemami4911.github.io/blog_posts/2016/08/21/ddpg-rl.html>
   - `code` <https://github.com/openai/baselines/tree/master/baselines/ddpg>
   - `code` <https://github.com/ikostrikov/pytorch-ddpg-naf>
-  - `code` <https://github.com/matthiasplappert/keras-rl/blob/master/rl/agents/ddpg.py>
+  - `code` <https://github.com/higgsfield/RL-Adventure-2>
   - `code` <https://github.com/Scitator/Run-Skeleton-Run> (demo)
   - `paper` ["Deterministic Policy Gradient Algorithms"](#deterministic-policy-gradient-algorithms-silver-lever-heess-degris-wierstra-riedmiller) by Silver et al. `summary`
 
@@ -3011,7 +3013,8 @@ interesting recent papers:
   - `notes` <http://tsong.me/blog/gail/>
   - `notes` <https://yobibyte.github.io/files/paper_notes/Generative_Adversarial_Imitation_Learning__Ho_Ermon__2017.pdf>
   - `code` <https://github.com/openai/imitation>
-  - `code` <https://github.com/DanielTakeshi/rl_algorithms/tree/master/il>
+  - `code` <https://github.com/higgsfield/RL-Adventure-2>
+  - `code` <https://github.com/DanielTakeshi/rl_algorithms>
 
 
 #### ["Inferring The Latent Structure of Human Decision-Making from Raw Visual Inputs"](https://arxiv.org/abs/1703.08840) Li, Song, Ermon

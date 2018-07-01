@@ -19,6 +19,7 @@
   [**reinforcement learning**](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md)  
   [**bayesian inference and learning**](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md)  
   [**probabilistic programming**](https://github.com/brylevkirill/notes/blob/master/Probabilistic%20Programming.md)  
+  [**causal inference**](https://github.com/brylevkirill/notes/blob/master/Causal%20Inference.md)  
 
 
 
