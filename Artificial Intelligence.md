@@ -1,20 +1,20 @@
   Intelligence is information processing necessary to achieve goals with limited resources.
 
 
-  * [overview](#overview)
-  * [benchmarks](#benchmarks)
-  * [problems](#problems)
-  * [knowledge representation](#knowledge-representation)
-  * [inference / reasoning](#inference--reasoning)
-  * [decisions / actions](#decisions--actions)
-    - [reinforcement learning](#reinforcement-learning)
-    - [meta-learning](#meta-learning)
-    - [artificial curiosity and creativity](#artificial-curiosity-and-creativity)
-    - [AIXI](#aixi)
-  * [interesting papers](#interesting-papers)
-    - [definitions and measures of intelligence](#interesting-papers---definitions-and-measures-of-intelligence)
-    - [Solomonoff induction and AIXI](#interesting-papers---solomonoff-induction-and-aixi)
-    - [artificial curiosity and creativity](#interesting-papers---artificial-curiosity-and-creativity)
+  * [**overview**](#overview)
+  * [**benchmarks**](#benchmarks)
+  * [**problems**](#problems)
+  * [**knowledge representation**](#knowledge-representation)
+  * [**inference / reasoning**](#inference--reasoning)
+  * [**decisions / actions**](#decisions--actions)
+    - [**reinforcement learning**](#reinforcement-learning)
+    - [**meta-learning**](#meta-learning)
+    - [**artificial curiosity and creativity**](#artificial-curiosity-and-creativity)
+    - [**AIXI**](#aixi)
+  * [**interesting papers**](#interesting-papers)
+    - [**definitions and measures of intelligence**](#interesting-papers---definitions-and-measures-of-intelligence)
+    - [**Solomonoff induction and AIXI**](#interesting-papers---solomonoff-induction-and-aixi)
+    - [**artificial curiosity and creativity**](#interesting-papers---artificial-curiosity-and-creativity)
 
 
 ---
