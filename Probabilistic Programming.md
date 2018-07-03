@@ -2,12 +2,12 @@
   Higher-order probabilistic programming languages open up possibility of doing inference over generative models themselves. The goal is to find an efficient robust way to automatically produce and tune models based on training data and knowledge.  
 
 
-  * [introduction](#introduction)
-  * [overview](#overview)
-  * [applications](#applications)
-  * [projects](#projects)
-  * [interesting papers](#interesting-papers)
-    - [applications](#interesting-papers---applications)
+  * [**introduction**](#introduction)
+  * [**overview**](#overview)
+  * [**applications**](#applications)
+  * [**projects**](#projects)
+  * [**interesting papers**](#interesting-papers)
+    - [**applications**](#interesting-papers---applications)
 
 
 
@@ -79,7 +79,7 @@
 ---
 ### applications
 
-  [cognitive models](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#knowledge-representation---probabilistic-program)
+  [**cognitive models**](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#knowledge-representation---probabilistic-program)
 
   [Facebook Prophet](https://facebook.github.io/prophet/)  *(uses Stan)*  
   [Microsoft Office 365](https://cambridgenetwork.co.uk/news/email-clutter-machine-learning-probabilistic-programming/)  *(uses Infer.NET)*  
@@ -156,8 +156,8 @@
 ---
 ### interesting papers
 
-[interesting papers - bayesian inference and learning](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md#interesting-papers)  
-[interesting papers - bayesian deep learning](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#interesting-papers---bayesian-deep-learning)  
+[**interesting papers - bayesian inference and learning**](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md#interesting-papers)  
+[**interesting papers - bayesian deep learning**](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#interesting-papers---bayesian-deep-learning)  
 
 
 

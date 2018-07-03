@@ -1,12 +1,12 @@
 
 
-  * [introduction](#introduction)
-  * [study](#study)
-  * [theory](#theory)
-  * [frequentist statistics](#frequentist-statistics)
-  * [bayesian statistics](#bayesian-statistics)
-  * [interesting quotes](#interesting-quotes)
-  * [interesting papers](#interesting-papers)
+  * [**introduction**](#introduction)
+  * [**study**](#study)
+  * [**theory**](#theory)
+  * [**frequentist statistics**](#frequentist-statistics)
+  * [**bayesian statistics**](#bayesian-statistics)
+  * [**interesting quotes**](#interesting-quotes)
+  * [**interesting papers**](#interesting-papers)
 
 
 

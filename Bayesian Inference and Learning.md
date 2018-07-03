@@ -1,6 +1,6 @@
   Statistical learning frames models as distributions over data and latent variables, allowing models to address a broad array of downstream tasks, and underlying methodology of latent variable models is typically Bayesian.  
   A central problem involves modeling complex data sets using highly flexible families of probability distributions in which learning, sampling, inference, and evaluation are still analytically or computationally tractable.  
-
+n
 
   * [**introduction**](#introduction)
   * [**overview**](#overview)
@@ -23,11 +23,6 @@
 
 ---
 ### introduction
-
-  ![(yet another) history of life as we know it...](http://www.brera.mi.astro.it/~andreon/inference/primate.png)  
-  ["Inference, do you know it?"](http://www.brera.mi.astro.it/~andreon/inference/Inference.html) by Stefano Andreon  
-
-----
 
   "Bayesian inference is application of Bayes' theorem to update probability of hypothesis as more evidence or information becomes available."
 
@@ -315,7 +310,7 @@
   applications:
   - prediction:  p(x(t+1,...,∞)|x(-∞,...,t))  *(inference)*
   - parameter estimation:  p(θ|x(0,...,N))  *(learning as inference)*
-  - planning:  J = Ep[∫dtC(xt)|x0,u]  *([**policy evaluation / optimization**](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#bayesian-reinforcement-learning))*
+  - planning:  J = Ep[∫dtC(xt)|x0,u]  *([policy evaluation / optimization](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#bayesian-reinforcement-learning))*
   - experiment design:  EIG = DKL[p(f(x(t,...,∞))|u);p(f(x(-∞,...,t)))]  *(expected information gain)*
   - hypothesis testing:  p(f(x(-∞,...,t))|H0) / p(f(x(-∞,...,t))|H1)  *(bayes factor)*
 
@@ -351,8 +346,8 @@
 
 ----
 
-  [EM and VI](https://youtu.be/yzNbaAPKXA8?t=19m45s) by Zoubin Ghahramani `video`  *([variational inference](#variational-inference))*  
-  ["VAE = EM"](https://machinethoughts.wordpress.com/2017/10/02/vae-em/) by David McAllester  *([variational auto-encoder](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#generative-models---variational-autoencoder))*  
+  [EM and VI](https://youtu.be/yzNbaAPKXA8?t=19m45s) by Zoubin Ghahramani `video`  ([**variational inference**](#variational-inference))  
+  ["VAE = EM"](https://machinethoughts.wordpress.com/2017/10/02/vae-em/) by David McAllester  ([**variational auto-encoder**](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#generative-models---variational-autoencoder))  
 
 ----
 

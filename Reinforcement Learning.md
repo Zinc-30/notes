@@ -1264,7 +1264,7 @@
     * [**REINFORCE**](#reinforce)  (policy gradient estimation using simple baseline for returns)  
     * [**Trust Region Policy Optimization**](#trust-region-policy-optimization-trpo)  (policy gradient estimation using natural gradient / trust region)  
     * [**Proximal Policy Optimization**](#proximal-policy-optimization-ppo)  (KL-constrained policy gradient estimation without using natural gradient)  
-    * [**Actor-Critic](#actor-critic-ac), [Advantage Actor-Critic](#advantage-actor-critic-a2c), [Generalized Advantage Estimation**](#generalized-advantage-estimation-gae)  (policy gradient estimation using critic as baseline for returns)  
+    * [**Actor-Critic**](#actor-critic-ac), [**Advantage Actor-Critic**](#advantage-actor-critic-a2c), [**Generalized Advantage Estimation**](#generalized-advantage-estimation-gae)  (policy gradient estimation using critic as baseline for returns)  
   - pathwise derivative policy gradient  
     * [**Deep Deterministic Policy Gradient**](#deep-deterministic-policy-gradient-ddpg)  (policy gradient estimation using gradient of critic as model of returns)  
     * [**Stochastic Value Gradient**](#stochastic-value-gradient-svg)  (policy gradient estimation using gradient of critic or gradient of environment model)  

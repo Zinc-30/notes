@@ -541,9 +541,9 @@
 ---
 ### interesting papers
 
-  - [theory](#interesting-papers---theory)
-  - [automated machine learning](#interesting-papers---automated-machine-learning)
-  - [systems](#interesting-papers---systems)
+  - [**theory**](#interesting-papers---theory)
+  - [**automated machine learning**](#interesting-papers---automated-machine-learning)
+  - [**systems**](#interesting-papers---systems)
 
 
 [**interesting papers - deep learning**](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#interesting-papers)  

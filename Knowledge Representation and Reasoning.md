@@ -297,7 +297,7 @@
 ----
 #### relational learning - random walk inference
 
-  - Path Ranking Algorithm  
+  - Path Ranking Algorithm (PRA)  
 	(used in [**Google Knowledge Vault**](#machine-reading-projects---google-knowledge-vault) and [**NELL**](#machine-reading-projects---nell))  
 	["Random Walk Inference and Learning in A Large Scale Knowledge Base"](#random-walk-inference-and-learning-in-a-large-scale-knowledge-base-lao-mitchell-cohen) by Lao, Mitchell, Cohen `paper` `summary`  
 	["Efficient Random Walk Inference with Knowledge Bases"](https://www.cs.cmu.edu/~nlao/publication/2012/thesis.pdf) thesis by Ni Lao `paper` ([slides](http://cs.cmu.edu/~nlao/publication/2012/defense.pdf))  
@@ -695,7 +695,7 @@
 ---
 ### knowledge representation - probabilistic program
 
-  [probabilistic programming](https://github.com/brylevkirill/notes/blob/master/Probabilistic%20Programming.md):
+  [**probabilistic programming**](https://github.com/brylevkirill/notes/blob/master/Probabilistic%20Programming.md):
   - languages for models that simplify and automate aspects of inference
   - models and queries defined in terms of complex stochastic computations
   - programs and languages as formal representations of probabilistic objects
@@ -926,10 +926,6 @@
 	["Moving Beyond the Turing Test with the Allen AI Science Challenge"](https://arxiv.org/abs/1604.04315) by Schoenick et al. `paper`
 		([slides](http://akbc.ws/2016/slides/etzioni-akbc16.pptx))
 
-	[first place](https://github.com/Cardal/Kaggle_AllenAIscience)  
-	[second place](https://github.com/bwilbertz/kaggle_allen_ai)  
-	[third place](https://github.com/amsqr/Allen_AI_Kaggle)  
-
   - [AI2 Reasoning Challenge (ARC)](http://data.allenai.org/arc)
 
   - [Stanford Question Answering Dataset (SQuAD)](https://rajpurkar.github.io/SQuAD-explorer/)
@@ -1118,7 +1114,7 @@
 
   ["Never-Ending Learning"](#never-ending-learning-mitchell-et-al) by Mitchell et al. `paper` `summary`  
   ["Random Walk Inference and Learning in A Large Scale Knowledge Base"](#random-walk-inference-and-learning-in-a-large-scale-knowledge-base-lao-mitchell-cohen) by Lao, Mitchell, Cohen `paper` `summary`  
-  ["Large-Scale Knowledge Graph Identification using PSL"](#large-scale-knowledge-graph-identification-using-psl-pujara-miao-getoor-cohen) by Pujara, Miao, Getoor, Cohen `paper` `summary` ([Probabilistic Soft Logic](#probabilistic-database---probabilistic-soft-logic) as knowledge representation)  
+  ["Large-Scale Knowledge Graph Identification using PSL"](#large-scale-knowledge-graph-identification-using-psl-pujara-miao-getoor-cohen) by Pujara, Miao, Getoor, Cohen `paper` `summary` ([**Probabilistic Soft Logic**](#probabilistic-database---probabilistic-soft-logic) as knowledge representation)  
   ["Classifying Entities into an Incomplete Ontology"](#classifying-entities-into-an-incomplete-ontology-dalvi-cohen-callan) by Dalvi, Cohen, Callan `paper` `summary`  
   ["PIDGIN: Ontology Alignment using Web Text as Interlingua"](#pidgin-ontology-alignment-using-web-text-as-interlingua-wijaya-talukdar-mitchell) by Wijaya, Talukdar, Mitchell `paper` `summary`  
   ["Estimating Accuracy from Unlabeled Data"](#estimating-accuracy-from-unlabeled-data-platanios-blum-mitchell) by Platanios, Blum, Mitchell `paper` `summary`  
@@ -1300,7 +1296,7 @@
 
 >	"Motivated by a staggeringly large set of applications, we propose Tuffy that pushes MLN inference inside an RDBMS. We find that MLN inference uses many “relational-like” operations and that these operations are a substantial bottleneck in MLN inference. To alleviate this bottleneck, we propose cTuffy, which in addition to using an RDBMS modified the state-of-the-art search algorithms to be set-ata-time. We believe that we are the first to push search algorithms inside an RDBMS, and that our prototype cTuffy demonstrates that this is a promising new direction for database research to support increasingly sophisticated statistical models. As future work, we plan to study whether main memory databases can be used in conjunction with RDBMSes to provide more efficient implementation of search procedures."
 
-  - [DeepDive](#machine-reading-projects---deepdive) project `summary`
+  - [**DeepDive**](#machine-reading-projects---deepdive) project `summary`
   - ["Probabilistic Inference and Factor Graphs"](http://deepdive.stanford.edu/inference)
   - `paper` ["Markov Logic"](http://homes.cs.washington.edu/~pedrod/papers/pilp.pdf) by Domingos et al.
   - [**Markov Logic Network**](#probabilistic-database---markov-logic-network)
