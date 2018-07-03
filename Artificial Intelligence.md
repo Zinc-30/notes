@@ -186,9 +186,9 @@
 ----
 
   approaches:
-  - [**logical**](#inference--reasoning---logical-vs-statistical) / [symbolic](#inference--reasoning---symbolic-vs-non-symbolic) / computationalism / causational / theory-driven / relational  
+  - [**logical**](#inference--reasoning---logical-vs-statistical) / [**symbolic**](#inference--reasoning---symbolic-vs-non-symbolic) / computationalism / causational / theory-driven / relational  
 	vs  
-	[**statistical**](#inference--reasoning---logical-vs-statistical) / [non-symbolic](#inference--reasoning---symbolic-vs-non-symbolic) / connectionism / correlational / data-driven / numerical
+	[**statistical**](#inference--reasoning---logical-vs-statistical) / [**non-symbolic**](#inference--reasoning---symbolic-vs-non-symbolic) / connectionism / correlational / data-driven / numerical
   - [**deductive vs inductive**](#inference--reasoning---deductive-vs-inductive)
 
 
@@ -311,24 +311,24 @@
 
 ----
 
-  - [reinforcement learning](#reinforcement-learning)
-  - [meta-learning](#meta-learning)
-  - [artificial curiosity and creativity](#artificial-curiosity-and-creativity)
-  - [AIXI](#aixi)
+  - [**reinforcement learning**](#reinforcement-learning)
+  - [**meta-learning**](#meta-learning)
+  - [**artificial curiosity and creativity**](#artificial-curiosity-and-creativity)
+  - [**AIXI**](#aixi)
 
 
 
 ---
 ### reinforcement learning
 
-  [reinforcement learning](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md)
+  [**reinforcement learning**](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md)
 
 
 
 ---
 ### meta-learning
 
-  [meta-learning](https://github.com/brylevkirill/notes/blob/master/Machine%20Learning.md#meta-learning)
+  [**meta-learning**](https://github.com/brylevkirill/notes/blob/master/Machine%20Learning.md#meta-learning)
 
 
 
@@ -409,11 +409,11 @@
 
 >	"Given combination of controller and environment model, we motivate controller to become an efficient explorer and an artificial scientist, by adding to its standard external reward (or fitness) for solving user-given tasks another intrinsic reward for generating novel action sequences (or experiments) that allow environment model to improve its compression performance on the resulting data."
 
-  [interesting papers](#interesting-papers---artificial-curiosity-and-creativity)
+  [**interesting papers**](#interesting-papers---artificial-curiosity-and-creativity)
 
 ----
 
-  [exploration and intrinsic motivation](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#exploration-and-intrinsic-motivation)
+  [**exploration and intrinsic motivation**](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#exploration-and-intrinsic-motivation)
 
 
 ----
@@ -436,7 +436,7 @@
 >
 >	"It is possible to derive an interesting relationship between compression improvement - an intrinsic reward objective defined in Schmidhuber's Artificial Curiosity and Creativity theory, and the information gain. The agent’s curiosity is equated with compression improvement, measured through C(ξt; φt-1) - C(ξt; φt), where C(ξ; φ) is the description length of ξ using φ as a model. Furthermore, it is known that the negative variational lower bound can be viewed as the description length. Hence, we can write compression improvement as L[q(θ; φt), ξt] - L[q(θ; φt-1), ξt]. In addition, due to alternative formulation of the variational lower bound, compression improvement can be written as (log p(ξt) - DKL[q(θ; φt)||p(θ|ξt)]) - (log p(ξt) - DKL[q(θ; φt-1)||p(θ|ξt)]). If we assume that φt perfectly optimizes the variational lower bound for the history ξt, then DKL[q(θ; φt)||p(θ|ξt)] = 0, which occurs when the approximation equals the true posterior, i.e., q(θ; φt) = p(θ|ξt). Hence, compression improvement becomes DKL[p(θ|ξt-1) || p(θ|ξt)]. Therefore, optimizing for compression improvement comes down to optimizing the KL divergence from the posterior given the past history ξt-1 to the posterior given the total history ξt. As such, we arrive at an alternative way to encode curiosity than information gain, namely DKL[p(θ|ξt)||p(θ|ξt,at,st+1)], its reversed KL divergence. In experiments, we noticed no significant difference between the two KL divergence variants. This can be explained as both variants are locally equal when introducing small changes to the parameter distributions."  
 
-  ["Automated Curriculum Learning for Neural Networks"](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#automated-curriculum-learning-for-neural-networks-#graves-bellemare-menick-munos-kavukcuoglu) by Graves et al. `paper` `summary`
+  ["Automated Curriculum Learning for Neural Networks"](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#automated-curriculum-learning-for-neural-networks-graves-bellemare-menick-munos-kavukcuoglu) by Graves et al. `paper` `summary`
 >	"We focus on variants of prediction gain, and also introduce a novel class of progress signals which we refer to as complexity gain. Derived from minimum description length principles, complexity gain equates acquisition of knowledge with an increase in effective information encoded in the network weights."  
 >	"VIME uses a reward signal that is closely related to variational complexity gain. The difference is that while VIME measures the KL between the posterior before and after a step in parameter space, we consider the change in KL between the posterior and prior induced by the step. Therefore, while VIME looks for any change to the posterior, we focus only on changes that alter the divergence from the prior. Further research will be needed to assess the relative merits of the two signals."  
 
@@ -451,7 +451,7 @@
   [intuitive explanation](http://lesswrong.com/lw/dhg/an_intuitive_explanation_of_solomonoff_induction/)  
   ["How Bayes theorem is consistent with Solomonoff induction"](http://lesswrong.com/r/discussion/lw/di3/how_bayes_theorem_is_consistent_with_solomonoff/)  
 
-  [interesting papers](#interesting-papers---solomonoff-induction-and-aixi)
+  [**interesting papers**](#interesting-papers---solomonoff-induction-and-aixi)
 
 
 
@@ -486,7 +486,7 @@
 
 ----
 
-  [interesting papers](#interesting-papers---solomonoff-induction-and-aixi)
+  [**interesting papers**](#interesting-papers---solomonoff-induction-and-aixi)
 
 ----
 
@@ -559,7 +559,7 @@
 ----
 #### AIXI approximations - Artificial Curiosity and Creativity
 
-  [Artificial Curiosity and Creativity](#artificial-curiosity-and-creativity) by Juergen Schmidhuber
+  [**Artificial Curiosity and Creativity**](#artificial-curiosity-and-creativity) by Juergen Schmidhuber
 
   "The ultimate optimal Bayesian approach to machine learning is embodied by the AIXI model. Any computational problem can be phrased as the maximization of a reward function. AIXI is based on Solomonoff's universal mixture M of all computable probability distributions. If the probabilities of the world's responses to some reinforcement learning agent's actions are computable (there is no physical evidence against that), then the agent may predict its future sensory inputs and rewards using M instead of the true but unknown distribution. The agent can indeed act optimally by choosing those action sequences that maximize M-predicted reward. This may be dubbed the unbeatable, ultimate statistical approach to AI - it demonstrates the mathematical limits of what's possible. However, AIXI’s notion of optimality ignores computation time, which is the reason why we are still in business with less universal but more practically feasible approaches such as deep learning based on more limited local search techniques such as gradient descent."
 
@@ -575,22 +575,22 @@
 ---
 ### interesting papers
 
-  - [definitions and measures of intelligence](#interesting-papers---definitions-and-measures-of-intelligence)
-  - [Solomonoff induction and AIXI](#interesting-papers---solomonoff-induction-and-aixi)
-  - [artificial curiosity and creativity](#interesting-papers---artificial-curiosity-and-creativity)
+  - [**definitions and measures of intelligence**](#interesting-papers---definitions-and-measures-of-intelligence)
+  - [**Solomonoff induction and AIXI**](#interesting-papers---solomonoff-induction-and-aixi)
+  - [**artificial curiosity and creativity**](#interesting-papers---artificial-curiosity-and-creativity)
 
 ----
 
-  - [knowledge representation and reasoning](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#interesting-papers)
-  - [machine learning](https://github.com/brylevkirill/notes/blob/master/Machine%20Learning.md#interesting-papers)
-  - [deep learning](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#interesting-papers)
-  - [reinforcement learning](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#interesting-papers)
-  - [bayesian inference and learning](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md#interesting-papers)
-  - [probabilistic programming](https://github.com/brylevkirill/notes/blob/master/Probabilistic%20Programming.md#interesting-papers)
+  - [**knowledge representation and reasoning**](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#interesting-papers)
+  - [**machine learning**](https://github.com/brylevkirill/notes/blob/master/Machine%20Learning.md#interesting-papers)
+  - [**deep learning**](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#interesting-papers)
+  - [**reinforcement learning**](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#interesting-papers)
+  - [**bayesian inference and learning**](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md#interesting-papers)
+  - [**probabilistic programming**](https://github.com/brylevkirill/notes/blob/master/Probabilistic%20Programming.md#interesting-papers)
 
 ----
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md)
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md)
 
 
 
@@ -782,7 +782,7 @@
 ---
 ### interesting papers - artificial curiosity and creativity
 
-[interesting papers](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#interesting-papers---exploration-and-intrinsic-motivation) on exploration and intrinsic motivation
+[**interesting papers**](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#interesting-papers---exploration-and-intrinsic-motivation) on exploration and intrinsic motivation
 
 
 #### ["Driven by Compression Progress: A Simple Principle Explains Essential Aspects of Subjective Beauty, Novelty, Surprise, Interestingness, Attention, Curiosity, Creativity, Art, Science, Music, Jokes"](http://arxiv.org/abs/0812.4360) Schmidhuber
