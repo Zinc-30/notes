@@ -1,17 +1,17 @@
 
 
-  * [problems](#problems)
-  * [reinforcement learning](#reinforcement-learning)
-  * [industry](#industry)
-  * [personal assistants](#personal-assistants)
-  * [language understanding platforms](#language-understanding-platforms)
-  * [interesting quotes](#interesting-quotes)
-  * [interesting papers](#interesting-papers)
-    - [dialog state management](#dialog-state-management)
-    - [utterance generation](#utterance-generation)
-    - [utterance understanding](#utterance-understanding)
-    - [intents and actions](#intents-and-actions)
-    - [systems](#systems)
+  * [**problems**](#problems)
+  * [**reinforcement learning**](#reinforcement-learning)
+  * [**industry**](#industry)
+  * [**personal assistants**](#personal-assistants)
+  * [**language understanding platforms**](#language-understanding-platforms)
+  * [**interesting quotes**](#interesting-quotes)
+  * [**interesting papers**](#interesting-papers)
+    - [**dialog state management**](#dialog-state-management)
+    - [**utterance generation**](#utterance-generation)
+    - [**utterance understanding**](#utterance-understanding)
+    - [**intents and actions**](#intents-and-actions)
+    - [**systems**](#systems)
 
 
 
@@ -183,11 +183,11 @@
 ---
 ### interesting papers
 
-  - [dialog state management](#dialog-state-management)  
-  - [utterance generation](#utterance-generation)  
-  - [utterance understanding](#utterance-understanding)  
-  - [intents and actions](#intents-and-actions)  
-  - [systems](#systems)  
+  - [**dialog state management**](#dialog-state-management)  
+  - [**utterance generation**](#utterance-generation)  
+  - [**utterance understanding**](#utterance-understanding)  
+  - [**intents and actions**](#intents-and-actions)  
+  - [**systems**](#systems)  
 
 ----
 
