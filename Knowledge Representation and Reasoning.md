@@ -138,9 +138,9 @@
 
   - [**natural language**](#knowledge-representation---natural-language)
   - [**knowledge graph**](#knowledge-representation---knowledge-graph)
-    * [**ontology**](#ontology)
-    * [**information extraction and integration**](#information-extraction-and-integration)
-    * [**relational learning**](#relational-learning)
+    * [**ontology**](#knowledge-graph---ontology)
+    * [**information extraction and integration**](#knowledge-graph---information-extraction-and-integration)
+    * [**relational learning**](#knowledge-graph---relational-learning)
   - [**probabilistic database**](#knowledge-representation---probabilistic-database)
     * [**BayesDB**](#probabilistic-database---bayesdb)
     * [**Epistemological Database**](#probabilistic-database---epistemological-database)
@@ -189,14 +189,14 @@
 ---
 ### knowledge representation - knowledge graph
 
-  - [**ontology**](#ontology)  
-  - [**information extraction and integration**](#information-extraction-and-integration)  
-  - [**relational learning**](#relational-learning)  
+  - [**ontology**](#knowledge-graph---ontology)  
+  - [**information extraction and integration**](#knowledge-graph---information-extraction-and-integration)  
+  - [**relational learning**](#knowledge-graph---relational-learning)  
 
 
 
 ---
-### ontology
+### knowledge graph - ontology
 
   [**RDF**](https://github.com/brylevkirill/tech/blob/master/RDF/RDF.txt) (Resource Description Framework) `summary`
 
@@ -230,7 +230,7 @@
 
 
 ---
-### information extraction and integration
+### knowledge graph - information extraction and integration
 
   ["Knowledge Graph Construction From Text"](https://kgtutorial.github.io/?hootPostID=a5af9fab7ef1fb922ef7135a2e6d4f14) tutorial by Jay Pujara, Sameer Singh, Bhavana Dalvi `slides`  
   ["Constructing and Mining Web-scale Knowledge Graphs"](http://www.cs.technion.ac.il/~gabr/publications/papers/SIGIR-2016-KG-tutorial.pdf) tutorial by Evgeniy Gabrilovich and Nicolas Usunier `slides`  
@@ -244,7 +244,7 @@
 
 
 ---
-### relational learning
+### knowledge graph - relational learning
 
   traditional learning:  
   - data = matrix  
@@ -807,7 +807,7 @@
 ---
 ### reasoning - formal logic
 
-  [Description logic](https://en.wikipedia.org/wiki/Description_logic) - formal language to represent [**ontologies**](#ontology)
+  [Description logic](https://en.wikipedia.org/wiki/Description_logic) - formal language to represent [**ontologies**](#knowledge-graph---ontology)
 
 ----
 

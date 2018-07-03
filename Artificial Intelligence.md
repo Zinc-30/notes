@@ -14,7 +14,7 @@
   * [**interesting papers**](#interesting-papers)
     - [**definitions and measures of intelligence**](#interesting-papers---definitions-and-measures-of-intelligence)
     - [**artificial curiosity and creativity**](#interesting-papers---artificial-curiosity-and-creativity)
-    - [**universal artificial intelligence**](#interesting-papers---universal-artificial intelligence)
+    - [**universal artificial intelligence**](#interesting-papers---universal-artificial-intelligence)
 
 
 ---
@@ -133,7 +133,7 @@
 ----
 
   - *symbolic knowledge* ("dog as word") - logic network
-	[[**relational learning**](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#relational-learning)]
+	[[**relational learning**](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#knowledge-graph---relational-learning)]
   - *conceptual knowledge* ("dog as mammal, good companion, good guardian") - [open research area]
   - *perceptual knowledge* ("dog as something with certain physical traits") - distributed representation
 	[[**deep learning**](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#architectures---distributed-representation)]
@@ -436,8 +436,8 @@
 ---
 ### universal artificial intelligence
 
-  [Solomonoff induction](#universal-artificial-intelligence---solomonoff-induction)  
-  [AIXI](#universal-artificial-intelligence---aixi)  
+  [**Solomonoff induction**](#universal-artificial-intelligence---solomonoff-induction)  
+  [**AIXI**](#universal-artificial-intelligence---aixi)  
 
 
 
