@@ -186,10 +186,10 @@
 ----
 
   approaches:
-  - [logical](#inference--reasoning---logical-vs-statistical) / [symbolic](#inference--reasoning---symbolic-vs-non-symbolic) / computationalism / causational / theory-driven / relational  
+  - [**logical**](#inference--reasoning---logical-vs-statistical) / [symbolic](#inference--reasoning---symbolic-vs-non-symbolic) / computationalism / causational / theory-driven / relational  
 	vs  
-	[statistical](#inference--reasoning---logical-vs-statistical) / [non-symbolic](#inference--reasoning---symbolic-vs-non-symbolic) / connectionism / correlational / data-driven / numerical
-  - [deductive vs inductive](#inference--reasoning---deductive-vs-inductive)
+	[**statistical**](#inference--reasoning---logical-vs-statistical) / [non-symbolic](#inference--reasoning---symbolic-vs-non-symbolic) / connectionism / correlational / data-driven / numerical
+  - [**deductive vs inductive**](#inference--reasoning---deductive-vs-inductive)
 
 
 
@@ -198,13 +198,13 @@
 
   - *knowledge representation*:  
 	logical - first-order logic  
-	statistical - [probabilistic programs](https://github.com/brylevkirill/notes/blob/master/Probabilistic%20Programming.md)  
+	statistical - [**probabilistic programs**](https://github.com/brylevkirill/notes/blob/master/Probabilistic%20Programming.md)  
   - *reasoning*:  
 	logical - satisfiability testing / proving  
-	statistical - [bayesian inference](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md)  
+	statistical - [**bayesian inference**](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md)  
   - *learning*:  
 	logical - inductive logic programming  
-	statistical - [bayesian deep learning](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#bayesian-deep-learning)  
+	statistical - [**bayesian deep learning**](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#bayesian-deep-learning)  
 
 ----
 
@@ -233,11 +233,11 @@
 ---
 ### inference / reasoning - symbolic vs non-symbolic
 
-  - [natural logic](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#reasoning---natural-logic)  *(symbolic + non-symbolic)*
-  - [formal logic](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#reasoning---formal-logic)  *(symbolic)*
-  - [bayesian reasoning](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#reasoning---bayesian-reasoning)  *(symbolic)*
-  - [commonsense reasoning](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#reasoning---commonsense-reasoning)  *(symbolic + non-symbolic)*
-  - [neural reasoning](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#reasoning---neural-reasoning)  *(non-symbolic)*
+  - [**natural logic**](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#reasoning---natural-logic)  *(symbolic + non-symbolic)*
+  - [**formal logic**](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#reasoning---formal-logic)  *(symbolic)*
+  - [**bayesian reasoning**](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#reasoning---bayesian-reasoning)  *(symbolic)*
+  - [**commonsense reasoning**](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#reasoning---commonsense-reasoning)  *(symbolic + non-symbolic)*
+  - [**neural reasoning**](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#reasoning---neural-reasoning)  *(non-symbolic)*
 
 ----
 
