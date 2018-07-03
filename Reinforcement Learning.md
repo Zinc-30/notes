@@ -382,7 +382,7 @@
 
 ----
 
-  [deep learning](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md)
+  [**deep learning**](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md)
 
 
 
@@ -1200,8 +1200,8 @@
 
 ----
 
-  [interesting papers](#interesting-papers---value-based-methods)  
-  [interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-free-methods)  
+  [**interesting papers**](#interesting-papers---value-based-methods)  
+  [**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-free-methods)  
 
 ----
 
@@ -1251,23 +1251,23 @@
 
 ----
 
-  [interesting papers](#interesting-papers---policy-based-methods)  
-  [interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-free-methods)  
+  [**interesting papers**](#interesting-papers---policy-based-methods)  
+  [**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-free-methods)  
 
 ----
 
   methods:  
   - derivative-free  
-    * [Cross-Entropy Method](#cross-entropy-method-cem)  (no policy gradient estimation)  
-    * [Evolution Strategies](#evolution-strategies-es)  (derivative-free policy gradient estimation using finite differences)  
+    * [**Cross-Entropy Method**](#cross-entropy-method-cem)  (no policy gradient estimation)  
+    * [**Evolution Strategies**](#evolution-strategies-es)  (derivative-free policy gradient estimation using finite differences)  
   - likelihood ratio policy gradient  
-    * [REINFORCE](#reinforce)  (policy gradient estimation using simple baseline for returns)  
-    * [Trust Region Policy Optimization](#trust-region-policy-optimization-trpo)  (policy gradient estimation using natural gradient / trust region)  
-    * [Proximal Policy Optimization](#proximal-policy-optimization-ppo)  (KL-constrained policy gradient estimation without using natural gradient)  
-    * [Actor-Critic](#actor-critic-ac), [Advantage Actor-Critic](#advantage-actor-critic-a2c), [Generalized Advantage Estimation](#generalized-advantage-estimation-gae)  (policy gradient estimation using critic as baseline for returns)  
+    * [**REINFORCE**](#reinforce)  (policy gradient estimation using simple baseline for returns)  
+    * [**Trust Region Policy Optimization**](#trust-region-policy-optimization-trpo)  (policy gradient estimation using natural gradient / trust region)  
+    * [**Proximal Policy Optimization**](#proximal-policy-optimization-ppo)  (KL-constrained policy gradient estimation without using natural gradient)  
+    * [**Actor-Critic](#actor-critic-ac), [Advantage Actor-Critic](#advantage-actor-critic-a2c), [Generalized Advantage Estimation**](#generalized-advantage-estimation-gae)  (policy gradient estimation using critic as baseline for returns)  
   - pathwise derivative policy gradient  
-    * [Deep Deterministic Policy Gradient](#deep-deterministic-policy-gradient-ddpg)  (policy gradient estimation using gradient of critic as model of returns)  
-    * [Stochastic Value Gradient](#stochastic-value-gradient-svg)  (policy gradient estimation using gradient of critic or gradient of environment model)  
+    * [**Deep Deterministic Policy Gradient**](#deep-deterministic-policy-gradient-ddpg)  (policy gradient estimation using gradient of critic as model of returns)  
+    * [**Stochastic Value Gradient**](#stochastic-value-gradient-svg)  (policy gradient estimation using gradient of critic or gradient of environment model)  
 
   what's the right core model-free algorithm is not clear:  
   - *derivative-free policy optimization*:  scalable, very sample-inefficient, more robust, no off-policy  
@@ -1412,8 +1412,8 @@
   *(Csaba Szepesvari)*
 
 
-  - [Advantage Actor-Critic (A2C)](#advantage-actor-critic-a2c)  
-  - [Generalized Advantage Estimation (GAE)](#generalized-advantage-estimation-gae)  
+  - [**Advantage Actor-Critic (A2C)**](#advantage-actor-critic-a2c)  
+  - [**Generalized Advantage Estimation (GAE)**](#generalized-advantage-estimation-gae)  
 
 
 ----
@@ -1451,8 +1451,8 @@
 
   [overview](http://videolectures.net/deeplearning2016_abbeel_deep_reinforcement/#t=3724) by Pieter Abbeel `video`
 
-  - [Deep Deterministic Policy Gradient (DDPG)](#deep-deterministic-policy-gradient-ddpg)  
-  - [Stochastic Value Gradient (SVG)](#stochastic-value-gradient-svg)  
+  - [**Deep Deterministic Policy Gradient (DDPG)**](#deep-deterministic-policy-gradient-ddpg)  
+  - [**Stochastic Value Gradient (SVG)**](#stochastic-value-gradient-svg)  
 
 
 ----
@@ -1508,31 +1508,31 @@
 ---
 ### interesting papers
 
-  - [applications](#interesting-papers---applications)  
-  - [exploration and intrinsic motivation](#interesting-papers---exploration-and-intrinsic-motivation)  
-  - [hierarchical reinforcement learning](#interesting-papers---hierarchical-reinforcement-learning)  
-  - [model-based methods](#interesting-papers---model-based-methods)  
-  - [value-based methods](#interesting-papers---value-based-methods)  
-  - [policy-based methods](#interesting-papers---policy-based-methods)  
-  - [behavioral cloning](#interesting-papers---behavioral-cloning)  
-  - [inverse reinforcement learning](#interesting-papers---inverse-reinforcement-learning)  
+  - [**applications**](#interesting-papers---applications)  
+  - [**exploration and intrinsic motivation**](#interesting-papers---exploration-and-intrinsic-motivation)  
+  - [**hierarchical reinforcement learning**](#interesting-papers---hierarchical-reinforcement-learning)  
+  - [**model-based methods**](#interesting-papers---model-based-methods)  
+  - [**value-based methods**](#interesting-papers---value-based-methods)  
+  - [**policy-based methods**](#interesting-papers---policy-based-methods)  
+  - [**behavioral cloning**](#interesting-papers---behavioral-cloning)  
+  - [**inverse reinforcement learning**](#interesting-papers---inverse-reinforcement-learning)  
 
 
 interesting recent papers:  
-  - [model-free methods](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-free-methods)  
-  - [model-based methods](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-based-methods)  
-  - [exploration and intrinsic motivation](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)  
-  - [hierarchical reinforcement learning](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---hierarchical)  
-  - [transfer](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---transfer)  
-  - [imitation](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---imitation)  
-  - [multi-agent](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---multi-agent)  
+  - [**model-free methods**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-free-methods)  
+  - [**model-based methods**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-based-methods)  
+  - [**exploration and intrinsic motivation**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)  
+  - [**hierarchical reinforcement learning**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---hierarchical)  
+  - [**transfer**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---transfer)  
+  - [**imitation**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---imitation)  
+  - [**multi-agent**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---multi-agent)  
 
 
 
 ---
 ### interesting papers - applications
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---applications)
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---applications)
 
 
 #### ["Deep Reinforcement Learning: An Overview"](https://arxiv.org/abs/1701.07274) Li
@@ -1814,7 +1814,7 @@ interesting recent papers:
 ---
 ### interesting papers - exploration and intrinsic motivation
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)
 
 
 #### ["How Can We Define Intrinsic Motivation"](http://pyoudeyer.com/epirob08OudeyerKaplan.pdf) Oudeyer, Kaplan
@@ -1840,7 +1840,7 @@ interesting recent papers:
 ---
 ### interesting papers - exploration and intrinsic motivation - bayesian exploration models
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)
 
 
 #### ["Efficient Bayes-Adaptive Reinforcement Learning using Sample-Based Search"](https://arxiv.org/abs/1205.3109) Guez, Silver, Dayan
@@ -2045,7 +2045,7 @@ interesting recent papers:
 ---
 ### interesting papers - exploration and intrinsic motivation - information theoretic and distributional models - uncertainty motivation
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)
 
 
 #### ["Action-Conditional Video Prediction using Deep Networks in Atari Games"](#action-conditional-video-prediction-using-deep-networks-in-atari-games-oh-guo-lee-lewis-singh) Oh et al.
@@ -2099,7 +2099,7 @@ interesting recent papers:
 ---
 ### interesting papers - exploration and intrinsic motivation - information theoretic and distributional models - information gain motivation
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)
 
 
 #### ["An Information-Theoretic Approach to Curiosity-Driven Reinforcement Learning"](http://www2.hawaii.edu/~sstill/StillPrecup2011.pdf) Still, Precup
@@ -2166,7 +2166,7 @@ interesting recent papers:
 ---
 ### interesting papers - exploration and intrinsic motivation - information theoretic and distributional models - empowerment
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)
 
 
 #### ["Empowerment - An Introduction"](https://arxiv.org/abs/1310.1863) Salge, Glackin, Polani
@@ -2219,7 +2219,7 @@ interesting recent papers:
 ---
 ### interesting papers - exploration and intrinsic motivation - predictive models - predictive novelty motivation
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)
 
 
 #### ["Incentivizing Exploration In Reinforcement Learning With Deep Predictive Models"](http://arxiv.org/abs/1507.00814) Stadie, Levine, Abbeel
@@ -2285,7 +2285,7 @@ interesting recent papers:
 ---
 ### interesting papers - exploration and intrinsic motivation - predictive models - learning progress motivation
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)
 
 
 #### ["Driven by Compression Progress: A Simple Principle Explains Essential Aspects of Subjective Beauty, Novelty, Surprise, Interestingness, Attention, Curiosity, Creativity, Art, Science, Music, Jokes"](http://arxiv.org/abs/0812.4360) Schmidhuber
@@ -2324,7 +2324,7 @@ interesting recent papers:
 ---
 ### interesting papers - exploration and intrinsic motivation - competence-based models - maximizing incompetence motivation
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)
 
 
 #### ["Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play"](https://arxiv.org/abs/1703.05407) Sukhbaatar, Lin, Kostrikov, Synnaeve, Szlam
@@ -2348,8 +2348,8 @@ interesting recent papers:
 ---
 ### interesting papers - hierarchical reinforcement learning
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---hierarchical)  
-[interesting recent papers - transfer](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---transfer)  
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---hierarchical)  
+[**interesting recent papers - transfer**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---transfer)  
 
 
 #### ["On Learning to Think: Algorithmic Information Theory for Novel Combinations of Reinforcement Learning Controllers and Recurrent Neural World Models"](http://arxiv.org/abs/1511.09249) Schmidhuber
@@ -2431,7 +2431,7 @@ interesting recent papers:
 ---
 ### interesting papers - model-based methods
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-based-methods)
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-based-methods)
 
 
 #### ["Learning and Policy Search in Stochastic Dynamic Systems with Bayesian Neural Networks"](https://arxiv.org/abs/1605.07127) Depeweg, Hernandez-Lobato, Doshi-Velez, Udluft
@@ -2484,7 +2484,7 @@ interesting recent papers:
 ---
 ### interesting papers - value-based methods
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-free-methods)
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-free-methods)
 
 
 #### ["Playing Atari with Deep Reinforcement Learning"](https://arxiv.org/abs/1312.5602) Mnih, Kavukcuoglu, Silver, Graves, Antonoglou, Wierstra, Riedmiller
@@ -2616,7 +2616,7 @@ interesting recent papers:
 ---
 ### interesting papers - policy-based methods
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-free-methods)
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-free-methods)
 
 
 #### ["Simple Random Search Provides a Competitive Approach to Reinforcement Learning"](https://arxiv.org/abs/1803.07055) Mania, Guy, Recht
@@ -2866,7 +2866,7 @@ interesting recent papers:
 ---
 ### interesting papers - behavioral cloning
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---imitation) on imitation learning
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---imitation) on imitation learning
 
 
 #### ["A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning"](https://arxiv.org/abs/1011.0686) Ross, Gordon, Bagnell
@@ -2970,7 +2970,7 @@ interesting recent papers:
 ---
 ### interesting papers - inverse reinforcement learning
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---imitation)
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---imitation)
 
 
 #### ["Maximum Entropy Deep Inverse Reinforcement Learning"](http://arxiv.org/abs/1507.04888) Wulfmeier, Ondruska, Posner
