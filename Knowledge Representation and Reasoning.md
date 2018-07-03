@@ -298,18 +298,18 @@
 #### relational learning - random walk inference
 
   - Path Ranking Algorithm  
-	*(used in [**Google Knowledge Vault**](#machine-reading-projects---google-knowledge-vault) and [**NELL**](#machine-reading-projects---nell))*  
+	(used in [**Google Knowledge Vault**](#machine-reading-projects---google-knowledge-vault) and [**NELL**](#machine-reading-projects---nell))  
 	["Random Walk Inference and Learning in A Large Scale Knowledge Base"](#random-walk-inference-and-learning-in-a-large-scale-knowledge-base-lao-mitchell-cohen) by Lao, Mitchell, Cohen `paper` `summary`  
 	["Efficient Random Walk Inference with Knowledge Bases"](https://www.cs.cmu.edu/~nlao/publication/2012/thesis.pdf) thesis by Ni Lao `paper` ([slides](http://cs.cmu.edu/~nlao/publication/2012/defense.pdf))  
 	["Incorporating Vector Space Similarity in Random Walk Inference over Knowledge Bases"](http://rtw.ml.cmu.edu/emnlp2014_vector_space_pra/paper.pdf) by Gardner et al. `paper`  
 
   - subgraph feature extraction (improvement over PRA)  
-	*(used in [**NELL**](#machine-reading-projects---nell))*  
+	(used in [**NELL**](#machine-reading-projects---nell))  
 	["Efficient and Expressive Knowledge Base Completion Using Subgraph Feature Extraction"](#efficient-and-expressive-knowledge-base-completion-using-subgraph-feature-extraction-gardner-mitchell) by Gardner and Mitchell `paper` `summary` ([talk](http://youtube.com/watch?v=dp2waL7OLbI) `video`)  
 	["Reading and Reasoning with Knowledge Graphs"](http://www.cs.cmu.edu/~mg1/thesis.pdf) thesis by Matt Gardner `paper`  
 
   - PRA over proof space for first-order logic  
-	*(used in [**ProPPR**](#probabilistic-database---proppr))*  
+	(used in [**ProPPR**](#probabilistic-database---proppr))  
 	["Efficient Inference and Learning in a Large Knowledge Base: Reasoning with Extracted Information using a Locally Groundable First-Order Probabilistic Logic"](#efficient-inference-and-learning-in-a-large-knowledge-base-reasoning-with-extracted-information-using-a-locally-groundable-first-order-probabilistic-logic-wang-mazaitis-lao-mitchell-cohen) by Wang et al. `paper` `summary` ([talk](http://youtu.be/--pYaISROqE?t=12m35s) `video`)  
 
 
