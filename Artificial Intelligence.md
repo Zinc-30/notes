@@ -71,12 +71,12 @@
 
 ----
 
-  - [universal problem solving](#interesting-papers---definitions-and-measures-of-intelligence)  
-  - [automated machine learning](https://github.com/brylevkirill/notes/blob/master/Machine%20Learning.md#automated-machine-learning)  
-  - [machine reading](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#machine-reading-benchmarks)  
-  - [robotics](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#robotics)  
-  - [games](#games)  
-  - [environments](#environments)  
+  - [**universal problem solving**](#interesting-papers---definitions-and-measures-of-intelligence)  
+  - [**automated machine learning**](https://github.com/brylevkirill/notes/blob/master/Machine%20Learning.md#automated-machine-learning)  
+  - [**machine reading**](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#machine-reading-benchmarks)  
+  - [**robotics**](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#robotics)  
+  - [**games**](#games)  
+  - [**environments**](#environments)  
 
 
 ----
