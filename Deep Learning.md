@@ -951,17 +951,11 @@
 ----
 
   - [**Pointer Networks**](#vinyals-fortunato-jaitly---pointer-networks)  
-
   - [**Grid LSTM**](#kalchbrenner-danihelka-graves---grid-long-short-term-memory)  
-
   - [**Neural GPU**](#kaiser-sutskever---neural-gpus-learn-algorithms)  
-
   - [**Memory Networks**](#sukhbaatar-szlam-weston-fergus---end-to-end-memory-networks)  
-
   - [**Neural Stacks/Queues**](#grefenstette-hermann-suleyman-blunsom---learning-to-transduce-with-unbounded-memory)  
-
   - [**Neural Turing Machine**](#graves-wayne-danihelka---neural-turing-machines)  
-
   - [**Differentiable Neural Computer**](#graves-et-al---hybrid-computing-using-a-neural-network-with-dynamic-external-memory)  
 
 ----
@@ -1018,8 +1012,8 @@
   ["Deep Meaning Beyond Thought Vectors"](https://machinethoughts.wordpress.com/2017/09/01/deep-meaning-beyond-thought-vectors/) by David McAllester
 
 
-  [distributed representation of natural language](https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md#embeddings)  
-  [neural architectures for reasoning](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#reasoning---neural-reasoning)  
+  [**distributed representation of natural language**](https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md#embeddings)  
+  [**neural architectures for reasoning**](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#reasoning---neural-reasoning)  
 
 ----
 
@@ -1062,25 +1056,25 @@
 ---
 ### interesting papers
 
-  - [theory](#interesting-papers---theory)  
-  - [gradient estimation](#interesting-papers---gradient-estimation)  
-  - [bayesian deep learning](#interesting-papers---bayesian-deep-learning)  
-  - [generative adversarial networks](#interesting-papers---generative-adversarial-networks)  
-  - [variational autoencoder](#interesting-papers---variational-autoencoder)  
-  - [autoregressive models](#interesting-papers---autoregressive-models)  
-  - [architectures](#interesting-papers---architectures)  
-  - [connections to neuroscience](#connections-to-neuroscience)  
-  - [applications](#interesting-papers---applications)  
+  - [**theory**](#interesting-papers---theory)  
+  - [**gradient estimation**](#interesting-papers---gradient-estimation)  
+  - [**bayesian deep learning**](#interesting-papers---bayesian-deep-learning)  
+  - [**generative adversarial networks**](#interesting-papers---generative-adversarial-networks)  
+  - [**variational autoencoder**](#interesting-papers---variational-autoencoder)  
+  - [**autoregressive models**](#interesting-papers---autoregressive-models)  
+  - [**architectures**](#interesting-papers---architectures)  
+  - [**connections to neuroscience**](#connections-to-neuroscience)  
+  - [**applications**](#interesting-papers---applications)  
 
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md)
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md)
 
 
 
 ---
 ### interesting papers - theory
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#deep-learning-theory)
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#deep-learning-theory)
 
 
 #### ["Understanding Deep Learning Requires Rethinking Generalization"](http://arxiv.org/abs/1611.03530) Zhang, Bengio, Hardt, Recht, Vinyals
@@ -1553,13 +1547,13 @@ Yoshua Bengio:
 ---
 ### interesting papers - bayesian deep learning
 
-[interesting papers - variational autoencoder](#interesting-papers---variational-autoencoder)
+[**interesting papers - variational autoencoder**](#interesting-papers---variational-autoencoder)
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#bayesian-deep-learning)  
-[interesting recent papers - variational autoencoders](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#generative-models---variational-autoencoders)  
-[interesting recent papers - unsupervised learning](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#unsupervised-learning)  
-[interesting recent papers - model-based reinforcement learning](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-based-methods)  
-[interesting recent papers - exploration and intrinsic motivation](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)  
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#bayesian-deep-learning)  
+[**interesting recent papers - variational autoencoders**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#generative-models---variational-autoencoders)  
+[**interesting recent papers - unsupervised learning**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#unsupervised-learning)  
+[**interesting recent papers - model-based reinforcement learning**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-based-methods)  
+[**interesting recent papers - exploration and intrinsic motivation**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)  
 
 
 #### ["Composing Graphical Models with Neural Networks for Structured Representations and Fast Inference"](http://arxiv.org/abs/1603.06277) Johnson, Duvenaud, Wiltschko, Datta, Adams
@@ -1792,8 +1786,8 @@ Yoshua Bengio:
 ---
 ### interesting papers - generative adversarial networks
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#generative-models---generative-adversarial-networks)  
-[interesting recent papers - generative models](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#generative-models)  
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#generative-models---generative-adversarial-networks)  
+[**interesting recent papers - generative models**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#generative-models)  
 
 <https://github.com/zhangqianhui/AdversarialNetsPapers>  
 <https://github.com/nightrome/really-awesome-gan/>  
@@ -1902,11 +1896,11 @@ Yoshua Bengio:
 ---
 ### interesting papers - variational autoencoder
 
-[interesting papers - bayesian deep learning](#interesting-papers---bayesian-deep-learning)
+[**interesting papers - bayesian deep learning**](#interesting-papers---bayesian-deep-learning)
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#generative-models---variational-autoencoders)  
-[interesting recent papers - generative models](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#generative-models)  
-[interesting recent papers - bayesian deep learning](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#bayesian-deep-learning)  
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#generative-models---variational-autoencoders)  
+[**interesting recent papers - generative models**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#generative-models)  
+[**interesting recent papers - bayesian deep learning**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#bayesian-deep-learning)  
 
 
 #### ["Auto-Encoding Variational Bayes"](http://arxiv.org/abs/1312.6114) Kingma, Welling
@@ -2063,8 +2057,8 @@ x."
 ---
 ### interesting papers - autoregressive models
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#generative-models---autoregressive-models)  
-[interesting recent papers - generative models](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#generative-models)  
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#generative-models---autoregressive-models)  
+[**interesting recent papers - generative models**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#generative-models)  
 
 
 #### ["Generating Sequences With Recurrent Neural Networks"](http://arxiv.org/abs/1308.0850) Graves
@@ -2144,8 +2138,8 @@ x."
 ---
 ### interesting papers - architectures
 
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#compute-and-memory-architectures) on compute and memory architectures  
-[interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#meta-learning) on meta-learning  
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#compute-and-memory-architectures) on compute and memory architectures  
+[**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#meta-learning) on meta-learning  
 
 
 #### ["Dynamic Routing Between Capsules"](https://arxiv.org/abs/1710.09829) Sabour, Frosst, Hinton
@@ -2883,9 +2877,9 @@ x."
 ---
 ### interesting papers - applications
 
-[interesting papers - reinforcement learning - applications](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#interesting-papers---applications)
+[**interesting papers - reinforcement learning - applications**](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#interesting-papers---applications)
 
-[interesting papers - other applications](https://dropbox.com/sh/dio0ypwiph44ehn/AAADQCyEutvVt9iugVU1F5S8a)
+[**interesting papers - other applications**](https://dropbox.com/sh/dio0ypwiph44ehn/AAADQCyEutvVt9iugVU1F5S8a)
 
 
 #### ["Learning Representations for Counterfactual Inference"](http://arxiv.org/abs/1605.03661) Johansson, Shalit, Sontag
