@@ -82,7 +82,7 @@
 ----
 #### games
 
-  [overview](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#games) of historical and latest advances
+  [**overview**](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#games) of historical and latest advances
 
   ["Measuring Intelligence through Games"](#measuring-intelligence-through-games-schaul-togelius-schmidhuber) by Schaul, Togelius, Schmidhuber `paper` `summary`  
   ["Why video games are essential for inventing artificial intelligence"](http://togelius.blogspot.ru/2016/01/why-video-games-are-essential-for.html) by Julian Togelius  
@@ -114,13 +114,13 @@
 ---
 ### problems
 
-  - [*knowledge representation*](#knowledge-representation)  
+  - [**knowledge representation**](#knowledge-representation)  
 	What is space of possible beliefs? How do beliefs interact?  
 
-  - [*inference / reasoning*](#inference--reasoning)  
+  - [**inference / reasoning**](#inference--reasoning)  
 	How can inference and reasoning be performed over beliefs?  
 
-  - [*decisions / actions*](#decisions--actions)  
+  - [**decisions / actions**](#decisions--actions)  
 	How can beliefs conspire to produce decisions and actions?  
 
 
