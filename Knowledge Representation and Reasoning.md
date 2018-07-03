@@ -830,7 +830,7 @@
 
   [**bayesian inference and learning**](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md)  
   [**causal inference**](https://github.com/brylevkirill/notes/blob/master/Causal%20Inference.md)  
-  [**Solomonoff induction**](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#solomonoff-induction)  
+  [**Solomonoff induction**](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#universal-artificial-intelligence---solomonoff-induction)  
 
 ----
 

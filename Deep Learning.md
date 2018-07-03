@@ -2619,7 +2619,6 @@ x."
   - `video` <https://youtube.com/watch?v=hVv4M0bTBJc> (Sutskever)
   - `code` <https://github.com/tensorflow/models/tree/master/research/neural_gpu>
   - `code` <https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/models/neural_gpu.py>
-  - `code` <https://github.com/lukaszkaiser/NeuralGPU/>
 
 
 #### ["Extensions and Limitations of the Neural GPU"](http://www.cs.nyu.edu/~zaremba/neuralgpu.pdf) Price, Zaremba, Sutskever

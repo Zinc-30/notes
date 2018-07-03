@@ -108,6 +108,10 @@
 ---
 ### problems
 
+  [state-of-the-art methods](https://github.com/sebastianruder/NLP-progress)
+
+----
+
   - anaphora resolution
   - answer sentence selection
   - computational morphology

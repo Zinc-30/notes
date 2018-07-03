@@ -1,6 +1,6 @@
   Statistical learning frames models as distributions over data and latent variables, allowing models to address a broad array of downstream tasks, and underlying methodology of latent variable models is typically Bayesian.  
   A central problem involves modeling complex data sets using highly flexible families of probability distributions in which learning, sampling, inference, and evaluation are still analytically or computationally tractable.  
-n
+
 
   * [**introduction**](#introduction)
   * [**overview**](#overview)
@@ -100,7 +100,7 @@ n
   [**bayesian reinforcement learning**](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#bayesian-reinforcement-learning)
 
   [**Solomonoff induction**](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#solomonoff-induction)  *(bayesian optimal prediction)*  
-  [**AIXI**](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#aixi)  *(bayesian optimal decision making)*  
+  [**AIXI**](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#universal-artificial-intelligence---aixi)  *(bayesian optimal decision making)*  
 
 ----
 

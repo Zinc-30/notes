@@ -213,15 +213,25 @@
 ----
   - *Dota 2*  
 
-	[overview](https://blog.openai.com/openai-five/) of OpenAI Five bot
+	[OpenAI Five bots overview](https://blog.openai.com/openai-five/)  
+	[specification](https://gist.github.com/dfarhi/66ec9d760ae0c49a5c492c9fae93984a) of reward function  
 
-	[overview](https://blog.openai.com/dota-2/) of OpenAI bot  
-	[overview](https://blog.openai.com/more-on-dota-2/) of OpenAI bot  
+	[OpenAI 1v1 bot overview](https://blog.openai.com/dota-2/)  
+	[OpenAI 1v1 bot overview](https://blog.openai.com/more-on-dota-2/)  
 
-	[OpenAI bot vs Dendi](https://youtube.com/watch?v=wiOopO9jTZw) game `video`  
-	[OpenAI bot vs SumaiL](https://youtube.com/watch?v=IbaHI38Ewws) game `video`  
-	[OpenAI bot vs Arteezy](https://youtube.com/watch?v=rNSH8CviQQw) game `video`  
-	[OpenAI bot vs Pajkatt](https://youtube.com/watch?v=BBUiwCEmrxU) game `video`  
+	[OpenAI 1v1 bot vs Dendi](https://youtube.com/watch?v=wiOopO9jTZw) game `video`  
+	[OpenAI 1v1 bot vs SumaiL](https://youtube.com/watch?v=IbaHI38Ewws) game `video`  
+	[OpenAI 1v1 bot vs Arteezy](https://youtube.com/watch?v=rNSH8CviQQw) game `video`  
+	[OpenAI 1v1 bot vs Pajkatt](https://youtube.com/watch?v=BBUiwCEmrxU) game `video`  
+
+----
+  - *Quake III Arena CTF*
+
+	["Human-level Performance in First-person Multiplayer Games with Population-based Deep Reinforcement Learning"](https://deepmind.com/documents/224/capture_the_flag.pdf) by Jaderberg et al. `paper`
+
+	[FTW agent overview](https://deepmind.com/blog/capture-the-flag/)
+
+	[FTW agents team vs human team](https://youtube.com/watch?v=dltN4MxV1RI) `video`
 
 ----
   - *Doom*  
@@ -435,17 +445,17 @@
 ----
 #### reinforcement learning vs supervised learning
 
-  [differences](https://youtube.com/watch?v=2pWv7GOvuf0&t=9m37s) `video` (*David Silver*):  
+  [differences](https://youtube.com/watch?v=2pWv7GOvuf0&t=9m37s) `video` (by David Silver):  
   - there is no supervisor, only a reward signal  
   - feedback is delayed, not instantaneous  
   - time really matters (sequential, not i.i.d. data)  
   - agent's actions affect subsequent data it receives  
 
-  [differences](https://youtube.com/watch?v=8jQIKgTzQd4&t=50m28s) `video` (*John Schulman*):  
+  [differences](https://youtube.com/watch?v=8jQIKgTzQd4&t=50m28s) `video` (by John Schulman):  
   - no full access to analytic representation of loss function being optimized - value has to be queried by interaction with environment  
   - interacting with stateful environment (unknown, nonlinear, stochastic, arbitrarily complex) - next input depends on previous actions  
 
-  [differences](http://videolectures.net/deeplearning2017_szepesvari_theory_of_rl/#t=2026) `video` (*Csaba Szepesvari*)
+  [differences](http://videolectures.net/deeplearning2017_szepesvari_theory_of_rl/#t=2026) `video` (by Csaba Szepesvari)
 
 ----
 
@@ -1137,7 +1147,7 @@
 ----
 #### bayesian reinforcement learning - general reinforcement learning
 
-  [**AIXI**](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#aixi)  *(bayesian optimal general reinforcement learning agent)*  
+  [**AIXI**](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#universal-artificial-intelligence---aixi)  *(bayesian optimal general reinforcement learning agent)*  
   [General Reinforcement Learning Agent Zoo](http://aslanides.io/aixijs/) by John Aslanides
 	([demo](http://aslanides.io/aixijs/demo.html), [code](https://github.com/aslanides/aixijs), [paper](https://arxiv.org/abs/1705.07615))   
 
