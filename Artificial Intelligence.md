@@ -143,8 +143,8 @@
 
   - *symbolic knowledge* ("dog as word") - logic network
 	[[**relational learning**](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#relational-learning)]
-  - *conceptual knowledge* ("dog as mammal, a good companion, a good guardian") - open research area
-  - *perceptual knowledge* ("dog as something with certain physical appearance") - distributed representation
+  - *conceptual knowledge* ("dog as mammal, good companion, good guardian") - [open research area]
+  - *perceptual knowledge* ("dog as something with certain physical traits") - distributed representation
 	[[**deep learning**](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#architectures---distributed-representation)]
 
   *symbolic knowledge* -> *conceptual knowledge* (words should be grounded in real world) -
