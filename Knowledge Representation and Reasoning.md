@@ -4,29 +4,29 @@
   How knowledge can be represented? How knowledge can be used? How knowledge can be acquired?
 
 
-  * [overview](#overview)
-  * [knowledge representation](#knowledge-representation)
-    - [natural language](#knowledge-representation---natural-language)
-    - [knowledge graph](#knowledge-representation---knowledge-graph)
-    - [probabilistic database](#knowledge-representation---probabilistic-database)
-    - [probabilistic program](#knowledge-representation---probabilistic-program)
-    - [distributed representation](#knowledge-representation---distributed-representation)
-  * [reasoning](#reasoning)
-    - [natural logic](#reasoning---natural-logic)
-    - [formal logic](#reasoning---formal-logic)
-    - [bayesian reasoning](#reasoning---bayesian-reasoning)
-    - [commonsense reasoning](#reasoning---commonsense-reasoning)
-    - [neural reasoning](#reasoning---neural-reasoning)
-  * [machine reading benchmarks](#machine-reading-benchmarks)
-  * [machine reading projects](#machine-reading-projects)
-  * [interesting papers](#interesting-papers)
-    - [knowledge bases](#interesting-papers---knowledge-bases)
-    - [knowledge bases with discrete representations](#interesting-papers---knowledge-bases-with-discrete-representations)
-    - [knowledge bases with continuous representations](#interesting-papers---knowledge-bases-with-continuous-representations)
-    - [question answering over knowledge bases](#interesting-papers---question-answering-over-knowledge-bases)
-    - [question answering over texts](#interesting-papers---question-answering-over-texts)
-    - [reasoning](#interesting-papers---reasoning)
-    - [information extraction and integration](#interesting-papers---information-extraction-and-integration)
+  * [**overview**](#overview)
+  * [**knowledge representation**](#knowledge-representation)
+    - [**natural language**](#knowledge-representation---natural-language)
+    - [**knowledge graph**](#knowledge-representation---knowledge-graph)
+    - [**probabilistic database**](#knowledge-representation---probabilistic-database)
+    - [**probabilistic program**](#knowledge-representation---probabilistic-program)
+    - [**distributed representation**](#knowledge-representation---distributed-representation)
+  * [**reasoning**](#reasoning)
+    - [**natural logic**](#reasoning---natural-logic)
+    - [**formal logic**](#reasoning---formal-logic)
+    - [**bayesian reasoning**](#reasoning---bayesian-reasoning)
+    - [**commonsense reasoning**](#reasoning---commonsense-reasoning)
+    - [**neural reasoning**](#reasoning---neural-reasoning)
+  * [**machine reading benchmarks**](#machine-reading-benchmarks)
+  * [**machine reading projects**](#machine-reading-projects)
+  * [**interesting papers**](#interesting-papers)
+    - [**knowledge bases**](#interesting-papers---knowledge-bases)
+    - [**knowledge bases with discrete representations**](#interesting-papers---knowledge-bases-with-discrete-representations)
+    - [**knowledge bases with continuous representations**](#interesting-papers---knowledge-bases-with-continuous-representations)
+    - [**question answering over knowledge bases**](#interesting-papers---question-answering-over-knowledge-bases)
+    - [**question answering over texts**](#interesting-papers---question-answering-over-texts)
+    - [**reasoning**](#interesting-papers---reasoning)
+    - [**information extraction and integration**](#interesting-papers---information-extraction-and-integration)
 
 
 
@@ -132,33 +132,33 @@
 
 ----
 
-  [symbolic vs conceptual vs perceptual knowledge](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#knowledge-representation)
+  [**symbolic vs conceptual vs perceptual knowledge**](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#knowledge-representation)
 
 ----
 
-  - [natural language](#knowledge-representation---natural-language)
-  - [knowledge graph](#knowledge-representation---knowledge-graph)
-    * [ontology](#ontology)
-    * [information extraction and integration](#information-extraction-and-integration)
-    * [relational learning](#relational-learning)
-  - [probabilistic database](#knowledge-representation---probabilistic-database)
-    * [BayesDB](#probabilistic-database---bayesdb)
-    * [Epistemological Database](#probabilistic-database---epistemological-database)
-    * [Markov Logic Network](#probabilistic-database---markov-logic-network)
-    * [Probabilistic Soft Logic](#probabilistic-database---probabilistic-soft-logic)
-    * [ProPPR](#probabilistic-database---proppr)
-  - [probabilistic program](#knowledge-representation---probabilistic-program)
-  - [distributed representation](#knowledge-representation---distributed-representation)
+  - [**natural language**](#knowledge-representation---natural-language)
+  - [**knowledge graph**](#knowledge-representation---knowledge-graph)
+    * [**ontology**](#ontology)
+    * [**information extraction and integration**](#information-extraction-and-integration)
+    * [**relational learning**](#relational-learning)
+  - [**probabilistic database**](#knowledge-representation---probabilistic-database)
+    * [**BayesDB**](#probabilistic-database---bayesdb)
+    * [**Epistemological Database**](#probabilistic-database---epistemological-database)
+    * [**Markov Logic Network**](#probabilistic-database---markov-logic-network)
+    * [**Probabilistic Soft Logic**](#probabilistic-database---probabilistic-soft-logic)
+    * [**ProPPR**](#probabilistic-database---proppr)
+  - [**probabilistic program**](#knowledge-representation---probabilistic-program)
+  - [**distributed representation**](#knowledge-representation---distributed-representation)
 
 ----
 
   interesting papers:
-  - [knowledge bases](#interesting-papers---knowledge-bases)
-  - [knowledge bases with discrete representations](#interesting-papers---knowledge-bases-with-discrete-representations)
-  - [knowledge bases with continuous representations](#interesting-papers---knowledge-bases-with-continuous-representations)
-  - [information extraction and integration](#interesting-papers---information-extraction-and-integration)
+  - [**knowledge bases**](#interesting-papers---knowledge-bases)
+  - [**knowledge bases with discrete representations**](#interesting-papers---knowledge-bases-with-discrete-representations)
+  - [**knowledge bases with continuous representations**](#interesting-papers---knowledge-bases-with-continuous-representations)
+  - [**information extraction and integration**](#interesting-papers---information-extraction-and-integration)
 
-  [interesting recent papers - language grounding](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#language-grounding)
+  [**interesting recent papers - language grounding**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#language-grounding)
 
 
 
@@ -175,7 +175,7 @@
 
 ----
 
-  [Natural Language Processing](https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md#overview)
+  [**Natural Language Processing**](https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md#overview)
 
 ----
 
@@ -189,27 +189,27 @@
 ---
 ### knowledge representation - knowledge graph
 
-  - [ontology](#ontology)  
-  - [information extraction and integration](#information-extraction-and-integration)  
-  - [relational learning](#relational-learning)  
+  - [**ontology**](#ontology)  
+  - [**information extraction and integration**](#information-extraction-and-integration)  
+  - [**relational learning**](#relational-learning)  
 
 
 
 ---
 ### ontology
 
-  [RDF](https://github.com/brylevkirill/tech/blob/master/RDF/RDF.txt) (Resource Description Framework) `summary`
+  [**RDF**](https://github.com/brylevkirill/tech/blob/master/RDF/RDF.txt) (Resource Description Framework) `summary`
 
 ----
 
-  [OWL](https://github.com/brylevkirill/tech/blob/master/RDF/OWL.txt) (Web Ontology Language) `summary`
+  [**OWL**](https://github.com/brylevkirill/tech/blob/master/RDF/OWL.txt) (Web Ontology Language) `summary`
 
   ["OWL: The Web Ontology Language"](https://youtube.com/watch?v=EXXIIlfqb0c) by Pavel Klinov `video`  
   ["Ontologies and Knowledge Representation"](https://lektorium.tv/course/22781) course by Boris Konev `video` `in russian`  
 
 ----
 
-  [schema.org](https://github.com/brylevkirill/tech/blob/master/RDF/schema.org.txt) `summary`
+  [**schema.org**](https://github.com/brylevkirill/tech/blob/master/RDF/schema.org.txt) `summary`
 
   ["Schema.org: Evolution of Structured Data on the Web"](http://queue.acm.org/detail.cfm?id=2857276) by Guha et al. `paper`  
 >	"We report some key schema.org adoption metrics from a sample of 10 billion pages from a combination of the Google index and Web Data Commons. In this sample, 31.3% of pages have schema.org markup, up from 22% one year ago. Structured data markup is now a core part of the modern web."
@@ -239,7 +239,7 @@
 
 ----
 
-  [interesting papers](#interesting-papers---information-extraction-and-integration)
+  [**interesting papers**](#interesting-papers---information-extraction-and-integration)
 
 
 
@@ -285,31 +285,31 @@
   - *embedding*: project multi-relational knowledge into low-dimensional representations of entities and relations via tensor/matrix factorization, Bayesian clustering or neural networks  
 
   history of approaches to relational learning:  
-  - [tensor factorization](#relational-learning---tensor-factorization) (Harshman'94)  
-  - [probabilistic relational learning](#relational-learning---bayesian-network) (Friedman'99)  
-  - [Relational Markov Network](#relational-learning---markov-network) (Taskar'02)  
-  - [Markov Logic Network](#relational-learning---markov-logic-network) (Kok'07)  
-  - [ranking of random walks](#relational-learning---random-walk-inference) (Lao'11)  
-  - [embedding models](#relational-learning---continuous-embeddings) (Bordes'11)  
-  - [matrix factorization and universal schema](#relational-learning---matrix-factorization-and-univeral-schema) (Riedel'13)  
+  - [**tensor factorization**](#relational-learning---tensor-factorization) (Harshman'94)  
+  - [**probabilistic relational learning**](#relational-learning---bayesian-network) (Friedman'99)  
+  - [**Relational Markov Network**](#relational-learning---markov-network) (Taskar'02)  
+  - [**Markov Logic Network**](#relational-learning---markov-logic-network) (Kok'07)  
+  - [**ranking of random walks**](#relational-learning---random-walk-inference) (Lao'11)  
+  - [**embedding models**](#relational-learning---continuous-embeddings) (Bordes'11)  
+  - [**matrix factorization and universal schema**](#relational-learning---matrix-factorization-and-univeral-schema) (Riedel'13)  
 
 
 ----
 #### relational learning - random walk inference
 
   - Path Ranking Algorithm  
-	*(used in [Google Knowledge Vault](#machine-reading-projects---google-knowledge-vault) and [NELL](#machine-reading-projects---nell))*  
+	*(used in [**Google Knowledge Vault**](#machine-reading-projects---google-knowledge-vault) and [**NELL**](#machine-reading-projects---nell))*  
 	["Random Walk Inference and Learning in A Large Scale Knowledge Base"](#random-walk-inference-and-learning-in-a-large-scale-knowledge-base-lao-mitchell-cohen) by Lao, Mitchell, Cohen `paper` `summary`  
 	["Efficient Random Walk Inference with Knowledge Bases"](https://www.cs.cmu.edu/~nlao/publication/2012/thesis.pdf) thesis by Ni Lao `paper` ([slides](http://cs.cmu.edu/~nlao/publication/2012/defense.pdf))  
 	["Incorporating Vector Space Similarity in Random Walk Inference over Knowledge Bases"](http://rtw.ml.cmu.edu/emnlp2014_vector_space_pra/paper.pdf) by Gardner et al. `paper`  
 
   - subgraph feature extraction (improvement over PRA)  
-	*(used in [NELL](#machine-reading-projects---nell))*  
+	*(used in [**NELL**](#machine-reading-projects---nell))*  
 	["Efficient and Expressive Knowledge Base Completion Using Subgraph Feature Extraction"](#efficient-and-expressive-knowledge-base-completion-using-subgraph-feature-extraction-gardner-mitchell) by Gardner and Mitchell `paper` `summary` ([talk](http://youtube.com/watch?v=dp2waL7OLbI) `video`)  
 	["Reading and Reasoning with Knowledge Graphs"](http://www.cs.cmu.edu/~mg1/thesis.pdf) thesis by Matt Gardner `paper`  
 
   - PRA over proof space for first-order logic  
-	*(used in [ProPPR](#probabilistic-database---proppr))*  
+	*(used in [**ProPPR**](#probabilistic-database---proppr))*  
 	["Efficient Inference and Learning in a Large Knowledge Base: Reasoning with Extracted Information using a Locally Groundable First-Order Probabilistic Logic"](#efficient-inference-and-learning-in-a-large-knowledge-base-reasoning-with-extracted-information-using-a-locally-groundable-first-order-probabilistic-logic-wang-mazaitis-lao-mitchell-cohen) by Wang et al. `paper` `summary` ([talk](http://youtu.be/--pYaISROqE?t=12m35s) `video`)  
 
 
