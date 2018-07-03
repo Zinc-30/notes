@@ -142,15 +142,15 @@
 ----
 
   - *symbolic knowledge* ("dog as word") - logic network
-	[[relational learning](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#relational-learning)]
+	[[**relational learning**](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#relational-learning)]
   - *conceptual knowledge* ("dog as mammal, a good companion, a good guardian") - open research area
   - *perceptual knowledge* ("dog as something with certain physical appearance") - distributed representation
-	[[deep learning](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#architectures---distributed-representation)]
+	[[**deep learning**](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#architectures---distributed-representation)]
 
   *symbolic knowledge* -> *conceptual knowledge* (words have to be grounded in real world, actions have to be not recursive) -
-	[[language grounding](https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md#interesting-papers---language-grounding)]  
+	[[**language grounding**](https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md#interesting-papers---language-grounding)]  
   *perceptual knowledge* -> *conceptual knowledge* (prediction is not enough for some tasks, reasoning over concepts is needed) -
-	[[concept learning](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#unsupervised-learning)]  
+	[[**concept learning**](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#unsupervised-learning)]  
 
 ----
 
