@@ -1,26 +1,26 @@
   Reinforcement Learning is learning to maximize expected sum of future rewards for sequence of actions made by agent in environment with stochastic state unknown to agent and dependent on its actions.
 
 
-  * [introduction](#introduction)
-  * [applications](#applications)
-  * [overview](#overview)
-  * [deep reinforcement learning](#deep-reinforcement-learning)
-  * [problems](#problems)
-  * [exploration and intrinsic motivation](#exploration-and-intrinsic-motivation)
-  * [bandits](#bandits)
-  * [contextual bandits](#contextual-bandits)
-  * [model-based methods](#model-based-methods)
-  * [value-based methods](#value-based-methods)
-  * [policy-based methods](#policy-based-methods)
-  * [interesting papers](#interesting-papers)
-    - [applications](#interesting-papers---applications)
-    - [exploration and intrinsic motivation](#interesting-papers---exploration-and-intrinsic-motivation)
-    - [hierarchical reinforcement learning](#interesting-papers---hierarchical-reinforcement-learning)
-    - [model-based methods](#interesting-papers---model-based-methods)
-    - [value-based methods](#interesting-papers---value-based-methods)
-    - [policy-based methods](#interesting-papers---policy-based-methods)
-    - [behavioral cloning](#interesting-papers---behavioral-cloning)
-    - [inverse reinforcement learning](#interesting-papers---inverse-reinforcement-learning)
+  * [**introduction**](#introduction)
+  * [**applications**](#applications)
+  * [**overview**](#overview)
+  * [**deep reinforcement learning**](#deep-reinforcement-learning)
+  * [**problems**](#problems)
+  * [**exploration and intrinsic motivation**](#exploration-and-intrinsic-motivation)
+  * [**bandits**](#bandits)
+  * [**contextual bandits**](#contextual-bandits)
+  * [**model-based methods**](#model-based-methods)
+  * [**value-based methods**](#value-based-methods)
+  * [**policy-based methods**](#policy-based-methods)
+  * [**interesting papers**](#interesting-papers)
+    - [**applications**](#interesting-papers---applications)
+    - [**exploration and intrinsic motivation**](#interesting-papers---exploration-and-intrinsic-motivation)
+    - [**hierarchical reinforcement learning**](#interesting-papers---hierarchical-reinforcement-learning)
+    - [**model-based methods**](#interesting-papers---model-based-methods)
+    - [**value-based methods**](#interesting-papers---value-based-methods)
+    - [**policy-based methods**](#interesting-papers---policy-based-methods)
+    - [**behavioral cloning**](#interesting-papers---behavioral-cloning)
+    - [**inverse reinforcement learning**](#interesting-papers---inverse-reinforcement-learning)
 
 
 
@@ -75,7 +75,7 @@
 
   ["Deep Reinforcement Learning: An Overview"](https://arxiv.org/abs/1701.07274) by Yuxi Li `paper` ([slides](https://dropbox.com/s/kzkc8t61t7tz9eu/AISeminar.pdf))
 
-  [other applications](https://yadi.sk/d/tiaE7sdi3WEhDS)
+  [**other applications**](https://yadi.sk/d/tiaE7sdi3WEhDS)
 
 ----
 
@@ -250,7 +250,7 @@
 
 	["How Watson Learns Superhuman Jeopardy! Strategies"](https://youtube.com/watch?v=7rIf2Njye5k) by Gerry Tesauro `video`
 
-	[IBM Watson](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#machine-reading-projects---ibm-watson) project `summary`
+	[**IBM Watson**](https://github.com/brylevkirill/notes/blob/master/Knowledge%20Representation%20and%20Reasoning.md#machine-reading-projects---ibm-watson) project `summary`
 
 	[IBM Watson vs Ken Jennings vs Brad Rutter](https://archive.org/details/Jeopardy.2011.02.The.IBM.Challenge) match `video`
 
@@ -279,7 +279,7 @@
 
   ["Is (Deep) Reinforcement Learning Barking Up The Wrong Tree?"](https://youtube.com/watch?v=2GW7ozcUCFE) by Chris Atkeson `video`
 
-  [interesting recent papers - imitation learning](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---imitation)
+  [**interesting recent papers - imitation learning**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---imitation)
 
 
 
@@ -516,7 +516,7 @@
   ["Global Overview of Imitation Learning"](https://arxiv.org/abs/1801.06503) by Attia and Dayan `paper`  
   ["Imitation Learning: A Survey of Learning Methods"](https://researchgate.net/publication/312591539_Imitation_Learning_A_Survey_of_Learning_Methods) by Hussein et al. `paper`  
 
-  [interesting papers](#interesting-papers---behavioral-cloning)
+  [**interesting papers**](#interesting-papers---behavioral-cloning)
 
 
 ----
@@ -534,7 +534,7 @@
   ["Apprenticeship Learning and Reinforcement Learning with Application to Robotic Control"](http://ai.stanford.edu/~pabbeel/thesis/thesis.pdf) by Pieter Abbeel `paper`  
   ["Maximum Entropy Inverse Reinforcement Learning"](https://aaai.org/Papers/AAAI/2008/AAAI08-227.pdf) by Ziebart et al. `paper`  
 
-  [interesting papers](#interesting-papers---inverse-reinforcement-learning)
+  [**interesting papers**](#interesting-papers---inverse-reinforcement-learning)
 
 
 ----
@@ -563,7 +563,7 @@
   [Hierarchical RL](http://sites.google.com/view/hrlnips2017) workshop `video`  
   [Abstraction in RL](http://rlabstraction2016.wixsite.com/icml) workshop `video`  
 
-  [interesting papers](#interesting-papers---hierarchical-reinforcement-learning)
+  [**interesting papers**](#interesting-papers---hierarchical-reinforcement-learning)
 
 
 ----
@@ -599,8 +599,8 @@
 
 ----
 
-  [interesting papers](#interesting-papers---exploration-and-intrinsic-motivation)  
-  [interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)  
+  [**interesting papers**](#interesting-papers---exploration-and-intrinsic-motivation)  
+  [**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---exploration-and-intrinsic-motivation)  
 
 ----
 
@@ -627,7 +627,7 @@
 
 >	"Since the dimension of the belief state grows polynomially in the number of states and actions, computing the Bayesian value function using value iteration or other methods is typically not tractable. One exception, where the Bayesian approach is tractable, is the domain of a k-armed bandit (i.e., an MDP with one state and k actions, where the rewards are unknown). In this case, the Bayesian approach leads to the well-known Gittins indices. However, the approach does not scale analytically to multi-state MDPs. This has lead to numerous methods that approximate the Bayesian exploration policy."
 
-  [bayesian reinforcement learning](#bayesian-reinforcement-learning)
+  [**bayesian reinforcement learning**](#bayesian-reinforcement-learning)
 
   [overview](https://youtu.be/sGuiWX07sKw?t=57m28s) by David Silver `video`
 
@@ -646,7 +646,7 @@
   ["RL^2: Fast Reinforcement Learning via Slow Reinforcement Learning"](#rl2-fast-reinforcement-learning-via-slow-reinforcement-learning-duan-schulman-chen-bartlett-sutskever-abbeel) by Duan et al. `paper` `summary`  
   ["Learning to Reinforcement Learn"](#learning-to-reinforcement-learn-wang-et-al) by Wang et al. `paper` `summary`  
 
-  [interesting papers](#interesting-papers---exploration-and-intrinsic-motivation---bayesian-exploration-models)
+  [**interesting papers**](#interesting-papers---exploration-and-intrinsic-motivation---bayesian-exploration-models)
 
 
 ----
@@ -665,7 +665,7 @@
 	["\#Exploration: A Study of Count-Based Exploration for Deep Reinforcement Learning"](#exploration-a-study-of-count-based-exploration-for-deep-reinforcement-learning-tang-et-al) by Tang et al. `paper` `summary`  
 	["EX2: Exploration with Exemplar Models for Deep Reinforcement Learning"](#ex2-exploration-with-exemplar-models-for-deep-reinforcement-learning-fu-co-reyes-levine) by Fu et al. `paper` `summary`  
 
-	[interesting papers](#interesting-papers---exploration-and-intrinsic-motivation---information-theoretic-and-distributional-models---uncertainty-motivation)
+	[**interesting papers**](#interesting-papers---exploration-and-intrinsic-motivation---information-theoretic-and-distributional-models---uncertainty-motivation)
 
 
   - *information gain motivation*  
@@ -677,7 +677,7 @@
 	["Exploration Potential"](#exploration-potential-leike) by Leike `paper` `summary`  
 	["Towards Information-Seeking Agents"](#towards-information-seeking-agents-bachman-sordoni-trischler) by Bachman et al. `paper` `summary`  
 
-	[interesting papers](#interesting-papers---exploration-and-intrinsic-motivation---information-theoretic-and-distributional-models---information-gain-motivation)
+	[**interesting papers**](#interesting-papers---exploration-and-intrinsic-motivation---information-theoretic-and-distributional-models---information-gain-motivation)
 
 
   - *empowerment*  
@@ -688,7 +688,7 @@
 	["Variational Information Maximisation for Intrinsically Motivated Reinforcement Learning"](#variational-information-maximisation-for-intrinsically-motivated-reinforcement-learning-mohamed-rezende) by Mohamed and Rezende `paper` `summary`  
 	["Variational Intrinsic Control"](#variational-intrinsic-control-gregor-rezende-wierstra) by Gregor et al. `paper` `summary`  *(the primary goal is not to understand or predict the observations but to control the environment - agents can often control an environment perfectly well without much understanding, and focusing on understanding might significantly distract and impair the agent, as such reducing the control it achieves)*  
 
-	[interesting-papers](#interesting-papers---exploration-and-intrinsic-motivation---information-theoretic-and-distributional-models---empowerment)
+	[**interesting-papers**](#interesting-papers---exploration-and-intrinsic-motivation---information-theoretic-and-distributional-models---empowerment)
 
 
 ----
@@ -707,7 +707,7 @@
 	["Feature Control as Intrinsic Motivation for Hierarchical Reinforcement Learning"](https://arxiv.org/abs/1705.06769) by Dilokthanakul et al. `paper`  
 	["Improving Policy Gradient by Exploring Under-appreciated Rewards"](#improving-policy-gradient-by-exploring-under-appreciated-rewards-nachum-norouzi-schuurmans) by Nachum et al. `paper` `summary`  
 
-	[interesting papers](#interesting-papers---exploration-and-intrinsic-motivation---predictive-models---predictive-novelty-motivation)
+	[**interesting papers**](#interesting-papers---exploration-and-intrinsic-motivation---predictive-models---predictive-novelty-motivation)
 
 
   - *learning progress motivation*  
@@ -718,7 +718,7 @@
 	["Automated Curriculum Learning for Neural Networks"](#automated-curriculum-learning-for-neural-networks-graves-bellemare-menick-munos-kavukcuoglu) by Graves et al. `paper` `summary`  
 	["Exploration in Model-based Reinforcement Learning by Empirically Estimating Learning Progress"](https://papers.nips.cc/paper/4642-exploration-in-model-based-reinforcement-learning-by-empirically-estimating-learning-progress) by Lopes et al. `paper`  
 
-	[interesting papers](#interesting-papers---exploration-and-intrinsic-motivation---predictive-models---learning-progress-motivation)
+	[**interesting papers**](#interesting-papers---exploration-and-intrinsic-motivation---predictive-models---learning-progress-motivation)
 
 
   - *predictive familiarity motivation*  
@@ -739,7 +739,7 @@
 	["Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play"](#intrinsic-motivation-and-automatic-curricula-via-asymmetric-self-play-sukhbaatar-lin-kostrikov-synnaeve-szlam) by Sukhbaatar et al. `paper` `summary`  
 	["Automatic Goal Generation for Reinforcement Learning Agents"](#automatic-goal-generation-for-reinforcement-learning-agents-held-geng-florensa-abbeel) by Held et al. `paper` `summary`  
 
-	[interesting papers](#interesting-papers---exploration-and-intrinsic-motivation---competence-based-models---maximizing-incompetence-motivation)
+	[**interesting papers**](#interesting-papers---exploration-and-intrinsic-motivation---competence-based-models---maximizing-incompetence-motivation)
 
 
   - *maximizing competence progress*  
@@ -841,7 +841,7 @@
   [overview](http://youtube.com/watch?v=N5x48g2sp8M) of theory by Robert Schapire `video`  
   [overview](https://vimeo.com/240429210) of applications by John Langford and Alekh Agarwal `video`  
 
-  [interactive machine learning](https://youtu.be/3q4OvzIyPug?t=6m12s) by Alekh Agarwal `audio`
+  [overview](https://youtu.be/3q4OvzIyPug?t=6m12s) of interactive machine learning by Alekh Agarwal `audio`
 
 ----
 
@@ -921,7 +921,7 @@
   ["Counterfactual Evaluation and Learning for Search, Recommendation and Ad Placement"](http://www.cs.cornell.edu/~adith/CfactSIGIR2016/) by Thorsten Joachims and Adith Swaminathan `video`  
   ["Deep Learning from Logged Interventions"](https://youtube.com/watch?v=lzA5K4im2no) by Thorsten Joachims `video`  
 
-  [Microsoft Custom Decision Service](#making-contextual-decisions-with-low-technical-debt-agarwal-et-al)
+  [**Microsoft Custom Decision Service**](#making-contextual-decisions-with-low-technical-debt-agarwal-et-al)
 
 ----
 
@@ -933,7 +933,7 @@
 
   *(John Langford)*
 
-  [global exploration strategies](#exploration-and-intrinsic-motivation)
+  [**global exploration strategies**](#exploration-and-intrinsic-motivation)
 
 
 
@@ -978,15 +978,15 @@
 
 ----
 
-  [interesting papers](#interesting-papers---model-based-methods)  
-  [interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-based-methods)  
+  [**interesting papers**](#interesting-papers---model-based-methods)  
+  [**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-based-methods)  
 
 ----
 
-  - [Monte Carlo Tree Search](#monte-carlo-tree-search)  
-  - [Guided Policy Search](#guided-policy-search)  
-  - [deep model-based learning](#deep-model-based-learning)  
-  - [bayesian reinforcement learning](#bayesian-reinforcement-learning)  
+  - [**Monte Carlo Tree Search**](#monte-carlo-tree-search)  
+  - [**Guided Policy Search**](#guided-policy-search)  
+  - [**deep model-based learning**](#deep-model-based-learning)  
+  - [**bayesian reinforcement learning**](#bayesian-reinforcement-learning)  
 
 
 
@@ -1007,8 +1007,8 @@
   ["Deep Learning for Real-Time Atari Game Play Using Offline Monte-Carlo Tree Search Planning"](#deep-learning-for-real-time-atari-game-play-using-offline-monte-carlo-tree-search-planning-guo-singh-lee-lewis-wang) by Guo et al. `paper` `summary`  
   ["A Monte-Carlo AIXI Approximation"](https://github.com/brylevkirill/notes/blob/Artificial%20Intelligence.md#a-monte-carlo-aixi-approximation-mc-aixi-ctw-agent-veness-ng-hutter-uther-silver) by Veness et al. `paper` `summary`  
 
-  [interesting papers](#interesting-papers---model-based-methods)  
-  [interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-based-methods)  
+  [**interesting papers**](#interesting-papers---model-based-methods)  
+  [**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-based-methods)  
 
 
 
@@ -1035,7 +1035,7 @@
 
 ----
 
-  [interesting papers - behavioral cloning](#interesting-papers---behavioral-cloning)
+  [**interesting papers - behavioral cloning**](#interesting-papers---behavioral-cloning)
 
 
 
@@ -1066,15 +1066,15 @@
 
 ----
 
-  [interesting papers](#interesting-papers---model-based-methods)  
-  [interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-based-methods)  
+  [**interesting papers**](#interesting-papers---model-based-methods)  
+  [**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-based-methods)  
 
 
 
 ----
 #### bayesian reinforcement learning
 
-  [bayesian inference and learning](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md)
+  [**bayesian inference and learning**](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md)
 
 
 ----
@@ -1137,7 +1137,7 @@
 ----
 #### bayesian reinforcement learning - general reinforcement learning
 
-  [AIXI](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#aixi)  *(bayesian optimal general reinforcement learning agent)*  
+  [**AIXI**](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#aixi)  *(bayesian optimal general reinforcement learning agent)*  
   [General Reinforcement Learning Agent Zoo](http://aslanides.io/aixijs/) by John Aslanides
 	([demo](http://aslanides.io/aixijs/demo.html), [code](https://github.com/aslanides/aixijs), [paper](https://arxiv.org/abs/1705.07615))   
 
@@ -1165,13 +1165,13 @@
 
 ----
 
-  [interesting papers](#interesting-papers---value-based-methods)  
-  [interesting recent papers](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-free-methods)  
+  [**interesting papers**](#interesting-papers---value-based-methods)  
+  [**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reinforcement-learning---model-free-methods)  
 
 ----
 
   methods:  
-  - [Deep Q-Network](#deep-q-network-dqn)
+  - [**Deep Q-Network**](#deep-q-network-dqn)
 
 
 
@@ -1494,7 +1494,7 @@
 ----
 
   - generalizes DPG to stochastic policies in a number of ways, giving spectrum from model-based to model-free algorithms  
-  - while SVG(0) is direct stochastic generalization of DPG, SVG(1) combines actor, critic and environment dynamics model f  
+  - while SVG(0) is direct stochastic generalization of DPG, SVG(1) combines actor, critic and environment dynamics model  
   - actor is trained through combination of gradients from critic, model and reward simultaneously  
 
   "Calculating gradients to optimise stochastic policies by reparameterising the stochasticity away from the network, thereby allowing standard gradients to be used instead of the high-variance REINFORCE estimator."
